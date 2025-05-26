@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/26 18:32:28 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/26 19:14:43 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,13 @@
 # include <stdio.h> // remove before submission
 # include <limits.h> // remove before submission
 
-void	solve_stack(int *stack);
+void	solve_stack(int *stack_a, int count);
 
 /* ARGUMENT VALIDATION */
 int		validate_argument(char *arg);
 int		check_duplicates(int *stack, int count);
 
 /* UTILITIES */
-int		ft_atol(const char *nptr);
+
 
 #endif

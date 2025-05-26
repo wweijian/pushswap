@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 13:28:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/26 18:33:02 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/26 19:11:50 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ int	*make_stack(int ac, char **av)
 
 	i = 1;
 	stack = malloc(sizeof(*stack) * (ac - 1));
+	if (!stack)
+		return (NULL);
 	while (av[i])
 	{
 		if (!validate_argument(av[i]))
@@ -49,7 +51,7 @@ int	main(int ac, char **av)
 		write(1, "error\n", 6);
 		return (0);
 	}
-	solve_stack(stack_a);
+	solve_stack(stack_a, ac - 1);
 	free(stack_a);
 }
 

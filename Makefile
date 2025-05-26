@@ -6,14 +6,14 @@
 #    By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/05/26 17:36:55 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/05/26 19:20:21 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = push_swap
 
 SRCS_PATH = ./srcs
-SRCS = main.c sort.c validate_argument.c validate_argument_utils.c
+SRCS = main.c solve.c validate_argument.c find_solution.c
 SRCS := $(addprefix $(SRCS_PATH)/, $(SRCS))
 HDRS = includes
 
