@@ -6,16 +6,18 @@
 #    By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/05/26 19:20:21 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/05/27 11:27:02 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = push_swap
 
-SRCS_PATH = ./srcs
-SRCS = main.c solve.c validate_argument.c find_solution.c
-SRCS := $(addprefix $(SRCS_PATH)/, $(SRCS))
 HDRS = includes
+
+SRCS_PATH = ./srcs
+SRCS = main.c solve.c validate_argument.c find_solution.c sort_stack.c sort_stack_utils.c \
+		utils.c solve_utils.c
+SRCS := $(addprefix $(SRCS_PATH)/, $(SRCS))
 
 LIBFT_PATH = ./libft
 LIBFT = ${LIBFT_PATH}/libft.a
@@ -23,6 +25,9 @@ LIBFT = ${LIBFT_PATH}/libft.a
 CC = cc 
 CFLAGS = -Wall -Wextra -Werror
 RM = rm -fr
+
+ARGS = 100.txt
+# ARGS = 6.txt
 
 all: ${NAME}
 
@@ -44,7 +49,7 @@ fclean: clean
 
 test: ${NAME}
 		clear
-		./${NAME} 0 -2147483648 2147483647 
+		xargs ./${NAME} < ${ARGS}
 
 re: fclean all
 

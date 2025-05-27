@@ -6,13 +6,13 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 13:28:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/26 19:11:50 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/27 09:58:31 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	*make_stack(int ac, char **av)
+static int	*make_stack(int ac, char **av)
 {
 	int	i;
 	int	*stack;
@@ -39,6 +39,49 @@ int	*make_stack(int ac, char **av)
 	return (stack);
 }
 
+static void	translate_stack(int **stack, int *stack_sorted, int count)
+{
+	int	i;
+	int	j;
+
+	i = 0;
+	while (i < count)
+	{
+		j = 0;
+		while (j < count)
+		{
+			if ((*stack)[i] != stack_sorted[j])
+				j++;
+			else
+			{
+				(*stack)[i] = j + 1;
+				break ;
+			}
+		}
+		i++;
+	}
+}
+
+static void	solve_stack(int *stack_a, int count)
+{
+	int	*stack_b;
+	int	*stack_sorted;
+
+	stack_b = ft_calloc(count, sizeof(*stack_b));
+	if (!stack_b)
+		return ;
+	stack_sorted = find_solution(stack_a, count);
+	if (!stack_sorted)
+	{
+		free(stack_b);
+		return ;
+	}
+	translate_stack(&stack_a, stack_sorted, count);
+	write_solution(stack_a, stack_b, count);
+	free(stack_sorted);
+	free(stack_b);
+}
+
 int	main(int ac, char **av)
 {
 	int	*stack_a;
@@ -56,3 +99,8 @@ int	main(int ac, char **av)
 }
 
 // printf("hi\n");
+
+/* 
+for (int i = 0; i < count; i++)
+	printf("index %d:\t%d\n", i, stack_a[i]);
+ */
