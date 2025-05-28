@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 08:46:30 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/27 11:06:23 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/27 12:29:41 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,4 +28,12 @@ void	ft_swap(int *a, int *b)
 	temp = *a;
 	*a = *b;
 	*b = temp;
+}
+
+int	find_median(int count)
+{
+	if (count % 2)
+		return (count / 2 + 1);
+	else
+		return (count / 2);
 }

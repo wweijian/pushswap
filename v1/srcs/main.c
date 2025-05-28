@@ -6,38 +6,13 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 13:28:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/27 09:58:31 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/28 08:06:29 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-static int	*make_stack(int ac, char **av)
-{
-	int	i;
-	int	*stack;
 
-	i = 1;
-	stack = malloc(sizeof(*stack) * (ac - 1));
-	if (!stack)
-		return (NULL);
-	while (av[i])
-	{
-		if (!validate_argument(av[i]))
-		{
-			free(stack);
-			return (NULL);
-		}
-		stack[i - 1] = ft_atoi(av[i]);
-		i++;
-	}
-	if (!check_duplicates(stack, i - 1))
-	{
-		free(stack);
-		return (NULL);
-	}
-	return (stack);
-}
 
 static void	translate_stack(int **stack, int *stack_sorted, int count)
 {
@@ -80,6 +55,33 @@ static void	solve_stack(int *stack_a, int count)
 	write_solution(stack_a, stack_b, count);
 	free(stack_sorted);
 	free(stack_b);
+}
+
+static int	*make_stack(int ac, char **av)
+{
+	int	i;
+	int	*stack;
+
+	i = 1;
+	stack = malloc(sizeof(*stack) * (ac - 1));
+	if (!stack)
+		return (NULL);
+	while (av[i])
+	{
+		if (!validate_argument(av[i]))
+		{
+			free(stack);
+			return (NULL);
+		}
+		stack[i - 1] = ft_atoi(av[i]);
+		i++;
+	}
+	if (!check_duplicates(stack, i - 1))
+	{
+		free(stack);
+		return (NULL);
+	}
+	return (stack);
 }
 
 int	main(int ac, char **av)

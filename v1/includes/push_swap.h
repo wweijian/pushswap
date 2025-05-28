@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/27 10:14:18 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/27 22:23:53 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,13 @@ int		*find_solution(int *stack, int count);
 void	write_solution(int *stack_a, int *stack_b, int count);
 
 /* STACK SORTING ALGORITHMS */
+void	find_anchor(int *stack_a, int *stack_b, int count);
+void	rev_rotate_to_anchor_a(int *stack_a, int *stack_b, int count);
+void	rev_rotate_to_anchor_b(int *stack_a, int *stack_b, int count);
+void	rotate_to_anchor_a(int *stack_a, int *stack_b, int count);
+void	rotate_to_anchor_b(int *stack_a, int *stack_b, int count);
+
+/* STACK SORTING FUNCTIONS */
 void	swap_top(int *stack_a, int *stack_b, int count);
 void	push_a(int *stack_a, int *stack_b, int count);
 void	push_b(int *stack_a, int *stack_b, int count);
@@ -40,11 +47,20 @@ void	reverse_rotate_stack(int *stack_a, int *stack_b, int count);
 void	write_rotate(int *stack_a, int *stack_b, int direction);
 void	reverse_move_stack(int *stack, int count);
 void	move_stack(int *stack, int count);
-void	swap_a(int *stack_a, int *stack_b, int count);
 
-/* UTILITIES */
+/* SWAP UTILITIES*/
+void	swap_a(int *stack_a, int *stack_b, int count);
+void	swap_b(int *stack_a, int *stack_b, int count);
+void	check_swap_a(int *stack_a, int *stack_b, int count);
+void	check_swap_b(int *stack_a, int *stack_b, int count);
+
+/* FINALIZING UTILITIES*/
+int		verify_stack_a(int *stack_a, int count);
+
+/* GENERAL UTILITIES */
 void	ft_swap(int *a, int *b);
 int		top_of_stack(int *stack, int count);
+int		find_median(int count);
 
 
 #endif
