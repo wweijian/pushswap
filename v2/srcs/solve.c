@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 15:39:39 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/28 11:36:33 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/28 15:44:57 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ static void	split_stack(int *stack_a, int *stack_b, int count, int index)
 		i = top_of_stack(stack_a, count);
 		while (stack_a[i] <= median)
 		{
-			i = push_a(stack_a, stack_b, count);
+			i = push_a_to_b(stack_a, stack_b, count);
 			push_count++;
 		}
 		rotate_stack(stack_a, NULL, count);
@@ -44,7 +44,7 @@ static void	split_stack(int *stack_a, int *stack_b, int count, int index)
 		return (split_stack (stack_a, stack_b, count, i));
 }
 
-static void	make_base(int *stack_a, int count)
+void	make_base(int *stack_a, int count)
 {
 	while (stack_a[count - 1] != count)
 		rotate_stack(stack_a, NULL, count);
@@ -57,9 +57,10 @@ void	stack_dump(int *stack_a, int *stack_b, int count)
 	int	i;
 	int	j;
 
-	j = push_b(stack_a, stack_b, count);
+	j = push_b_to_a(stack_a, stack_b, count);
 	i = top_of_stack(stack_a, count);
-	if (stack_b[j] < stack_a[i] && stack_b[j] > stack_a[count - 1])
+	if (stack_b[j] < stack_a[i]
+		&& (stack_b[j] > stack_a[count - 1] || stack_a[count - 1] == count)) 
 		return (stack_dump(stack_a, stack_b, count));
 }
 
@@ -70,13 +71,8 @@ void	populate_stack_a(int *stack_a, int *stack_b, int count)
 
 	i = top_of_stack(stack_a, count);
 	j = top_of_stack(stack_b, count);
-	if (j == count)
+	if (j == count || i == 0)
 		return ;
-	while (j != count && stack_b[j] < stack_a[i])
-	{
-		j = push_b(stack_a, stack_b, count);
-		i = top_of_stack(stack_a, count);
-	}
 	while (stack_b[j] > stack_a[i])
 		rotate_stack(stack_a, NULL, count);
 	stack_dump(stack_a, stack_b, count);
@@ -90,9 +86,9 @@ void	write_solution(int *stack_a, int *stack_b, int count)
 	for (int i = 0; i < count; i++)
 		printf("index %d:\t%d\t\t%d\n", i, stack_a[i], stack_b[i]);
 	split_stack(stack_a, stack_b, count, 0);
+	make_base(stack_a, count);
 	for (int i = 0; i < count; i++)
 		printf("index %d:\t%d\t\t%d\n", i, stack_a[i], stack_b[i]);
-	make_base(stack_a, count);
 	populate_stack_a(stack_a, stack_b, count);
 	for (int i = 0; i < count; i++)
 		printf("index %d:\t%d\t\t%d\n", i, stack_a[i], stack_b[i]);
@@ -116,8 +112,11 @@ void	write_solution(int *stack_a, int *stack_b, int count)
 if (stack_a[i] < median)
 {
 	if (stack_a[i] < stack_a[i + 1])
-		push_a(stack_a, stack_b, count);
+		push_a_to_b(stack_a, stack_b, count);
 	else
 		swap_a(stack_a, stack_b, count);
 }
+ */
+/* 
+ printf("hi %d  %d  %d  %d\n", j, stack_b[j], i, stack_a[i]);
  */

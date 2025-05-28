@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 20:47:03 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/28 11:27:54 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/28 14:43:10 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,27 +34,31 @@ void	swap_top(int *stack_a, int *stack_b, int count)
 		write (1, "ss\n", 3);
 }
 
-int	push_a(int *stack_a, int *stack_b, int count)
+int	push_a_to_b(int *stack_a, int *stack_b, int count)
 {
 	int	i;
 	int	j;
 
+	if (!stack_a[count - 1])
+		return (count);
 	i = top_of_stack(stack_a, count);
 	j = top_of_stack(stack_b, count);
 	ft_swap(&stack_a[i], &stack_b[j - 1]);
-	write (1, "pa\n", 3);
+	write(1, "pb\n", 3);
 	return (top_of_stack(stack_a, count));
 }
 
-int	push_b(int *stack_a, int *stack_b, int count)
+int	push_b_to_a(int *stack_a, int *stack_b, int count)
 {
 	int	i;
 	int	j;
 
+	if (!stack_b[count - 1])
+		return (count);
 	i = top_of_stack(stack_a, count);
 	j = top_of_stack(stack_b, count);
 	ft_swap(&stack_a[i - 1], &stack_b[j]);
-	write (1, "pb\n", 3);
+	write (1, "pa\n", 3);
 	return (top_of_stack(stack_b, count));
 }
 
@@ -84,4 +88,5 @@ void	rotate_stack(int *stack_a, int *stack_b, int count)
 		write (1, "rb\n", 3);
 	if (stack_a && stack_b)
 		write (1, "rr\n", 3);
+	
 }

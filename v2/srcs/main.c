@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 13:28:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/28 08:06:29 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/28 14:35:08 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,7 +87,7 @@ static int	*make_stack(int ac, char **av)
 int	main(int ac, char **av)
 {
 	int	*stack_a;
-
+	setvbuf(stdout, NULL, _IONBF, 0);
 	if (ac < 2)
 		return (0);
 	stack_a = make_stack(ac, av);

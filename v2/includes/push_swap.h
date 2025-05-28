@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/28 11:28:02 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/28 13:16:48 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,8 +38,8 @@ void	rotate_to_anchor_b(int *stack_a, int *stack_b, int count);
 
 /* STACK SORTING FUNCTIONS */
 void	swap_top(int *stack_a, int *stack_b, int count);
-int		push_a(int *stack_a, int *stack_b, int count);
-int		push_b(int *stack_a, int *stack_b, int count);
+int		push_a_to_b(int *stack_a, int *stack_b, int count);
+int		push_b_to_a(int *stack_a, int *stack_b, int count);
 void	rotate_stack(int *stack_a, int *stack_b, int count);
 void	reverse_rotate_stack(int *stack_a, int *stack_b, int count);
 

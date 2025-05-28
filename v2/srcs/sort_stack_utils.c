@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 23:34:10 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/27 09:17:39 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/28 14:44:09 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,12 +20,8 @@ void	reverse_move_stack(int *stack, int count)
 	i = count - 1;
 	temp = stack[i];
 	if (count == 2)
-	{
-		stack[1] = stack[0];
-		stack[0] = temp;
-		return ;
-	}
-	while (stack[i - 1] || i == 1)
+		ft_swap(&stack[count - 1], &stack[count - 2]);
+	while (i >= 1 && stack[i - 1])
 	{
 		stack[i] = stack[i - 1];
 		i--;

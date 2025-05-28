@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 08:46:30 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/28 09:59:37 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/28 13:04:13 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ int	top_of_stack(int *stack, int count)
 	i = 0;
 	while (i < count && !stack[i])
 		i++;
-
 	return (i);
 }
 
