@@ -6,7 +6,7 @@
 #    By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/05/28 15:17:36 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/05/29 10:03:40 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ HDRS = includes
 
 SRCS_PATH = ./srcs
 SRCS = main.c solve.c validate_argument.c find_solution.c sort_stack.c sort_stack_utils.c \
-		utils.c rotate_utils.c 
+		utils.c solve_utils.c
 SRCS := $(addprefix $(SRCS_PATH)/, $(SRCS))
 
 LIBFT_PATH = ./libft
@@ -74,7 +74,7 @@ test: 101
 		xargs ./${NAME} < ${ARGS6}
 
 
-l100: ${NAME}
+100l: ${NAME}
 		clear
 		xargs ./${NAME} < ${ARGS100} | wc -l
 
