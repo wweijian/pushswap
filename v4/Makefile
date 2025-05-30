@@ -6,7 +6,7 @@
 #    By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/05/29 17:48:33 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/05/31 00:07:58 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ HDRS = includes
 
 SRCS_PATH = ./srcs
 SRCS = main.c solve.c validate_argument.c find_solution.c sort_stack.c sort_stack_utils.c \
-		utils.c solve_utils.c rotate_to_pos.c count_op_cost.c
+		utils.c stack_dump.c rotate_to_pos.c rotate_option.c rotation_count.c
 SRCS := $(addprefix $(SRCS_PATH)/, $(SRCS))
 
 LIBFT_PATH = ./libft

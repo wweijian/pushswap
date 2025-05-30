@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 17:19:16 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/29 22:42:51 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/31 00:40:17 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	find_stack_a_min(int *stack_a, int *stack_b, int count)
 	}
 	while (i < count)
 	{
-		if (stack_a[i] > stack_b[j] && stack_a[i] < stack_a[min_index])
+		if (stack_b[j] < stack_a[i] && stack_a[i] < stack_a[min_index])
 			min_index = i;
 		i++;
 	}
@@ -64,63 +64,76 @@ void	rotate_a_to_position(int *stack_a, int *stack_b, int count)
 	}
 }
 
-int	find_direction_b(int *stack_a, int *stack_b, int count)
-{
-	int	i;
-	int	rb;
-	int	rrb;
-	i = top_of_stack(stack_a, count);
-	rrb = 0;
-	rb = count_rb(stack_a, stack_b, count);
-	while (stack_b[count - 1 - rrb] > stack_a[i])
-		rrb++;
-	if (rb != 0)
-		rb = stack_dump_count(stack_b, count, rb) / rb;
-	if (rrb != 0)
-		rrb = count_rrb_dump(stack_b, count, rrb) / rrb;
-	if (rrb > rb)
-		return (-1);
-	else
-		return (1);
-}
-
 void	rotate_b_to_position(int *stack_a, int *stack_b, int count)
 {
 	int	i;
 	int	j;
-	int	direction;
+	int	base_num;
+	int	rotation;
 
 	i = top_of_stack(stack_a, count);
 	j = top_of_stack(stack_b, count);
-	direction = find_direction_b(stack_a, stack_b, count);
-	while (stack_a[i] < stack_b[j])
-	{
-		printf("stack_a[%d] = %d, stack_b[%d] = %d\n", i, stack_a[i], j, stack_b[j]);
-		if (direction == -1)
-			reverse_rotate_stack(NULL, stack_b, count);
-		if (direction == 1)
-			rotate_stack(NULL, stack_b, count);
-	}
-	printf("[after] stacka: %d stackb: %d\n", stack_a[i], stack_b[j]);
+	rotation = 1;
+	base_num = stack_a[count - 1];
+	if (stack_a[count - 1] == count)
+		base_num = 0;
+	rotate_stack(NULL, stack_b, count);
+	while (stack_b[j + rotation] > stack_a[i]
+			&& stack_b[j + rotation] > base_num
+			&& j + rotation < count)
+		rotate_stack(NULL, stack_b, count);
 }
+
+void	rev_rotate_b_to_position(int *stack_a, int *stack_b, int count)
+{
+	int	i;
+	int	rotation;
+	int	base_num;
+	
+	rotation = 1;
+	i = top_of_stack(stack_a, count);
+	base_num = stack_a[count - 1];
+	reverse_rotate_stack(NULL, stack_b, count);
+	while (stack_b[count - rotation] > stack_a[i] 
+		&& stack_b[count - rotation] < base_num
+		&& rotation <= count)
+	reverse_rotate_stack(NULL, stack_b, count);
+}
+
+/* 
+	FIXME:	main operation is here 
+	
+	TODO:TODO:TODO:	fixed the stack dump count, so i need to fix the rotation counter
+*/
 
 void	rotate_to_next_op(int *stack_a, int *stack_b, int count)
 {
-	int	ra;
-	int	rb;
-	ra = count_ra_score(stack_a, stack_b, count);
-	rb = count_rb_score(stack_a, stack_b, count);
-	printf("rotation starts here\nra: %d rb: %d\t",ra ,rb);
-	if (ra > rb)
-	{
-		printf("rotate a\n");
+	int	ra_rotation;
+	int	rb_rotation;
+	int	rrb_rotation;
+	int	ra_dump;
+	int	rb_dump;
+	int	rrb_dump;
+	int	option;
+	
+	ra_rotation = count_ra_rotation(stack_a, stack_b, count);
+	rb_rotation = count_rb_rotation(stack_a, stack_b, count);
+	rrb_rotation = count_rrb_rotation(stack_a, stack_b, count);
+	ra_dump = count_ra_stack_dump(stack_a, stack_b, count);
+	rb_dump = count_rb_stack_dump(stack_a, stack_b, count);
+	rrb_dump = count_rrb_stack_dump(stack_a, stack_b, count);
+	option = choose_option(ra_dump / ra_rotation, rb_dump / rb_rotation, rrb_dump / rrb_rotation);
+	printf("ra_dump / ra_rotation %d, rb_dump / rb_rotation %d, rrb_dump / rrb_rotation %d\n", ra_dump / ra_rotation, rb_dump / rb_rotation, rrb_dump / rrb_rotation);
+	printf("opriton: %d rb_dump / rb_rotation %d / %d, rrb_dump / rrb_rotation %d / %d\n",option, rb_dump , rb_rotation, rrb_dump , rrb_rotation);
+	option = rev_option(ra_rotation / ra_dump, rb_rotation / rb_dump, rrb_rotation / rrb_dump, option);
+	if (option == 1)
 		rotate_a_to_position(stack_a, stack_b, count);
-	}
-	else
-	{
-		printf("rotate b\n");
+	else if (option == 2)
 		rotate_b_to_position(stack_a, stack_b, count);
-	}
+	else if (option == 3)
+		rev_rotate_b_to_position(stack_a, stack_b, count);
+	else if (option == 0)
+		rotate_stack(stack_a, stack_b, count);
 }
 
 // printf(">> hi << \n");

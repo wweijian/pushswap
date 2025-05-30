@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 15:39:39 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/29 22:43:06 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/31 00:23:02 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,11 +56,11 @@ void	populate_stack_a(int *stack_a, int *stack_b, int count)
 	if (j == count || i == 0)
 		return ;
 	if (stack_a[i] == 1)
-		return;
-	rotate_to_next_op(stack_a, stack_b, count);
-	for (int i = 0; i < count; i++)
-		printf(">> index %d:\t%d\t\t%d\n", i, stack_a[i], stack_b[i]);
+		return ;
 	stack_dump(stack_a, stack_b, count);
+	rotate_to_next_op(stack_a, stack_b, count);
+	// for (int i = 0; i < count; i++)
+	// 	printf("index %d:\t%d\t\t%d\n", i, stack_a[i], stack_b[i]);
 	return (populate_stack_a(stack_a, stack_b, count));
 }
 

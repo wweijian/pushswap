@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/29 18:59:14 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/30 23:55:50 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,14 +31,22 @@ void	rotate_to_min(int *stack_a, int *stack_b, int count);
 void	rotate_to_destination(int *stack_a, int count);
 void	rotate_a_to_position(int *stack_a, int *stack_b, int count);
 void	stack_dump(int *stack_a, int *stack_b, int count);
-int		count_op_cost(int *stack_a, int *stack_b, int count);
-int		count_ra_score(int *stack_a, int *stack_b, int count);
-int		count_rb_score(int *stack_a, int *stack_b, int count);
 int		find_stack_a_min(int *stack_a, int *stack_b, int count);
 void	rotate_to_next_op(int *stack_a, int *stack_b, int count);
-int		stack_dump_count(int *stack, int count, int index);
-int	count_rrb_dump(int *stack_b, int count, int rrb);
-int	count_rb(int *stack_a, int *stack_b, int count);
+int		stack_dump_count(int *stack_a, int i, int *stack_b, int j);
+int		count_rrb_dump(int *stack_b, int count, int rrb);
+int		count_rb(int *stack_a, int *stack_b, int count);
+int		count_ra_rotation(int *stack_a, int *stack_b, int count);
+int		count_rb_rotation(int *stack_a, int *stack_b, int count);
+int		count_rrb_rotation(int *stack_a, int *stack_b, int count);
+int		count_ra_stack_dump(int *stack_a, int *stack_b, int count);
+int		count_rb_stack_dump(int *stack_a, int *stack_b, int count);
+int		count_rrb_stack_dump(int *stack_a, int *stack_b, int count);
+int		choose_option(int ra_score, int rb_score, int rrb_score);
+int		rev_option(int ra_score, int rb_score, int rrb_score, int option);
+
+
+
 
 /* STACK SORTING FUNCTIONS */
 void	swap_top(int *stack_a, int *stack_b, int count);
