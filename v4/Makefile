@@ -6,7 +6,7 @@
 #    By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/05/31 00:07:58 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/05/31 02:24:22 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -64,7 +64,11 @@ test: 101
 100a: ${NAME}
 		clear
 		xargs ./${NAME} < ${ARGS100} > output.txt
-
+		
+100h: ${NAME}
+		clear
+		xargs ./${NAME} < ${ARGS100} | head -n 3000 > output.txt
+		
 5: ${NAME}
 		clear
 		xargs ./${NAME} < ${ARGS5}

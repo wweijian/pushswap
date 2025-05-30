@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 17:19:16 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/31 00:40:17 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/31 02:31:27 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,40 +64,36 @@ void	rotate_a_to_position(int *stack_a, int *stack_b, int count)
 	}
 }
 
+// FIXME: IF BASE_NUM == COUNT, IT'LL KKEEP ROTATING IF I PUT ||
+
 void	rotate_b_to_position(int *stack_a, int *stack_b, int count)
 {
 	int	i;
 	int	j;
 	int	base_num;
-	int	rotation;
 
 	i = top_of_stack(stack_a, count);
 	j = top_of_stack(stack_b, count);
-	rotation = 1;
 	base_num = stack_a[count - 1];
-	if (stack_a[count - 1] == count)
+	if (base_num == count)
 		base_num = 0;
-	rotate_stack(NULL, stack_b, count);
-	while (stack_b[j + rotation] > stack_a[i]
-			&& stack_b[j + rotation] > base_num
-			&& j + rotation < count)
+	while (!(stack_b[j] < stack_a[i] && stack_b[j] > base_num))
 		rotate_stack(NULL, stack_b, count);
 }
 
 void	rev_rotate_b_to_position(int *stack_a, int *stack_b, int count)
 {
 	int	i;
-	int	rotation;
+	int j;
 	int	base_num;
 	
-	rotation = 1;
 	i = top_of_stack(stack_a, count);
+	j = top_of_stack(stack_b, count);
 	base_num = stack_a[count - 1];
-	reverse_rotate_stack(NULL, stack_b, count);
-	while (stack_b[count - rotation] > stack_a[i] 
-		&& stack_b[count - rotation] < base_num
-		&& rotation <= count)
-	reverse_rotate_stack(NULL, stack_b, count);
+	if (base_num == count)
+		base_num = 0;
+	while (!(stack_b[j] < stack_a[i] && stack_b[j] > base_num))
+		reverse_rotate_stack(NULL, stack_b, count);
 }
 
 /* 
@@ -123,8 +119,10 @@ void	rotate_to_next_op(int *stack_a, int *stack_b, int count)
 	rb_dump = count_rb_stack_dump(stack_a, stack_b, count);
 	rrb_dump = count_rrb_stack_dump(stack_a, stack_b, count);
 	option = choose_option(ra_dump / ra_rotation, rb_dump / rb_rotation, rrb_dump / rrb_rotation);
-	printf("ra_dump / ra_rotation %d, rb_dump / rb_rotation %d, rrb_dump / rrb_rotation %d\n", ra_dump / ra_rotation, rb_dump / rb_rotation, rrb_dump / rrb_rotation);
-	printf("opriton: %d rb_dump / rb_rotation %d / %d, rrb_dump / rrb_rotation %d / %d\n",option, rb_dump , rb_rotation, rrb_dump , rrb_rotation);
+	// printf("top index of a %d\n", top_of_stack(stack_a, count));
+	// printf("ra_dump %d ra_rotation %d rb_dump %d rb_rotation %d\n", ra_dump, ra_rotation, rb_dump, rb_rotation);
+	// printf("ra_dump / ra_rotation %d, rb_dump / rb_rotation %d, rrb_dump / rrb_rotation %d\n", ra_dump / ra_rotation, rb_dump / rb_rotation, rrb_dump / rrb_rotation);
+	// printf("option: %d rb_dump / rb_rotation %d / %d, rrb_dump / rrb_rotation %d / %d\n",option, rb_dump , rb_rotation, rrb_dump , rrb_rotation);
 	option = rev_option(ra_rotation / ra_dump, rb_rotation / rb_dump, rrb_rotation / rrb_dump, option);
 	if (option == 1)
 		rotate_a_to_position(stack_a, stack_b, count);

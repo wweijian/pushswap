@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 15:48:38 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/31 00:02:50 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/31 01:57:21 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ int	count_ra_stack_dump(int *stack_a, int *stack_b, int count)
 	int	min_index;
 	int	dump_count;
 
-	j = count - count_rrb_rotation(stack_a, stack_b, count);
+	j = top_of_stack(stack_b, count);
 	min_index = find_stack_a_min(stack_a, stack_b, count);
 	dump_count = 1;
 	base_num = stack_a[min_index - 1];
@@ -51,8 +51,8 @@ int	count_ra_stack_dump(int *stack_a, int *stack_b, int count)
 	}
 	else if (stack_a[min_index - 1] == count)
 		base_num = 0;
-	while (stack_b[j + 1] < stack_b[j] && stack_b[j + 1] > base_num
-			&& j + 1 < count - 1)
+	while (j + 1 < count - 1 && stack_b[j + 1] < stack_b[j]
+			&& stack_b[j + 1] > base_num)
 	{
 		j++;
 		dump_count++;
@@ -71,8 +71,8 @@ int	count_rb_stack_dump(int *stack_a, int *stack_b, int count)
 	base_num = stack_a[count - 1];
 	if (base_num == count)
 		base_num = 0;
-	while (stack_b[j + 1] < stack_b[j] && stack_b[j + 1] < base_num 
-			&& j + 1 < count - 1)
+	while (j + 1 < count - 1 && stack_b[j + 1] < stack_b[j]
+			&& stack_b[j + 1] > base_num )
 	{
 		j++;
 		dump_count++;
@@ -91,16 +91,16 @@ int	count_rrb_stack_dump(int *stack_a, int *stack_b, int count)
 	base_num = stack_a[count - 1];
 	if (base_num == count)
 		base_num = 0;
-	while (stack_b[j + 1] < stack_b[j] && stack_b[j + 1] < base_num 
-			&& j + 1 < count - 1)
+	while (j + 1 < count - 1 && stack_b[j + 1] < stack_b[j]
+		&& stack_b[j + 1] > base_num)
 	{
 		j++;
 		dump_count++;
 	}
 	if (stack_b[top_of_stack(stack_b, count)] < stack_b[j])
 		j = top_of_stack(stack_b, count);
-	while (stack_b[j + 1] < stack_b[j] && stack_b[j + 1] < base_num 
-			&& j + 1 < count - 1)
+	while (j + 1 < count - 1 && stack_b[j + 1] < stack_b[j]
+		&& stack_b[j + 1] > base_num)
 	{
 		j++;
 		dump_count++;

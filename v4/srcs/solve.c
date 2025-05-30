@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 15:39:39 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/31 00:23:02 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/31 02:31:58 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,8 @@ void	populate_stack_a(int *stack_a, int *stack_b, int count)
 	if (stack_a[i] == 1)
 		return ;
 	stack_dump(stack_a, stack_b, count);
+	if (top_of_stack(stack_b, count) == count || top_of_stack(stack_a, count) == 0)
+		return ;
 	rotate_to_next_op(stack_a, stack_b, count);
 	// for (int i = 0; i < count; i++)
 	// 	printf("index %d:\t%d\t\t%d\n", i, stack_a[i], stack_b[i]);
@@ -73,14 +75,14 @@ void	write_solution(int *stack_a, int *stack_b, int count)
 	// 	printf("index %d:\t%d\t\t%d\n", i, stack_a[i], stack_b[i]);
 	// printf("\nmake base\n-------\n");
 	make_base(stack_a, count);
-	for (int i = 0; i < count; i++)
-		printf("index %d:\t%d\t\t%d\n", i, stack_a[i], stack_b[i]);
+	// for (int i = 0; i < count; i++)
+	// 	printf("index %d:\t%d\t\t%d\n", i, stack_a[i], stack_b[i]);
 	// printf("\npopulate stack a\n-------\n");
 	// for (int i = 0; i < 40; i++)
 	populate_stack_a(stack_a, stack_b, count);
 	rotate_to_destination(stack_a, count);
-	for (int i = 0; i < count; i++)
-		printf("index %d:\t%d\t\t%d\n", i, stack_a[i], stack_b[i]);
+	// for (int i = 0; i < count; i++)
+	// 	printf("index %d:\t%d\t\t%d\n", i, stack_a[i], stack_b[i]);
 }
 
 /* 

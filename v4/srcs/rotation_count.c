@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/30 21:53:40 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/31 00:40:13 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/31 02:17:51 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,10 +34,14 @@ int	count_rrb_rotation(int *stack_a, int *stack_b, int count)
 	rotation = 1;
 	i = top_of_stack(stack_a, count);
 	base_num = stack_a[count - 1];
-	while (stack_b[count - rotation] > stack_a[i] 
-			&& stack_b[count - rotation] < base_num
-			&& rotation <= count)
+	if (base_num == count)
+		base_num = 0;
+	while (rotation < count
+			&& !(stack_b[count - rotation] < stack_a[i]
+			&& stack_b[count - rotation] > base_num))
 		rotation++;
+	if (rotation == count)
+		return (-1);
 	return (rotation);
 }
 
@@ -52,11 +56,15 @@ int	count_rb_rotation(int *stack_a, int *stack_b, int count)
 	j = top_of_stack(stack_b, count);
 	rotation = 1;
 	base_num = stack_a[count - 1];
+	if (base_num == count)
+		base_num = 0;
 	if (stack_a[count - 1] == count)
 		base_num = 0;
-	while (stack_b[j + rotation] > stack_a[i]
-			&& stack_b[j + rotation] > base_num
-			&& j + rotation < count)
+	while (j + rotation < count
+			&& !(stack_b[j + rotation] < stack_a[i]
+			&& stack_b[j + rotation] > base_num))
 		rotation++;
+	if (j + rotation == count)
+		return (-1);
 	return (rotation);
 }
