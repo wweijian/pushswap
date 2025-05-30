@@ -1,0 +1,8164 @@
+pb
+ra
+ra
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+ra
+ra
+ra
+ra
+ra
+ra
+pb
+ra
+pb
+pb
+ra
+ra
+pb
+ra
+pb
+pb
+pb
+pb
+pb
+ra
+pb
+ra
+pb
+ra
+pb
+ra
+ra
+pb
+ra
+ra
+ra
+pb
+pb
+pb
+ra
+ra
+ra
+pb
+pb
+ra
+ra
+ra
+ra
+ra
+pb
+pb
+ra
+pb
+pb
+pb
+ra
+pb
+ra
+pb
+pb
+ra
+ra
+ra
+pb
+ra
+pb
+pb
+pb
+ra
+pb
+ra
+pb
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+ra
+ra
+pb
+pb
+pb
+pb
+ra
+pb
+pb
+ra
+pb
+pb
+ra
+pb
+pb
+pb
+ra
+ra
+ra
+ra
+ra
+pb
+pb
+ra
+pb
+pb
+pb
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+pb
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+pb
+ra
+pb
+pb
+ra
+pb
+pb
+ra
+ra
+pb
+pb
+ra
+ra
+pb
+pb
+pb
+pb
+ra
+pb
+ra
+ra
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+pb
+pb
+ra
+pb
+ra
+pb
+ra
+pb
+pb
+ra
+pb
+ra
+pb
+pb
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+ra
+ra
+pb
+ra
+pb
+pb
+ra
+pb
+pb
+index 0:	0		0
+index 1:	0		0
+index 2:	0		97
+index 3:	0		98
+index 4:	0		94
+index 5:	0		95
+index 6:	0		96
+index 7:	0		93
+index 8:	0		91
+index 9:	0		89
+index 10:	0		90
+index 11:	0		92
+index 12:	0		88
+index 13:	0		79
+index 14:	0		83
+index 15:	0		85
+index 16:	0		87
+index 17:	0		76
+index 18:	0		86
+index 19:	0		82
+index 20:	0		80
+index 21:	0		77
+index 22:	0		78
+index 23:	0		81
+index 24:	0		84
+index 25:	0		75
+index 26:	0		56
+index 27:	0		52
+index 28:	0		64
+index 29:	0		55
+index 30:	0		63
+index 31:	0		68
+index 32:	0		72
+index 33:	0		59
+index 34:	0		60
+index 35:	0		53
+index 36:	0		66
+index 37:	0		74
+index 38:	0		65
+index 39:	0		58
+index 40:	0		67
+index 41:	0		54
+index 42:	0		71
+index 43:	0		70
+index 44:	0		73
+index 45:	0		57
+index 46:	0		69
+index 47:	0		51
+index 48:	0		62
+index 49:	0		61
+index 50:	0		32
+index 51:	0		36
+index 52:	0		28
+index 53:	0		21
+index 54:	0		6
+index 55:	0		10
+index 56:	0		38
+index 57:	0		30
+index 58:	0		9
+index 59:	0		4
+index 60:	0		48
+index 61:	0		5
+index 62:	0		3
+index 63:	0		40
+index 64:	0		42
+index 65:	0		19
+index 66:	0		29
+index 67:	0		1
+index 68:	0		7
+index 69:	0		14
+index 70:	0		50
+index 71:	0		24
+index 72:	0		26
+index 73:	0		45
+index 74:	0		47
+index 75:	0		33
+index 76:	0		18
+index 77:	0		25
+index 78:	0		27
+index 79:	0		8
+index 80:	0		37
+index 81:	0		23
+index 82:	0		49
+index 83:	0		15
+index 84:	0		12
+index 85:	0		22
+index 86:	0		2
+index 87:	0		35
+index 88:	0		44
+index 89:	0		16
+index 90:	0		34
+index 91:	0		11
+index 92:	0		13
+index 93:	0		41
+index 94:	0		39
+index 95:	0		43
+index 96:	0		17
+index 97:	0		31
+index 98:	99		20
+index 99:	100		46
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 99 stackb: 97
+[after] stacka: 99 stackb: 97
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		97
+>> index 3:	0		98
+>> index 4:	0		94
+>> index 5:	0		95
+>> index 6:	0		96
+>> index 7:	0		93
+>> index 8:	0		91
+>> index 9:	0		89
+>> index 10:	0		90
+>> index 11:	0		92
+>> index 12:	0		88
+>> index 13:	0		79
+>> index 14:	0		83
+>> index 15:	0		85
+>> index 16:	0		87
+>> index 17:	0		76
+>> index 18:	0		86
+>> index 19:	0		82
+>> index 20:	0		80
+>> index 21:	0		77
+>> index 22:	0		78
+>> index 23:	0		81
+>> index 24:	0		84
+>> index 25:	0		75
+>> index 26:	0		56
+>> index 27:	0		52
+>> index 28:	0		64
+>> index 29:	0		55
+>> index 30:	0		63
+>> index 31:	0		68
+>> index 32:	0		72
+>> index 33:	0		59
+>> index 34:	0		60
+>> index 35:	0		53
+>> index 36:	0		66
+>> index 37:	0		74
+>> index 38:	0		65
+>> index 39:	0		58
+>> index 40:	0		67
+>> index 41:	0		54
+>> index 42:	0		71
+>> index 43:	0		70
+>> index 44:	0		73
+>> index 45:	0		57
+>> index 46:	0		69
+>> index 47:	0		51
+>> index 48:	0		62
+>> index 49:	0		61
+>> index 50:	0		32
+>> index 51:	0		36
+>> index 52:	0		28
+>> index 53:	0		21
+>> index 54:	0		6
+>> index 55:	0		10
+>> index 56:	0		38
+>> index 57:	0		30
+>> index 58:	0		9
+>> index 59:	0		4
+>> index 60:	0		48
+>> index 61:	0		5
+>> index 62:	0		3
+>> index 63:	0		40
+>> index 64:	0		42
+>> index 65:	0		19
+>> index 66:	0		29
+>> index 67:	0		1
+>> index 68:	0		7
+>> index 69:	0		14
+>> index 70:	0		50
+>> index 71:	0		24
+>> index 72:	0		26
+>> index 73:	0		45
+>> index 74:	0		47
+>> index 75:	0		33
+>> index 76:	0		18
+>> index 77:	0		25
+>> index 78:	0		27
+>> index 79:	0		8
+>> index 80:	0		37
+>> index 81:	0		23
+>> index 82:	0		49
+>> index 83:	0		15
+>> index 84:	0		12
+>> index 85:	0		22
+>> index 86:	0		2
+>> index 87:	0		35
+>> index 88:	0		44
+>> index 89:	0		16
+>> index 90:	0		34
+>> index 91:	0		11
+>> index 92:	0		13
+>> index 93:	0		41
+>> index 94:	0		39
+>> index 95:	0		43
+>> index 96:	0		17
+>> index 97:	0		31
+>> index 98:	99		20
+>> index 99:	100		46
+pa
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 97 stackb: 98
+rb
+[after] stacka: 97 stackb: 94
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		94
+>> index 4:	0		95
+>> index 5:	0		96
+>> index 6:	0		93
+>> index 7:	0		91
+>> index 8:	0		89
+>> index 9:	0		90
+>> index 10:	0		92
+>> index 11:	0		88
+>> index 12:	0		79
+>> index 13:	0		83
+>> index 14:	0		85
+>> index 15:	0		87
+>> index 16:	0		76
+>> index 17:	0		86
+>> index 18:	0		82
+>> index 19:	0		80
+>> index 20:	0		77
+>> index 21:	0		78
+>> index 22:	0		81
+>> index 23:	0		84
+>> index 24:	0		75
+>> index 25:	0		56
+>> index 26:	0		52
+>> index 27:	0		64
+>> index 28:	0		55
+>> index 29:	0		63
+>> index 30:	0		68
+>> index 31:	0		72
+>> index 32:	0		59
+>> index 33:	0		60
+>> index 34:	0		53
+>> index 35:	0		66
+>> index 36:	0		74
+>> index 37:	0		65
+>> index 38:	0		58
+>> index 39:	0		67
+>> index 40:	0		54
+>> index 41:	0		71
+>> index 42:	0		70
+>> index 43:	0		73
+>> index 44:	0		57
+>> index 45:	0		69
+>> index 46:	0		51
+>> index 47:	0		62
+>> index 48:	0		61
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	0		28
+>> index 52:	0		21
+>> index 53:	0		6
+>> index 54:	0		10
+>> index 55:	0		38
+>> index 56:	0		30
+>> index 57:	0		9
+>> index 58:	0		4
+>> index 59:	0		48
+>> index 60:	0		5
+>> index 61:	0		3
+>> index 62:	0		40
+>> index 63:	0		42
+>> index 64:	0		19
+>> index 65:	0		29
+>> index 66:	0		1
+>> index 67:	0		7
+>> index 68:	0		14
+>> index 69:	0		50
+>> index 70:	0		24
+>> index 71:	0		26
+>> index 72:	0		45
+>> index 73:	0		47
+>> index 74:	0		33
+>> index 75:	0		18
+>> index 76:	0		25
+>> index 77:	0		27
+>> index 78:	0		8
+>> index 79:	0		37
+>> index 80:	0		23
+>> index 81:	0		49
+>> index 82:	0		15
+>> index 83:	0		12
+>> index 84:	0		22
+>> index 85:	0		2
+>> index 86:	0		35
+>> index 87:	0		44
+>> index 88:	0		16
+>> index 89:	0		34
+>> index 90:	0		11
+>> index 91:	0		13
+>> index 92:	0		41
+>> index 93:	0		39
+>> index 94:	0		43
+>> index 95:	0		17
+>> index 96:	0		31
+>> index 97:	97		20
+>> index 98:	99		46
+>> index 99:	100		98
+pa
+rotation starts here
+ra: 1 rb: 1	rotate b
+stacka: 94 stackb: 95
+rrb
+[after] stacka: 94 stackb: 98
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		98
+>> index 5:	0		95
+>> index 6:	0		96
+>> index 7:	0		93
+>> index 8:	0		91
+>> index 9:	0		89
+>> index 10:	0		90
+>> index 11:	0		92
+>> index 12:	0		88
+>> index 13:	0		79
+>> index 14:	0		83
+>> index 15:	0		85
+>> index 16:	0		87
+>> index 17:	0		76
+>> index 18:	0		86
+>> index 19:	0		82
+>> index 20:	0		80
+>> index 21:	0		77
+>> index 22:	0		78
+>> index 23:	0		81
+>> index 24:	0		84
+>> index 25:	0		75
+>> index 26:	0		56
+>> index 27:	0		52
+>> index 28:	0		64
+>> index 29:	0		55
+>> index 30:	0		63
+>> index 31:	0		68
+>> index 32:	0		72
+>> index 33:	0		59
+>> index 34:	0		60
+>> index 35:	0		53
+>> index 36:	0		66
+>> index 37:	0		74
+>> index 38:	0		65
+>> index 39:	0		58
+>> index 40:	0		67
+>> index 41:	0		54
+>> index 42:	0		71
+>> index 43:	0		70
+>> index 44:	0		73
+>> index 45:	0		57
+>> index 46:	0		69
+>> index 47:	0		51
+>> index 48:	0		62
+>> index 49:	0		61
+>> index 50:	0		32
+>> index 51:	0		36
+>> index 52:	0		28
+>> index 53:	0		21
+>> index 54:	0		6
+>> index 55:	0		10
+>> index 56:	0		38
+>> index 57:	0		30
+>> index 58:	0		9
+>> index 59:	0		4
+>> index 60:	0		48
+>> index 61:	0		5
+>> index 62:	0		3
+>> index 63:	0		40
+>> index 64:	0		42
+>> index 65:	0		19
+>> index 66:	0		29
+>> index 67:	0		1
+>> index 68:	0		7
+>> index 69:	0		14
+>> index 70:	0		50
+>> index 71:	0		24
+>> index 72:	0		26
+>> index 73:	0		45
+>> index 74:	0		47
+>> index 75:	0		33
+>> index 76:	0		18
+>> index 77:	0		25
+>> index 78:	0		27
+>> index 79:	0		8
+>> index 80:	0		37
+>> index 81:	0		23
+>> index 82:	0		49
+>> index 83:	0		15
+>> index 84:	0		12
+>> index 85:	0		22
+>> index 86:	0		2
+>> index 87:	0		35
+>> index 88:	0		44
+>> index 89:	0		16
+>> index 90:	0		34
+>> index 91:	0		11
+>> index 92:	0		13
+>> index 93:	0		41
+>> index 94:	0		39
+>> index 95:	0		43
+>> index 96:	94		17
+>> index 97:	97		31
+>> index 98:	99		20
+>> index 99:	100		46
+pa
+pa
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 95 stackb: 96
+rb
+[after] stacka: 95 stackb: 93
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		93
+>> index 7:	0		91
+>> index 8:	0		89
+>> index 9:	0		90
+>> index 10:	0		92
+>> index 11:	0		88
+>> index 12:	0		79
+>> index 13:	0		83
+>> index 14:	0		85
+>> index 15:	0		87
+>> index 16:	0		76
+>> index 17:	0		86
+>> index 18:	0		82
+>> index 19:	0		80
+>> index 20:	0		77
+>> index 21:	0		78
+>> index 22:	0		81
+>> index 23:	0		84
+>> index 24:	0		75
+>> index 25:	0		56
+>> index 26:	0		52
+>> index 27:	0		64
+>> index 28:	0		55
+>> index 29:	0		63
+>> index 30:	0		68
+>> index 31:	0		72
+>> index 32:	0		59
+>> index 33:	0		60
+>> index 34:	0		53
+>> index 35:	0		66
+>> index 36:	0		74
+>> index 37:	0		65
+>> index 38:	0		58
+>> index 39:	0		67
+>> index 40:	0		54
+>> index 41:	0		71
+>> index 42:	0		70
+>> index 43:	0		73
+>> index 44:	0		57
+>> index 45:	0		69
+>> index 46:	0		51
+>> index 47:	0		62
+>> index 48:	0		61
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	0		28
+>> index 52:	0		21
+>> index 53:	0		6
+>> index 54:	0		10
+>> index 55:	0		38
+>> index 56:	0		30
+>> index 57:	0		9
+>> index 58:	0		4
+>> index 59:	0		48
+>> index 60:	0		5
+>> index 61:	0		3
+>> index 62:	0		40
+>> index 63:	0		42
+>> index 64:	0		19
+>> index 65:	0		29
+>> index 66:	0		1
+>> index 67:	0		7
+>> index 68:	0		14
+>> index 69:	0		50
+>> index 70:	0		24
+>> index 71:	0		26
+>> index 72:	0		45
+>> index 73:	0		47
+>> index 74:	0		33
+>> index 75:	0		18
+>> index 76:	0		25
+>> index 77:	0		27
+>> index 78:	0		8
+>> index 79:	0		37
+>> index 80:	0		23
+>> index 81:	0		49
+>> index 82:	0		15
+>> index 83:	0		12
+>> index 84:	0		22
+>> index 85:	0		2
+>> index 86:	0		35
+>> index 87:	0		44
+>> index 88:	0		16
+>> index 89:	0		34
+>> index 90:	0		11
+>> index 91:	0		13
+>> index 92:	0		41
+>> index 93:	0		39
+>> index 94:	95		43
+>> index 95:	98		17
+>> index 96:	94		31
+>> index 97:	97		20
+>> index 98:	99		46
+>> index 99:	100		96
+pa
+pa
+pa
+rotation starts here
+ra: 1 rb: 1	rotate b
+stacka: 89 stackb: 90
+rrb
+[after] stacka: 89 stackb: 96
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		96
+>> index 10:	0		90
+>> index 11:	0		92
+>> index 12:	0		88
+>> index 13:	0		79
+>> index 14:	0		83
+>> index 15:	0		85
+>> index 16:	0		87
+>> index 17:	0		76
+>> index 18:	0		86
+>> index 19:	0		82
+>> index 20:	0		80
+>> index 21:	0		77
+>> index 22:	0		78
+>> index 23:	0		81
+>> index 24:	0		84
+>> index 25:	0		75
+>> index 26:	0		56
+>> index 27:	0		52
+>> index 28:	0		64
+>> index 29:	0		55
+>> index 30:	0		63
+>> index 31:	0		68
+>> index 32:	0		72
+>> index 33:	0		59
+>> index 34:	0		60
+>> index 35:	0		53
+>> index 36:	0		66
+>> index 37:	0		74
+>> index 38:	0		65
+>> index 39:	0		58
+>> index 40:	0		67
+>> index 41:	0		54
+>> index 42:	0		71
+>> index 43:	0		70
+>> index 44:	0		73
+>> index 45:	0		57
+>> index 46:	0		69
+>> index 47:	0		51
+>> index 48:	0		62
+>> index 49:	0		61
+>> index 50:	0		32
+>> index 51:	0		36
+>> index 52:	0		28
+>> index 53:	0		21
+>> index 54:	0		6
+>> index 55:	0		10
+>> index 56:	0		38
+>> index 57:	0		30
+>> index 58:	0		9
+>> index 59:	0		4
+>> index 60:	0		48
+>> index 61:	0		5
+>> index 62:	0		3
+>> index 63:	0		40
+>> index 64:	0		42
+>> index 65:	0		19
+>> index 66:	0		29
+>> index 67:	0		1
+>> index 68:	0		7
+>> index 69:	0		14
+>> index 70:	0		50
+>> index 71:	0		24
+>> index 72:	0		26
+>> index 73:	0		45
+>> index 74:	0		47
+>> index 75:	0		33
+>> index 76:	0		18
+>> index 77:	0		25
+>> index 78:	0		27
+>> index 79:	0		8
+>> index 80:	0		37
+>> index 81:	0		23
+>> index 82:	0		49
+>> index 83:	0		15
+>> index 84:	0		12
+>> index 85:	0		22
+>> index 86:	0		2
+>> index 87:	0		35
+>> index 88:	0		44
+>> index 89:	0		16
+>> index 90:	0		34
+>> index 91:	89		11
+>> index 92:	91		13
+>> index 93:	93		41
+>> index 94:	95		39
+>> index 95:	98		43
+>> index 96:	94		17
+>> index 97:	97		31
+>> index 98:	99		20
+>> index 99:	100		46
+pa
+pa
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 90 stackb: 92
+rb
+[after] stacka: 90 stackb: 88
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		88
+>> index 12:	0		79
+>> index 13:	0		83
+>> index 14:	0		85
+>> index 15:	0		87
+>> index 16:	0		76
+>> index 17:	0		86
+>> index 18:	0		82
+>> index 19:	0		80
+>> index 20:	0		77
+>> index 21:	0		78
+>> index 22:	0		81
+>> index 23:	0		84
+>> index 24:	0		75
+>> index 25:	0		56
+>> index 26:	0		52
+>> index 27:	0		64
+>> index 28:	0		55
+>> index 29:	0		63
+>> index 30:	0		68
+>> index 31:	0		72
+>> index 32:	0		59
+>> index 33:	0		60
+>> index 34:	0		53
+>> index 35:	0		66
+>> index 36:	0		74
+>> index 37:	0		65
+>> index 38:	0		58
+>> index 39:	0		67
+>> index 40:	0		54
+>> index 41:	0		71
+>> index 42:	0		70
+>> index 43:	0		73
+>> index 44:	0		57
+>> index 45:	0		69
+>> index 46:	0		51
+>> index 47:	0		62
+>> index 48:	0		61
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	0		28
+>> index 52:	0		21
+>> index 53:	0		6
+>> index 54:	0		10
+>> index 55:	0		38
+>> index 56:	0		30
+>> index 57:	0		9
+>> index 58:	0		4
+>> index 59:	0		48
+>> index 60:	0		5
+>> index 61:	0		3
+>> index 62:	0		40
+>> index 63:	0		42
+>> index 64:	0		19
+>> index 65:	0		29
+>> index 66:	0		1
+>> index 67:	0		7
+>> index 68:	0		14
+>> index 69:	0		50
+>> index 70:	0		24
+>> index 71:	0		26
+>> index 72:	0		45
+>> index 73:	0		47
+>> index 74:	0		33
+>> index 75:	0		18
+>> index 76:	0		25
+>> index 77:	0		27
+>> index 78:	0		8
+>> index 79:	0		37
+>> index 80:	0		23
+>> index 81:	0		49
+>> index 82:	0		15
+>> index 83:	0		12
+>> index 84:	0		22
+>> index 85:	0		2
+>> index 86:	0		35
+>> index 87:	0		44
+>> index 88:	0		16
+>> index 89:	90		34
+>> index 90:	96		11
+>> index 91:	89		13
+>> index 92:	91		41
+>> index 93:	93		39
+>> index 94:	95		43
+>> index 95:	98		17
+>> index 96:	94		31
+>> index 97:	97		20
+>> index 98:	99		46
+>> index 99:	100		92
+pa
+pa
+rotation starts here
+ra: 1 rb: 1	rotate b
+stacka: 79 stackb: 83
+rrb
+[after] stacka: 79 stackb: 92
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		92
+>> index 14:	0		83
+>> index 15:	0		85
+>> index 16:	0		87
+>> index 17:	0		76
+>> index 18:	0		86
+>> index 19:	0		82
+>> index 20:	0		80
+>> index 21:	0		77
+>> index 22:	0		78
+>> index 23:	0		81
+>> index 24:	0		84
+>> index 25:	0		75
+>> index 26:	0		56
+>> index 27:	0		52
+>> index 28:	0		64
+>> index 29:	0		55
+>> index 30:	0		63
+>> index 31:	0		68
+>> index 32:	0		72
+>> index 33:	0		59
+>> index 34:	0		60
+>> index 35:	0		53
+>> index 36:	0		66
+>> index 37:	0		74
+>> index 38:	0		65
+>> index 39:	0		58
+>> index 40:	0		67
+>> index 41:	0		54
+>> index 42:	0		71
+>> index 43:	0		70
+>> index 44:	0		73
+>> index 45:	0		57
+>> index 46:	0		69
+>> index 47:	0		51
+>> index 48:	0		62
+>> index 49:	0		61
+>> index 50:	0		32
+>> index 51:	0		36
+>> index 52:	0		28
+>> index 53:	0		21
+>> index 54:	0		6
+>> index 55:	0		10
+>> index 56:	0		38
+>> index 57:	0		30
+>> index 58:	0		9
+>> index 59:	0		4
+>> index 60:	0		48
+>> index 61:	0		5
+>> index 62:	0		3
+>> index 63:	0		40
+>> index 64:	0		42
+>> index 65:	0		19
+>> index 66:	0		29
+>> index 67:	0		1
+>> index 68:	0		7
+>> index 69:	0		14
+>> index 70:	0		50
+>> index 71:	0		24
+>> index 72:	0		26
+>> index 73:	0		45
+>> index 74:	0		47
+>> index 75:	0		33
+>> index 76:	0		18
+>> index 77:	0		25
+>> index 78:	0		27
+>> index 79:	0		8
+>> index 80:	0		37
+>> index 81:	0		23
+>> index 82:	0		49
+>> index 83:	0		15
+>> index 84:	0		12
+>> index 85:	0		22
+>> index 86:	0		2
+>> index 87:	79		35
+>> index 88:	88		44
+>> index 89:	90		16
+>> index 90:	96		34
+>> index 91:	89		11
+>> index 92:	91		13
+>> index 93:	93		41
+>> index 94:	95		39
+>> index 95:	98		43
+>> index 96:	94		17
+>> index 97:	97		31
+>> index 98:	99		20
+>> index 99:	100		46
+pa
+pa
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 83 stackb: 85
+rb
+[after] stacka: 83 stackb: 87
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		87
+>> index 16:	0		76
+>> index 17:	0		86
+>> index 18:	0		82
+>> index 19:	0		80
+>> index 20:	0		77
+>> index 21:	0		78
+>> index 22:	0		81
+>> index 23:	0		84
+>> index 24:	0		75
+>> index 25:	0		56
+>> index 26:	0		52
+>> index 27:	0		64
+>> index 28:	0		55
+>> index 29:	0		63
+>> index 30:	0		68
+>> index 31:	0		72
+>> index 32:	0		59
+>> index 33:	0		60
+>> index 34:	0		53
+>> index 35:	0		66
+>> index 36:	0		74
+>> index 37:	0		65
+>> index 38:	0		58
+>> index 39:	0		67
+>> index 40:	0		54
+>> index 41:	0		71
+>> index 42:	0		70
+>> index 43:	0		73
+>> index 44:	0		57
+>> index 45:	0		69
+>> index 46:	0		51
+>> index 47:	0		62
+>> index 48:	0		61
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	0		28
+>> index 52:	0		21
+>> index 53:	0		6
+>> index 54:	0		10
+>> index 55:	0		38
+>> index 56:	0		30
+>> index 57:	0		9
+>> index 58:	0		4
+>> index 59:	0		48
+>> index 60:	0		5
+>> index 61:	0		3
+>> index 62:	0		40
+>> index 63:	0		42
+>> index 64:	0		19
+>> index 65:	0		29
+>> index 66:	0		1
+>> index 67:	0		7
+>> index 68:	0		14
+>> index 69:	0		50
+>> index 70:	0		24
+>> index 71:	0		26
+>> index 72:	0		45
+>> index 73:	0		47
+>> index 74:	0		33
+>> index 75:	0		18
+>> index 76:	0		25
+>> index 77:	0		27
+>> index 78:	0		8
+>> index 79:	0		37
+>> index 80:	0		23
+>> index 81:	0		49
+>> index 82:	0		15
+>> index 83:	0		12
+>> index 84:	0		22
+>> index 85:	83		2
+>> index 86:	92		35
+>> index 87:	79		44
+>> index 88:	88		16
+>> index 89:	90		34
+>> index 90:	96		11
+>> index 91:	89		13
+>> index 92:	91		41
+>> index 93:	93		39
+>> index 94:	95		43
+>> index 95:	98		17
+>> index 96:	94		31
+>> index 97:	97		20
+>> index 98:	99		46
+>> index 99:	100		85
+pa
+pa
+rotation starts here
+ra: 1 rb: 1	rotate b
+stacka: 76 stackb: 86
+rrb
+[after] stacka: 76 stackb: 85
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		85
+>> index 18:	0		86
+>> index 19:	0		82
+>> index 20:	0		80
+>> index 21:	0		77
+>> index 22:	0		78
+>> index 23:	0		81
+>> index 24:	0		84
+>> index 25:	0		75
+>> index 26:	0		56
+>> index 27:	0		52
+>> index 28:	0		64
+>> index 29:	0		55
+>> index 30:	0		63
+>> index 31:	0		68
+>> index 32:	0		72
+>> index 33:	0		59
+>> index 34:	0		60
+>> index 35:	0		53
+>> index 36:	0		66
+>> index 37:	0		74
+>> index 38:	0		65
+>> index 39:	0		58
+>> index 40:	0		67
+>> index 41:	0		54
+>> index 42:	0		71
+>> index 43:	0		70
+>> index 44:	0		73
+>> index 45:	0		57
+>> index 46:	0		69
+>> index 47:	0		51
+>> index 48:	0		62
+>> index 49:	0		61
+>> index 50:	0		32
+>> index 51:	0		36
+>> index 52:	0		28
+>> index 53:	0		21
+>> index 54:	0		6
+>> index 55:	0		10
+>> index 56:	0		38
+>> index 57:	0		30
+>> index 58:	0		9
+>> index 59:	0		4
+>> index 60:	0		48
+>> index 61:	0		5
+>> index 62:	0		3
+>> index 63:	0		40
+>> index 64:	0		42
+>> index 65:	0		19
+>> index 66:	0		29
+>> index 67:	0		1
+>> index 68:	0		7
+>> index 69:	0		14
+>> index 70:	0		50
+>> index 71:	0		24
+>> index 72:	0		26
+>> index 73:	0		45
+>> index 74:	0		47
+>> index 75:	0		33
+>> index 76:	0		18
+>> index 77:	0		25
+>> index 78:	0		27
+>> index 79:	0		8
+>> index 80:	0		37
+>> index 81:	0		23
+>> index 82:	0		49
+>> index 83:	76		15
+>> index 84:	87		12
+>> index 85:	83		22
+>> index 86:	92		2
+>> index 87:	79		35
+>> index 88:	88		44
+>> index 89:	90		16
+>> index 90:	96		34
+>> index 91:	89		11
+>> index 92:	91		13
+>> index 93:	93		41
+>> index 94:	95		39
+>> index 95:	98		43
+>> index 96:	94		17
+>> index 97:	97		31
+>> index 98:	99		20
+>> index 99:	100		46
+pa
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 85 stackb: 86
+rb
+[after] stacka: 85 stackb: 82
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		82
+>> index 19:	0		80
+>> index 20:	0		77
+>> index 21:	0		78
+>> index 22:	0		81
+>> index 23:	0		84
+>> index 24:	0		75
+>> index 25:	0		56
+>> index 26:	0		52
+>> index 27:	0		64
+>> index 28:	0		55
+>> index 29:	0		63
+>> index 30:	0		68
+>> index 31:	0		72
+>> index 32:	0		59
+>> index 33:	0		60
+>> index 34:	0		53
+>> index 35:	0		66
+>> index 36:	0		74
+>> index 37:	0		65
+>> index 38:	0		58
+>> index 39:	0		67
+>> index 40:	0		54
+>> index 41:	0		71
+>> index 42:	0		70
+>> index 43:	0		73
+>> index 44:	0		57
+>> index 45:	0		69
+>> index 46:	0		51
+>> index 47:	0		62
+>> index 48:	0		61
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	0		28
+>> index 52:	0		21
+>> index 53:	0		6
+>> index 54:	0		10
+>> index 55:	0		38
+>> index 56:	0		30
+>> index 57:	0		9
+>> index 58:	0		4
+>> index 59:	0		48
+>> index 60:	0		5
+>> index 61:	0		3
+>> index 62:	0		40
+>> index 63:	0		42
+>> index 64:	0		19
+>> index 65:	0		29
+>> index 66:	0		1
+>> index 67:	0		7
+>> index 68:	0		14
+>> index 69:	0		50
+>> index 70:	0		24
+>> index 71:	0		26
+>> index 72:	0		45
+>> index 73:	0		47
+>> index 74:	0		33
+>> index 75:	0		18
+>> index 76:	0		25
+>> index 77:	0		27
+>> index 78:	0		8
+>> index 79:	0		37
+>> index 80:	0		23
+>> index 81:	0		49
+>> index 82:	85		15
+>> index 83:	76		12
+>> index 84:	87		22
+>> index 85:	83		2
+>> index 86:	92		35
+>> index 87:	79		44
+>> index 88:	88		16
+>> index 89:	90		34
+>> index 90:	96		11
+>> index 91:	89		13
+>> index 92:	91		41
+>> index 93:	93		39
+>> index 94:	95		43
+>> index 95:	98		17
+>> index 96:	94		31
+>> index 97:	97		20
+>> index 98:	99		46
+>> index 99:	100		86
+pa
+pa
+pa
+rotation starts here
+ra: 1 rb: 1	rotate b
+stacka: 77 stackb: 78
+rrb
+[after] stacka: 77 stackb: 86
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		86
+>> index 22:	0		78
+>> index 23:	0		81
+>> index 24:	0		84
+>> index 25:	0		75
+>> index 26:	0		56
+>> index 27:	0		52
+>> index 28:	0		64
+>> index 29:	0		55
+>> index 30:	0		63
+>> index 31:	0		68
+>> index 32:	0		72
+>> index 33:	0		59
+>> index 34:	0		60
+>> index 35:	0		53
+>> index 36:	0		66
+>> index 37:	0		74
+>> index 38:	0		65
+>> index 39:	0		58
+>> index 40:	0		67
+>> index 41:	0		54
+>> index 42:	0		71
+>> index 43:	0		70
+>> index 44:	0		73
+>> index 45:	0		57
+>> index 46:	0		69
+>> index 47:	0		51
+>> index 48:	0		62
+>> index 49:	0		61
+>> index 50:	0		32
+>> index 51:	0		36
+>> index 52:	0		28
+>> index 53:	0		21
+>> index 54:	0		6
+>> index 55:	0		10
+>> index 56:	0		38
+>> index 57:	0		30
+>> index 58:	0		9
+>> index 59:	0		4
+>> index 60:	0		48
+>> index 61:	0		5
+>> index 62:	0		3
+>> index 63:	0		40
+>> index 64:	0		42
+>> index 65:	0		19
+>> index 66:	0		29
+>> index 67:	0		1
+>> index 68:	0		7
+>> index 69:	0		14
+>> index 70:	0		50
+>> index 71:	0		24
+>> index 72:	0		26
+>> index 73:	0		45
+>> index 74:	0		47
+>> index 75:	0		33
+>> index 76:	0		18
+>> index 77:	0		25
+>> index 78:	0		27
+>> index 79:	77		8
+>> index 80:	80		37
+>> index 81:	82		23
+>> index 82:	85		49
+>> index 83:	76		15
+>> index 84:	87		12
+>> index 85:	83		22
+>> index 86:	92		2
+>> index 87:	79		35
+>> index 88:	88		44
+>> index 89:	90		16
+>> index 90:	96		34
+>> index 91:	89		11
+>> index 92:	91		13
+>> index 93:	93		41
+>> index 94:	95		39
+>> index 95:	98		43
+>> index 96:	94		17
+>> index 97:	97		31
+>> index 98:	99		20
+>> index 99:	100		46
+pa
+pa
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 78 stackb: 81
+rb
+[after] stacka: 78 stackb: 84
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		84
+>> index 24:	0		75
+>> index 25:	0		56
+>> index 26:	0		52
+>> index 27:	0		64
+>> index 28:	0		55
+>> index 29:	0		63
+>> index 30:	0		68
+>> index 31:	0		72
+>> index 32:	0		59
+>> index 33:	0		60
+>> index 34:	0		53
+>> index 35:	0		66
+>> index 36:	0		74
+>> index 37:	0		65
+>> index 38:	0		58
+>> index 39:	0		67
+>> index 40:	0		54
+>> index 41:	0		71
+>> index 42:	0		70
+>> index 43:	0		73
+>> index 44:	0		57
+>> index 45:	0		69
+>> index 46:	0		51
+>> index 47:	0		62
+>> index 48:	0		61
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	0		28
+>> index 52:	0		21
+>> index 53:	0		6
+>> index 54:	0		10
+>> index 55:	0		38
+>> index 56:	0		30
+>> index 57:	0		9
+>> index 58:	0		4
+>> index 59:	0		48
+>> index 60:	0		5
+>> index 61:	0		3
+>> index 62:	0		40
+>> index 63:	0		42
+>> index 64:	0		19
+>> index 65:	0		29
+>> index 66:	0		1
+>> index 67:	0		7
+>> index 68:	0		14
+>> index 69:	0		50
+>> index 70:	0		24
+>> index 71:	0		26
+>> index 72:	0		45
+>> index 73:	0		47
+>> index 74:	0		33
+>> index 75:	0		18
+>> index 76:	0		25
+>> index 77:	78		27
+>> index 78:	86		8
+>> index 79:	77		37
+>> index 80:	80		23
+>> index 81:	82		49
+>> index 82:	85		15
+>> index 83:	76		12
+>> index 84:	87		22
+>> index 85:	83		2
+>> index 86:	92		35
+>> index 87:	79		44
+>> index 88:	88		16
+>> index 89:	90		34
+>> index 90:	96		11
+>> index 91:	89		13
+>> index 92:	91		41
+>> index 93:	93		39
+>> index 94:	95		43
+>> index 95:	98		17
+>> index 96:	94		31
+>> index 97:	97		20
+>> index 98:	99		46
+>> index 99:	100		81
+pa
+pa
+pa
+pa
+rotation starts here
+ra: 1 rb: 1	rotate b
+stacka: 52 stackb: 64
+rrb
+[after] stacka: 52 stackb: 81
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		81
+>> index 28:	0		64
+>> index 29:	0		55
+>> index 30:	0		63
+>> index 31:	0		68
+>> index 32:	0		72
+>> index 33:	0		59
+>> index 34:	0		60
+>> index 35:	0		53
+>> index 36:	0		66
+>> index 37:	0		74
+>> index 38:	0		65
+>> index 39:	0		58
+>> index 40:	0		67
+>> index 41:	0		54
+>> index 42:	0		71
+>> index 43:	0		70
+>> index 44:	0		73
+>> index 45:	0		57
+>> index 46:	0		69
+>> index 47:	0		51
+>> index 48:	0		62
+>> index 49:	0		61
+>> index 50:	0		32
+>> index 51:	0		36
+>> index 52:	0		28
+>> index 53:	0		21
+>> index 54:	0		6
+>> index 55:	0		10
+>> index 56:	0		38
+>> index 57:	0		30
+>> index 58:	0		9
+>> index 59:	0		4
+>> index 60:	0		48
+>> index 61:	0		5
+>> index 62:	0		3
+>> index 63:	0		40
+>> index 64:	0		42
+>> index 65:	0		19
+>> index 66:	0		29
+>> index 67:	0		1
+>> index 68:	0		7
+>> index 69:	0		14
+>> index 70:	0		50
+>> index 71:	0		24
+>> index 72:	0		26
+>> index 73:	52		45
+>> index 74:	56		47
+>> index 75:	75		33
+>> index 76:	84		18
+>> index 77:	78		25
+>> index 78:	86		27
+>> index 79:	77		8
+>> index 80:	80		37
+>> index 81:	82		23
+>> index 82:	85		49
+>> index 83:	76		15
+>> index 84:	87		12
+>> index 85:	83		22
+>> index 86:	92		2
+>> index 87:	79		35
+>> index 88:	88		44
+>> index 89:	90		16
+>> index 90:	96		34
+>> index 91:	89		11
+>> index 92:	91		13
+>> index 93:	93		41
+>> index 94:	95		39
+>> index 95:	98		43
+>> index 96:	94		17
+>> index 97:	97		31
+>> index 98:	99		20
+>> index 99:	100		46
+pa
+pa
+pa
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 55 stackb: 63
+rb
+[after] stacka: 55 stackb: 68
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		68
+>> index 31:	0		72
+>> index 32:	0		59
+>> index 33:	0		60
+>> index 34:	0		53
+>> index 35:	0		66
+>> index 36:	0		74
+>> index 37:	0		65
+>> index 38:	0		58
+>> index 39:	0		67
+>> index 40:	0		54
+>> index 41:	0		71
+>> index 42:	0		70
+>> index 43:	0		73
+>> index 44:	0		57
+>> index 45:	0		69
+>> index 46:	0		51
+>> index 47:	0		62
+>> index 48:	0		61
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	0		28
+>> index 52:	0		21
+>> index 53:	0		6
+>> index 54:	0		10
+>> index 55:	0		38
+>> index 56:	0		30
+>> index 57:	0		9
+>> index 58:	0		4
+>> index 59:	0		48
+>> index 60:	0		5
+>> index 61:	0		3
+>> index 62:	0		40
+>> index 63:	0		42
+>> index 64:	0		19
+>> index 65:	0		29
+>> index 66:	0		1
+>> index 67:	0		7
+>> index 68:	0		14
+>> index 69:	0		50
+>> index 70:	55		24
+>> index 71:	64		26
+>> index 72:	81		45
+>> index 73:	52		47
+>> index 74:	56		33
+>> index 75:	75		18
+>> index 76:	84		25
+>> index 77:	78		27
+>> index 78:	86		8
+>> index 79:	77		37
+>> index 80:	80		23
+>> index 81:	82		49
+>> index 82:	85		15
+>> index 83:	76		12
+>> index 84:	87		22
+>> index 85:	83		2
+>> index 86:	92		35
+>> index 87:	79		44
+>> index 88:	88		16
+>> index 89:	90		34
+>> index 90:	96		11
+>> index 91:	89		13
+>> index 92:	91		41
+>> index 93:	93		39
+>> index 94:	95		43
+>> index 95:	98		17
+>> index 96:	94		31
+>> index 97:	97		20
+>> index 98:	99		46
+>> index 99:	100		63
+pa
+rotation starts here
+ra: 1 rb: 3	rotate b
+stacka: 68 stackb: 72
+rb
+[after] stacka: 68 stackb: 59
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		59
+>> index 32:	0		60
+>> index 33:	0		53
+>> index 34:	0		66
+>> index 35:	0		74
+>> index 36:	0		65
+>> index 37:	0		58
+>> index 38:	0		67
+>> index 39:	0		54
+>> index 40:	0		71
+>> index 41:	0		70
+>> index 42:	0		73
+>> index 43:	0		57
+>> index 44:	0		69
+>> index 45:	0		51
+>> index 46:	0		62
+>> index 47:	0		61
+>> index 48:	0		32
+>> index 49:	0		36
+>> index 50:	0		28
+>> index 51:	0		21
+>> index 52:	0		6
+>> index 53:	0		10
+>> index 54:	0		38
+>> index 55:	0		30
+>> index 56:	0		9
+>> index 57:	0		4
+>> index 58:	0		48
+>> index 59:	0		5
+>> index 60:	0		3
+>> index 61:	0		40
+>> index 62:	0		42
+>> index 63:	0		19
+>> index 64:	0		29
+>> index 65:	0		1
+>> index 66:	0		7
+>> index 67:	0		14
+>> index 68:	0		50
+>> index 69:	68		24
+>> index 70:	55		26
+>> index 71:	64		45
+>> index 72:	81		47
+>> index 73:	52		33
+>> index 74:	56		18
+>> index 75:	75		25
+>> index 76:	84		27
+>> index 77:	78		8
+>> index 78:	86		37
+>> index 79:	77		23
+>> index 80:	80		49
+>> index 81:	82		15
+>> index 82:	85		12
+>> index 83:	76		22
+>> index 84:	87		2
+>> index 85:	83		35
+>> index 86:	92		44
+>> index 87:	79		16
+>> index 88:	88		34
+>> index 89:	90		11
+>> index 90:	96		13
+>> index 91:	89		41
+>> index 92:	91		39
+>> index 93:	93		43
+>> index 94:	95		17
+>> index 95:	98		31
+>> index 96:	94		20
+>> index 97:	97		46
+>> index 98:	99		63
+>> index 99:	100		72
+pa
+rotation starts here
+ra: 1 rb: 0	rotate a
+ra
+ra
+ra
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		60
+>> index 33:	0		53
+>> index 34:	0		66
+>> index 35:	0		74
+>> index 36:	0		65
+>> index 37:	0		58
+>> index 38:	0		67
+>> index 39:	0		54
+>> index 40:	0		71
+>> index 41:	0		70
+>> index 42:	0		73
+>> index 43:	0		57
+>> index 44:	0		69
+>> index 45:	0		51
+>> index 46:	0		62
+>> index 47:	0		61
+>> index 48:	0		32
+>> index 49:	0		36
+>> index 50:	0		28
+>> index 51:	0		21
+>> index 52:	0		6
+>> index 53:	0		10
+>> index 54:	0		38
+>> index 55:	0		30
+>> index 56:	0		9
+>> index 57:	0		4
+>> index 58:	0		48
+>> index 59:	0		5
+>> index 60:	0		3
+>> index 61:	0		40
+>> index 62:	0		42
+>> index 63:	0		19
+>> index 64:	0		29
+>> index 65:	0		1
+>> index 66:	0		7
+>> index 67:	0		14
+>> index 68:	64		50
+>> index 69:	81		24
+>> index 70:	52		26
+>> index 71:	56		45
+>> index 72:	75		47
+>> index 73:	84		33
+>> index 74:	78		18
+>> index 75:	86		25
+>> index 76:	77		27
+>> index 77:	80		8
+>> index 78:	82		37
+>> index 79:	85		23
+>> index 80:	76		49
+>> index 81:	87		15
+>> index 82:	83		12
+>> index 83:	92		22
+>> index 84:	79		2
+>> index 85:	88		35
+>> index 86:	90		44
+>> index 87:	96		16
+>> index 88:	89		34
+>> index 89:	91		11
+>> index 90:	93		13
+>> index 91:	95		41
+>> index 92:	98		39
+>> index 93:	94		43
+>> index 94:	97		17
+>> index 95:	99		31
+>> index 96:	100		20
+>> index 97:	59		46
+>> index 98:	68		63
+>> index 99:	55		72
+pa
+rotation starts here
+ra: 1 rb: 4	rotate b
+stacka: 60 stackb: 53
+[after] stacka: 60 stackb: 53
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		53
+>> index 34:	0		66
+>> index 35:	0		74
+>> index 36:	0		65
+>> index 37:	0		58
+>> index 38:	0		67
+>> index 39:	0		54
+>> index 40:	0		71
+>> index 41:	0		70
+>> index 42:	0		73
+>> index 43:	0		57
+>> index 44:	0		69
+>> index 45:	0		51
+>> index 46:	0		62
+>> index 47:	0		61
+>> index 48:	0		32
+>> index 49:	0		36
+>> index 50:	0		28
+>> index 51:	0		21
+>> index 52:	0		6
+>> index 53:	0		10
+>> index 54:	0		38
+>> index 55:	0		30
+>> index 56:	0		9
+>> index 57:	0		4
+>> index 58:	0		48
+>> index 59:	0		5
+>> index 60:	0		3
+>> index 61:	0		40
+>> index 62:	0		42
+>> index 63:	0		19
+>> index 64:	0		29
+>> index 65:	0		1
+>> index 66:	0		7
+>> index 67:	60		14
+>> index 68:	64		50
+>> index 69:	81		24
+>> index 70:	52		26
+>> index 71:	56		45
+>> index 72:	75		47
+>> index 73:	84		33
+>> index 74:	78		18
+>> index 75:	86		25
+>> index 76:	77		27
+>> index 77:	80		8
+>> index 78:	82		37
+>> index 79:	85		23
+>> index 80:	76		49
+>> index 81:	87		15
+>> index 82:	83		12
+>> index 83:	92		22
+>> index 84:	79		2
+>> index 85:	88		35
+>> index 86:	90		44
+>> index 87:	96		16
+>> index 88:	89		34
+>> index 89:	91		11
+>> index 90:	93		13
+>> index 91:	95		41
+>> index 92:	98		39
+>> index 93:	94		43
+>> index 94:	97		17
+>> index 95:	99		31
+>> index 96:	100		20
+>> index 97:	59		46
+>> index 98:	68		63
+>> index 99:	55		72
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 53 stackb: 66
+rrb
+[after] stacka: 53 stackb: 72
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		72
+>> index 35:	0		66
+>> index 36:	0		74
+>> index 37:	0		65
+>> index 38:	0		58
+>> index 39:	0		67
+>> index 40:	0		54
+>> index 41:	0		71
+>> index 42:	0		70
+>> index 43:	0		73
+>> index 44:	0		57
+>> index 45:	0		69
+>> index 46:	0		51
+>> index 47:	0		62
+>> index 48:	0		61
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	0		28
+>> index 52:	0		21
+>> index 53:	0		6
+>> index 54:	0		10
+>> index 55:	0		38
+>> index 56:	0		30
+>> index 57:	0		9
+>> index 58:	0		4
+>> index 59:	0		48
+>> index 60:	0		5
+>> index 61:	0		3
+>> index 62:	0		40
+>> index 63:	0		42
+>> index 64:	0		19
+>> index 65:	0		29
+>> index 66:	53		1
+>> index 67:	60		7
+>> index 68:	64		14
+>> index 69:	81		50
+>> index 70:	52		24
+>> index 71:	56		26
+>> index 72:	75		45
+>> index 73:	84		47
+>> index 74:	78		33
+>> index 75:	86		18
+>> index 76:	77		25
+>> index 77:	80		27
+>> index 78:	82		8
+>> index 79:	85		37
+>> index 80:	76		23
+>> index 81:	87		49
+>> index 82:	83		15
+>> index 83:	92		12
+>> index 84:	79		22
+>> index 85:	88		2
+>> index 86:	90		35
+>> index 87:	96		44
+>> index 88:	89		16
+>> index 89:	91		34
+>> index 90:	93		11
+>> index 91:	95		13
+>> index 92:	98		41
+>> index 93:	94		39
+>> index 94:	97		43
+>> index 95:	99		17
+>> index 96:	100		31
+>> index 97:	59		20
+>> index 98:	68		46
+>> index 99:	55		63
+pa
+pa
+rotation starts here
+ra: 0 rb: 3	rotate b
+stacka: 66 stackb: 74
+rb
+[after] stacka: 66 stackb: 65
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		65
+>> index 37:	0		58
+>> index 38:	0		67
+>> index 39:	0		54
+>> index 40:	0		71
+>> index 41:	0		70
+>> index 42:	0		73
+>> index 43:	0		57
+>> index 44:	0		69
+>> index 45:	0		51
+>> index 46:	0		62
+>> index 47:	0		61
+>> index 48:	0		32
+>> index 49:	0		36
+>> index 50:	0		28
+>> index 51:	0		21
+>> index 52:	0		6
+>> index 53:	0		10
+>> index 54:	0		38
+>> index 55:	0		30
+>> index 56:	0		9
+>> index 57:	0		4
+>> index 58:	0		48
+>> index 59:	0		5
+>> index 60:	0		3
+>> index 61:	0		40
+>> index 62:	0		42
+>> index 63:	0		19
+>> index 64:	66		29
+>> index 65:	72		1
+>> index 66:	53		7
+>> index 67:	60		14
+>> index 68:	64		50
+>> index 69:	81		24
+>> index 70:	52		26
+>> index 71:	56		45
+>> index 72:	75		47
+>> index 73:	84		33
+>> index 74:	78		18
+>> index 75:	86		25
+>> index 76:	77		27
+>> index 77:	80		8
+>> index 78:	82		37
+>> index 79:	85		23
+>> index 80:	76		49
+>> index 81:	87		15
+>> index 82:	83		12
+>> index 83:	92		22
+>> index 84:	79		2
+>> index 85:	88		35
+>> index 86:	90		44
+>> index 87:	96		16
+>> index 88:	89		34
+>> index 89:	91		11
+>> index 90:	93		13
+>> index 91:	95		41
+>> index 92:	98		39
+>> index 93:	94		43
+>> index 94:	97		17
+>> index 95:	99		31
+>> index 96:	100		20
+>> index 97:	59		46
+>> index 98:	68		63
+>> index 99:	55		74
+pa
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 58 stackb: 67
+rrb
+[after] stacka: 58 stackb: 74
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		74
+>> index 39:	0		67
+>> index 40:	0		54
+>> index 41:	0		71
+>> index 42:	0		70
+>> index 43:	0		73
+>> index 44:	0		57
+>> index 45:	0		69
+>> index 46:	0		51
+>> index 47:	0		62
+>> index 48:	0		61
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	0		28
+>> index 52:	0		21
+>> index 53:	0		6
+>> index 54:	0		10
+>> index 55:	0		38
+>> index 56:	0		30
+>> index 57:	0		9
+>> index 58:	0		4
+>> index 59:	0		48
+>> index 60:	0		5
+>> index 61:	0		3
+>> index 62:	58		40
+>> index 63:	65		42
+>> index 64:	66		19
+>> index 65:	72		29
+>> index 66:	53		1
+>> index 67:	60		7
+>> index 68:	64		14
+>> index 69:	81		50
+>> index 70:	52		24
+>> index 71:	56		26
+>> index 72:	75		45
+>> index 73:	84		47
+>> index 74:	78		33
+>> index 75:	86		18
+>> index 76:	77		25
+>> index 77:	80		27
+>> index 78:	82		8
+>> index 79:	85		37
+>> index 80:	76		23
+>> index 81:	87		49
+>> index 82:	83		15
+>> index 83:	92		12
+>> index 84:	79		22
+>> index 85:	88		2
+>> index 86:	90		35
+>> index 87:	96		44
+>> index 88:	89		16
+>> index 89:	91		34
+>> index 90:	93		11
+>> index 91:	95		13
+>> index 92:	98		41
+>> index 93:	94		39
+>> index 94:	97		43
+>> index 95:	99		17
+>> index 96:	100		31
+>> index 97:	59		20
+>> index 98:	68		46
+>> index 99:	55		63
+pa
+pa
+rotation starts here
+ra: 1 rb: 3	rotate b
+stacka: 67 stackb: 54
+[after] stacka: 67 stackb: 54
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		54
+>> index 41:	0		71
+>> index 42:	0		70
+>> index 43:	0		73
+>> index 44:	0		57
+>> index 45:	0		69
+>> index 46:	0		51
+>> index 47:	0		62
+>> index 48:	0		61
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	0		28
+>> index 52:	0		21
+>> index 53:	0		6
+>> index 54:	0		10
+>> index 55:	0		38
+>> index 56:	0		30
+>> index 57:	0		9
+>> index 58:	0		4
+>> index 59:	0		48
+>> index 60:	67		5
+>> index 61:	74		3
+>> index 62:	58		40
+>> index 63:	65		42
+>> index 64:	66		19
+>> index 65:	72		29
+>> index 66:	53		1
+>> index 67:	60		7
+>> index 68:	64		14
+>> index 69:	81		50
+>> index 70:	52		24
+>> index 71:	56		26
+>> index 72:	75		45
+>> index 73:	84		47
+>> index 74:	78		33
+>> index 75:	86		18
+>> index 76:	77		25
+>> index 77:	80		27
+>> index 78:	82		8
+>> index 79:	85		37
+>> index 80:	76		23
+>> index 81:	87		49
+>> index 82:	83		15
+>> index 83:	92		12
+>> index 84:	79		22
+>> index 85:	88		2
+>> index 86:	90		35
+>> index 87:	96		44
+>> index 88:	89		16
+>> index 89:	91		34
+>> index 90:	93		11
+>> index 91:	95		13
+>> index 92:	98		41
+>> index 93:	94		39
+>> index 94:	97		43
+>> index 95:	99		17
+>> index 96:	100		31
+>> index 97:	59		20
+>> index 98:	68		46
+>> index 99:	55		63
+pa
+rotation starts here
+ra: 0 rb: 1	rotate b
+stacka: 54 stackb: 71
+rrb
+[after] stacka: 54 stackb: 63
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		63
+>> index 42:	0		71
+>> index 43:	0		70
+>> index 44:	0		73
+>> index 45:	0		57
+>> index 46:	0		69
+>> index 47:	0		51
+>> index 48:	0		62
+>> index 49:	0		61
+>> index 50:	0		32
+>> index 51:	0		36
+>> index 52:	0		28
+>> index 53:	0		21
+>> index 54:	0		6
+>> index 55:	0		10
+>> index 56:	0		38
+>> index 57:	0		30
+>> index 58:	0		9
+>> index 59:	54		4
+>> index 60:	67		48
+>> index 61:	74		5
+>> index 62:	58		3
+>> index 63:	65		40
+>> index 64:	66		42
+>> index 65:	72		19
+>> index 66:	53		29
+>> index 67:	60		1
+>> index 68:	64		7
+>> index 69:	81		14
+>> index 70:	52		50
+>> index 71:	56		24
+>> index 72:	75		26
+>> index 73:	84		45
+>> index 74:	78		47
+>> index 75:	86		33
+>> index 76:	77		18
+>> index 77:	80		25
+>> index 78:	82		27
+>> index 79:	85		8
+>> index 80:	76		37
+>> index 81:	87		23
+>> index 82:	83		49
+>> index 83:	92		15
+>> index 84:	79		12
+>> index 85:	88		22
+>> index 86:	90		2
+>> index 87:	96		35
+>> index 88:	89		44
+>> index 89:	91		16
+>> index 90:	93		34
+>> index 91:	95		11
+>> index 92:	98		13
+>> index 93:	94		41
+>> index 94:	97		39
+>> index 95:	99		43
+>> index 96:	100		17
+>> index 97:	59		31
+>> index 98:	68		20
+>> index 99:	55		46
+pa
+rotation starts here
+ra: 0 rb: 2	rotate b
+stacka: 63 stackb: 71
+rb
+[after] stacka: 63 stackb: 70
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		70
+>> index 43:	0		73
+>> index 44:	0		57
+>> index 45:	0		69
+>> index 46:	0		51
+>> index 47:	0		62
+>> index 48:	0		61
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	0		28
+>> index 52:	0		21
+>> index 53:	0		6
+>> index 54:	0		10
+>> index 55:	0		38
+>> index 56:	0		30
+>> index 57:	0		9
+>> index 58:	63		4
+>> index 59:	54		48
+>> index 60:	67		5
+>> index 61:	74		3
+>> index 62:	58		40
+>> index 63:	65		42
+>> index 64:	66		19
+>> index 65:	72		29
+>> index 66:	53		1
+>> index 67:	60		7
+>> index 68:	64		14
+>> index 69:	81		50
+>> index 70:	52		24
+>> index 71:	56		26
+>> index 72:	75		45
+>> index 73:	84		47
+>> index 74:	78		33
+>> index 75:	86		18
+>> index 76:	77		25
+>> index 77:	80		27
+>> index 78:	82		8
+>> index 79:	85		37
+>> index 80:	76		23
+>> index 81:	87		49
+>> index 82:	83		15
+>> index 83:	92		12
+>> index 84:	79		22
+>> index 85:	88		2
+>> index 86:	90		35
+>> index 87:	96		44
+>> index 88:	89		16
+>> index 89:	91		34
+>> index 90:	93		11
+>> index 91:	95		13
+>> index 92:	98		41
+>> index 93:	94		39
+>> index 94:	97		43
+>> index 95:	99		17
+>> index 96:	100		31
+>> index 97:	59		20
+>> index 98:	68		46
+>> index 99:	55		71
+pa
+rotation starts here
+ra: 0 rb: 1	rotate b
+stacka: 70 stackb: 73
+rrb
+[after] stacka: 70 stackb: 71
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		0
+>> index 43:	0		71
+>> index 44:	0		73
+>> index 45:	0		57
+>> index 46:	0		69
+>> index 47:	0		51
+>> index 48:	0		62
+>> index 49:	0		61
+>> index 50:	0		32
+>> index 51:	0		36
+>> index 52:	0		28
+>> index 53:	0		21
+>> index 54:	0		6
+>> index 55:	0		10
+>> index 56:	0		38
+>> index 57:	70		30
+>> index 58:	63		9
+>> index 59:	54		4
+>> index 60:	67		48
+>> index 61:	74		5
+>> index 62:	58		3
+>> index 63:	65		40
+>> index 64:	66		42
+>> index 65:	72		19
+>> index 66:	53		29
+>> index 67:	60		1
+>> index 68:	64		7
+>> index 69:	81		14
+>> index 70:	52		50
+>> index 71:	56		24
+>> index 72:	75		26
+>> index 73:	84		45
+>> index 74:	78		47
+>> index 75:	86		33
+>> index 76:	77		18
+>> index 77:	80		25
+>> index 78:	82		27
+>> index 79:	85		8
+>> index 80:	76		37
+>> index 81:	87		23
+>> index 82:	83		49
+>> index 83:	92		15
+>> index 84:	79		12
+>> index 85:	88		22
+>> index 86:	90		2
+>> index 87:	96		35
+>> index 88:	89		44
+>> index 89:	91		16
+>> index 90:	93		34
+>> index 91:	95		11
+>> index 92:	98		13
+>> index 93:	94		41
+>> index 94:	97		39
+>> index 95:	99		43
+>> index 96:	100		17
+>> index 97:	59		31
+>> index 98:	68		20
+>> index 99:	55		46
+pa
+rotation starts here
+ra: 0 rb: 2	rotate b
+stacka: 71 stackb: 73
+rb
+[after] stacka: 71 stackb: 57
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		0
+>> index 43:	0		0
+>> index 44:	0		57
+>> index 45:	0		69
+>> index 46:	0		51
+>> index 47:	0		62
+>> index 48:	0		61
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	0		28
+>> index 52:	0		21
+>> index 53:	0		6
+>> index 54:	0		10
+>> index 55:	0		38
+>> index 56:	71		30
+>> index 57:	70		9
+>> index 58:	63		4
+>> index 59:	54		48
+>> index 60:	67		5
+>> index 61:	74		3
+>> index 62:	58		40
+>> index 63:	65		42
+>> index 64:	66		19
+>> index 65:	72		29
+>> index 66:	53		1
+>> index 67:	60		7
+>> index 68:	64		14
+>> index 69:	81		50
+>> index 70:	52		24
+>> index 71:	56		26
+>> index 72:	75		45
+>> index 73:	84		47
+>> index 74:	78		33
+>> index 75:	86		18
+>> index 76:	77		25
+>> index 77:	80		27
+>> index 78:	82		8
+>> index 79:	85		37
+>> index 80:	76		23
+>> index 81:	87		49
+>> index 82:	83		15
+>> index 83:	92		12
+>> index 84:	79		22
+>> index 85:	88		2
+>> index 86:	90		35
+>> index 87:	96		44
+>> index 88:	89		16
+>> index 89:	91		34
+>> index 90:	93		11
+>> index 91:	95		13
+>> index 92:	98		41
+>> index 93:	94		39
+>> index 94:	97		43
+>> index 95:	99		17
+>> index 96:	100		31
+>> index 97:	59		20
+>> index 98:	68		46
+>> index 99:	55		73
+pa
+rotation starts here
+ra: 1 rb: 1	rotate b
+stacka: 57 stackb: 69
+rrb
+[after] stacka: 57 stackb: 73
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		0
+>> index 43:	0		0
+>> index 44:	0		0
+>> index 45:	0		73
+>> index 46:	0		69
+>> index 47:	0		51
+>> index 48:	0		62
+>> index 49:	0		61
+>> index 50:	0		32
+>> index 51:	0		36
+>> index 52:	0		28
+>> index 53:	0		21
+>> index 54:	0		6
+>> index 55:	57		10
+>> index 56:	71		38
+>> index 57:	70		30
+>> index 58:	63		9
+>> index 59:	54		4
+>> index 60:	67		48
+>> index 61:	74		5
+>> index 62:	58		3
+>> index 63:	65		40
+>> index 64:	66		42
+>> index 65:	72		19
+>> index 66:	53		29
+>> index 67:	60		1
+>> index 68:	64		7
+>> index 69:	81		14
+>> index 70:	52		50
+>> index 71:	56		24
+>> index 72:	75		26
+>> index 73:	84		45
+>> index 74:	78		47
+>> index 75:	86		33
+>> index 76:	77		18
+>> index 77:	80		25
+>> index 78:	82		27
+>> index 79:	85		8
+>> index 80:	76		37
+>> index 81:	87		23
+>> index 82:	83		49
+>> index 83:	92		15
+>> index 84:	79		12
+>> index 85:	88		22
+>> index 86:	90		2
+>> index 87:	96		35
+>> index 88:	89		44
+>> index 89:	91		16
+>> index 90:	93		34
+>> index 91:	95		11
+>> index 92:	98		13
+>> index 93:	94		41
+>> index 94:	97		39
+>> index 95:	99		43
+>> index 96:	100		17
+>> index 97:	59		31
+>> index 98:	68		20
+>> index 99:	55		46
+pa
+pa
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 69 stackb: 51
+[after] stacka: 69 stackb: 51
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		0
+>> index 43:	0		0
+>> index 44:	0		0
+>> index 45:	0		0
+>> index 46:	0		0
+>> index 47:	0		51
+>> index 48:	0		62
+>> index 49:	0		61
+>> index 50:	0		32
+>> index 51:	0		36
+>> index 52:	0		28
+>> index 53:	69		21
+>> index 54:	73		6
+>> index 55:	57		10
+>> index 56:	71		38
+>> index 57:	70		30
+>> index 58:	63		9
+>> index 59:	54		4
+>> index 60:	67		48
+>> index 61:	74		5
+>> index 62:	58		3
+>> index 63:	65		40
+>> index 64:	66		42
+>> index 65:	72		19
+>> index 66:	53		29
+>> index 67:	60		1
+>> index 68:	64		7
+>> index 69:	81		14
+>> index 70:	52		50
+>> index 71:	56		24
+>> index 72:	75		26
+>> index 73:	84		45
+>> index 74:	78		47
+>> index 75:	86		33
+>> index 76:	77		18
+>> index 77:	80		25
+>> index 78:	82		27
+>> index 79:	85		8
+>> index 80:	76		37
+>> index 81:	87		23
+>> index 82:	83		49
+>> index 83:	92		15
+>> index 84:	79		12
+>> index 85:	88		22
+>> index 86:	90		2
+>> index 87:	96		35
+>> index 88:	89		44
+>> index 89:	91		16
+>> index 90:	93		34
+>> index 91:	95		11
+>> index 92:	98		13
+>> index 93:	94		41
+>> index 94:	97		39
+>> index 95:	99		43
+>> index 96:	100		17
+>> index 97:	59		31
+>> index 98:	68		20
+>> index 99:	55		46
+pa
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 51 stackb: 62
+rb
+[after] stacka: 51 stackb: 61
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		0
+>> index 43:	0		0
+>> index 44:	0		0
+>> index 45:	0		0
+>> index 46:	0		0
+>> index 47:	0		0
+>> index 48:	0		61
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	0		28
+>> index 52:	51		21
+>> index 53:	69		6
+>> index 54:	73		10
+>> index 55:	57		38
+>> index 56:	71		30
+>> index 57:	70		9
+>> index 58:	63		4
+>> index 59:	54		48
+>> index 60:	67		5
+>> index 61:	74		3
+>> index 62:	58		40
+>> index 63:	65		42
+>> index 64:	66		19
+>> index 65:	72		29
+>> index 66:	53		1
+>> index 67:	60		7
+>> index 68:	64		14
+>> index 69:	81		50
+>> index 70:	52		24
+>> index 71:	56		26
+>> index 72:	75		45
+>> index 73:	84		47
+>> index 74:	78		33
+>> index 75:	86		18
+>> index 76:	77		25
+>> index 77:	80		27
+>> index 78:	82		8
+>> index 79:	85		37
+>> index 80:	76		23
+>> index 81:	87		49
+>> index 82:	83		15
+>> index 83:	92		12
+>> index 84:	79		22
+>> index 85:	88		2
+>> index 86:	90		35
+>> index 87:	96		44
+>> index 88:	89		16
+>> index 89:	91		34
+>> index 90:	93		11
+>> index 91:	95		13
+>> index 92:	98		41
+>> index 93:	94		39
+>> index 94:	97		43
+>> index 95:	99		17
+>> index 96:	100		31
+>> index 97:	59		20
+>> index 98:	68		46
+>> index 99:	55		62
+pa
+rotation starts here
+ra: 1 rb: 3	rotate b
+stacka: 61 stackb: 32
+[after] stacka: 61 stackb: 32
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		0
+>> index 43:	0		0
+>> index 44:	0		0
+>> index 45:	0		0
+>> index 46:	0		0
+>> index 47:	0		0
+>> index 48:	0		0
+>> index 49:	0		32
+>> index 50:	0		36
+>> index 51:	61		28
+>> index 52:	51		21
+>> index 53:	69		6
+>> index 54:	73		10
+>> index 55:	57		38
+>> index 56:	71		30
+>> index 57:	70		9
+>> index 58:	63		4
+>> index 59:	54		48
+>> index 60:	67		5
+>> index 61:	74		3
+>> index 62:	58		40
+>> index 63:	65		42
+>> index 64:	66		19
+>> index 65:	72		29
+>> index 66:	53		1
+>> index 67:	60		7
+>> index 68:	64		14
+>> index 69:	81		50
+>> index 70:	52		24
+>> index 71:	56		26
+>> index 72:	75		45
+>> index 73:	84		47
+>> index 74:	78		33
+>> index 75:	86		18
+>> index 76:	77		25
+>> index 77:	80		27
+>> index 78:	82		8
+>> index 79:	85		37
+>> index 80:	76		23
+>> index 81:	87		49
+>> index 82:	83		15
+>> index 83:	92		12
+>> index 84:	79		22
+>> index 85:	88		2
+>> index 86:	90		35
+>> index 87:	96		44
+>> index 88:	89		16
+>> index 89:	91		34
+>> index 90:	93		11
+>> index 91:	95		13
+>> index 92:	98		41
+>> index 93:	94		39
+>> index 94:	97		43
+>> index 95:	99		17
+>> index 96:	100		31
+>> index 97:	59		20
+>> index 98:	68		46
+>> index 99:	55		62
+pa
+rotation starts here
+ra: 1 rb: 1	rotate b
+stacka: 32 stackb: 36
+rb
+[after] stacka: 32 stackb: 28
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		0
+>> index 43:	0		0
+>> index 44:	0		0
+>> index 45:	0		0
+>> index 46:	0		0
+>> index 47:	0		0
+>> index 48:	0		0
+>> index 49:	0		0
+>> index 50:	32		28
+>> index 51:	61		21
+>> index 52:	51		6
+>> index 53:	69		10
+>> index 54:	73		38
+>> index 55:	57		30
+>> index 56:	71		9
+>> index 57:	70		4
+>> index 58:	63		48
+>> index 59:	54		5
+>> index 60:	67		3
+>> index 61:	74		40
+>> index 62:	58		42
+>> index 63:	65		19
+>> index 64:	66		29
+>> index 65:	72		1
+>> index 66:	53		7
+>> index 67:	60		14
+>> index 68:	64		50
+>> index 69:	81		24
+>> index 70:	52		26
+>> index 71:	56		45
+>> index 72:	75		47
+>> index 73:	84		33
+>> index 74:	78		18
+>> index 75:	86		25
+>> index 76:	77		27
+>> index 77:	80		8
+>> index 78:	82		37
+>> index 79:	85		23
+>> index 80:	76		49
+>> index 81:	87		15
+>> index 82:	83		12
+>> index 83:	92		22
+>> index 84:	79		2
+>> index 85:	88		35
+>> index 86:	90		44
+>> index 87:	96		16
+>> index 88:	89		34
+>> index 89:	91		11
+>> index 90:	93		13
+>> index 91:	95		41
+>> index 92:	98		39
+>> index 93:	94		43
+>> index 94:	97		17
+>> index 95:	99		31
+>> index 96:	100		20
+>> index 97:	59		46
+>> index 98:	68		62
+>> index 99:	55		36
+pa
+rotation starts here
+ra: 1 rb: 1	rotate b
+stacka: 28 stackb: 21
+[after] stacka: 28 stackb: 21
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		0
+>> index 43:	0		0
+>> index 44:	0		0
+>> index 45:	0		0
+>> index 46:	0		0
+>> index 47:	0		0
+>> index 48:	0		0
+>> index 49:	28		0
+>> index 50:	32		0
+>> index 51:	61		21
+>> index 52:	51		6
+>> index 53:	69		10
+>> index 54:	73		38
+>> index 55:	57		30
+>> index 56:	71		9
+>> index 57:	70		4
+>> index 58:	63		48
+>> index 59:	54		5
+>> index 60:	67		3
+>> index 61:	74		40
+>> index 62:	58		42
+>> index 63:	65		19
+>> index 64:	66		29
+>> index 65:	72		1
+>> index 66:	53		7
+>> index 67:	60		14
+>> index 68:	64		50
+>> index 69:	81		24
+>> index 70:	52		26
+>> index 71:	56		45
+>> index 72:	75		47
+>> index 73:	84		33
+>> index 74:	78		18
+>> index 75:	86		25
+>> index 76:	77		27
+>> index 77:	80		8
+>> index 78:	82		37
+>> index 79:	85		23
+>> index 80:	76		49
+>> index 81:	87		15
+>> index 82:	83		12
+>> index 83:	92		22
+>> index 84:	79		2
+>> index 85:	88		35
+>> index 86:	90		44
+>> index 87:	96		16
+>> index 88:	89		34
+>> index 89:	91		11
+>> index 90:	93		13
+>> index 91:	95		41
+>> index 92:	98		39
+>> index 93:	94		43
+>> index 94:	97		17
+>> index 95:	99		31
+>> index 96:	100		20
+>> index 97:	59		46
+>> index 98:	68		62
+>> index 99:	55		36
+pa
+rotation starts here
+ra: 1 rb: 1	rotate b
+stacka: 21 stackb: 6
+[after] stacka: 21 stackb: 6
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		0
+>> index 43:	0		0
+>> index 44:	0		0
+>> index 45:	0		0
+>> index 46:	0		0
+>> index 47:	0		0
+>> index 48:	21		0
+>> index 49:	28		0
+>> index 50:	32		0
+>> index 51:	61		0
+>> index 52:	51		6
+>> index 53:	69		10
+>> index 54:	73		38
+>> index 55:	57		30
+>> index 56:	71		9
+>> index 57:	70		4
+>> index 58:	63		48
+>> index 59:	54		5
+>> index 60:	67		3
+>> index 61:	74		40
+>> index 62:	58		42
+>> index 63:	65		19
+>> index 64:	66		29
+>> index 65:	72		1
+>> index 66:	53		7
+>> index 67:	60		14
+>> index 68:	64		50
+>> index 69:	81		24
+>> index 70:	52		26
+>> index 71:	56		45
+>> index 72:	75		47
+>> index 73:	84		33
+>> index 74:	78		18
+>> index 75:	86		25
+>> index 76:	77		27
+>> index 77:	80		8
+>> index 78:	82		37
+>> index 79:	85		23
+>> index 80:	76		49
+>> index 81:	87		15
+>> index 82:	83		12
+>> index 83:	92		22
+>> index 84:	79		2
+>> index 85:	88		35
+>> index 86:	90		44
+>> index 87:	96		16
+>> index 88:	89		34
+>> index 89:	91		11
+>> index 90:	93		13
+>> index 91:	95		41
+>> index 92:	98		39
+>> index 93:	94		43
+>> index 94:	97		17
+>> index 95:	99		31
+>> index 96:	100		20
+>> index 97:	59		46
+>> index 98:	68		62
+>> index 99:	55		36
+pa
+rotation starts here
+ra: 1 rb: 0	rotate a
+ra
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		0
+>> index 43:	0		0
+>> index 44:	0		0
+>> index 45:	0		0
+>> index 46:	0		0
+>> index 47:	21		0
+>> index 48:	28		0
+>> index 49:	32		0
+>> index 50:	61		0
+>> index 51:	51		0
+>> index 52:	69		0
+>> index 53:	73		10
+>> index 54:	57		38
+>> index 55:	71		30
+>> index 56:	70		9
+>> index 57:	63		4
+>> index 58:	54		48
+>> index 59:	67		5
+>> index 60:	74		3
+>> index 61:	58		40
+>> index 62:	65		42
+>> index 63:	66		19
+>> index 64:	72		29
+>> index 65:	53		1
+>> index 66:	60		7
+>> index 67:	64		14
+>> index 68:	81		50
+>> index 69:	52		24
+>> index 70:	56		26
+>> index 71:	75		45
+>> index 72:	84		47
+>> index 73:	78		33
+>> index 74:	86		18
+>> index 75:	77		25
+>> index 76:	80		27
+>> index 77:	82		8
+>> index 78:	85		37
+>> index 79:	76		23
+>> index 80:	87		49
+>> index 81:	83		15
+>> index 82:	92		12
+>> index 83:	79		22
+>> index 84:	88		2
+>> index 85:	90		35
+>> index 86:	96		44
+>> index 87:	89		16
+>> index 88:	91		34
+>> index 89:	93		11
+>> index 90:	95		13
+>> index 91:	98		41
+>> index 92:	94		39
+>> index 93:	97		43
+>> index 94:	99		17
+>> index 95:	100		31
+>> index 96:	59		20
+>> index 97:	68		46
+>> index 98:	55		62
+>> index 99:	6		36
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 10 stackb: 38
+rb
+[after] stacka: 10 stackb: 30
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		0
+>> index 43:	0		0
+>> index 44:	0		0
+>> index 45:	0		0
+>> index 46:	10		0
+>> index 47:	21		0
+>> index 48:	28		0
+>> index 49:	32		0
+>> index 50:	61		0
+>> index 51:	51		0
+>> index 52:	69		0
+>> index 53:	73		0
+>> index 54:	57		30
+>> index 55:	71		9
+>> index 56:	70		4
+>> index 57:	63		48
+>> index 58:	54		5
+>> index 59:	67		3
+>> index 60:	74		40
+>> index 61:	58		42
+>> index 62:	65		19
+>> index 63:	66		29
+>> index 64:	72		1
+>> index 65:	53		7
+>> index 66:	60		14
+>> index 67:	64		50
+>> index 68:	81		24
+>> index 69:	52		26
+>> index 70:	56		45
+>> index 71:	75		47
+>> index 72:	84		33
+>> index 73:	78		18
+>> index 74:	86		25
+>> index 75:	77		27
+>> index 76:	80		8
+>> index 77:	82		37
+>> index 78:	85		23
+>> index 79:	76		49
+>> index 80:	87		15
+>> index 81:	83		12
+>> index 82:	92		22
+>> index 83:	79		2
+>> index 84:	88		35
+>> index 85:	90		44
+>> index 86:	96		16
+>> index 87:	89		34
+>> index 88:	91		11
+>> index 89:	93		13
+>> index 90:	95		41
+>> index 91:	98		39
+>> index 92:	94		43
+>> index 93:	97		17
+>> index 94:	99		31
+>> index 95:	100		20
+>> index 96:	59		46
+>> index 97:	68		62
+>> index 98:	55		36
+>> index 99:	6		38
+pa
+pa
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 9 stackb: 4
+[after] stacka: 9 stackb: 4
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		0
+>> index 43:	0		0
+>> index 44:	9		0
+>> index 45:	30		0
+>> index 46:	10		0
+>> index 47:	21		0
+>> index 48:	28		0
+>> index 49:	32		0
+>> index 50:	61		0
+>> index 51:	51		0
+>> index 52:	69		0
+>> index 53:	73		0
+>> index 54:	57		0
+>> index 55:	71		0
+>> index 56:	70		4
+>> index 57:	63		48
+>> index 58:	54		5
+>> index 59:	67		3
+>> index 60:	74		40
+>> index 61:	58		42
+>> index 62:	65		19
+>> index 63:	66		29
+>> index 64:	72		1
+>> index 65:	53		7
+>> index 66:	60		14
+>> index 67:	64		50
+>> index 68:	81		24
+>> index 69:	52		26
+>> index 70:	56		45
+>> index 71:	75		47
+>> index 72:	84		33
+>> index 73:	78		18
+>> index 74:	86		25
+>> index 75:	77		27
+>> index 76:	80		8
+>> index 77:	82		37
+>> index 78:	85		23
+>> index 79:	76		49
+>> index 80:	87		15
+>> index 81:	83		12
+>> index 82:	92		22
+>> index 83:	79		2
+>> index 84:	88		35
+>> index 85:	90		44
+>> index 86:	96		16
+>> index 87:	89		34
+>> index 88:	91		11
+>> index 89:	93		13
+>> index 90:	95		41
+>> index 91:	98		39
+>> index 92:	94		43
+>> index 93:	97		17
+>> index 94:	99		31
+>> index 95:	100		20
+>> index 96:	59		46
+>> index 97:	68		62
+>> index 98:	55		36
+>> index 99:	6		38
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 4 stackb: 48
+rb
+[after] stacka: 4 stackb: 5
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	0		0
+>> index 43:	4		0
+>> index 44:	9		0
+>> index 45:	30		0
+>> index 46:	10		0
+>> index 47:	21		0
+>> index 48:	28		0
+>> index 49:	32		0
+>> index 50:	61		0
+>> index 51:	51		0
+>> index 52:	69		0
+>> index 53:	73		0
+>> index 54:	57		0
+>> index 55:	71		0
+>> index 56:	70		0
+>> index 57:	63		5
+>> index 58:	54		3
+>> index 59:	67		40
+>> index 60:	74		42
+>> index 61:	58		19
+>> index 62:	65		29
+>> index 63:	66		1
+>> index 64:	72		7
+>> index 65:	53		14
+>> index 66:	60		50
+>> index 67:	64		24
+>> index 68:	81		26
+>> index 69:	52		45
+>> index 70:	56		47
+>> index 71:	75		33
+>> index 72:	84		18
+>> index 73:	78		25
+>> index 74:	86		27
+>> index 75:	77		8
+>> index 76:	80		37
+>> index 77:	82		23
+>> index 78:	85		49
+>> index 79:	76		15
+>> index 80:	87		12
+>> index 81:	83		22
+>> index 82:	92		2
+>> index 83:	79		35
+>> index 84:	88		44
+>> index 85:	90		16
+>> index 86:	96		34
+>> index 87:	89		11
+>> index 88:	91		13
+>> index 89:	93		41
+>> index 90:	95		39
+>> index 91:	98		43
+>> index 92:	94		17
+>> index 93:	97		31
+>> index 94:	99		20
+>> index 95:	100		46
+>> index 96:	59		62
+>> index 97:	68		36
+>> index 98:	55		38
+>> index 99:	6		48
+pa
+rotation starts here
+ra: 1 rb: 3	rotate b
+stacka: 5 stackb: 3
+[after] stacka: 5 stackb: 3
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	0		0
+>> index 42:	5		0
+>> index 43:	4		0
+>> index 44:	9		0
+>> index 45:	30		0
+>> index 46:	10		0
+>> index 47:	21		0
+>> index 48:	28		0
+>> index 49:	32		0
+>> index 50:	61		0
+>> index 51:	51		0
+>> index 52:	69		0
+>> index 53:	73		0
+>> index 54:	57		0
+>> index 55:	71		0
+>> index 56:	70		0
+>> index 57:	63		0
+>> index 58:	54		3
+>> index 59:	67		40
+>> index 60:	74		42
+>> index 61:	58		19
+>> index 62:	65		29
+>> index 63:	66		1
+>> index 64:	72		7
+>> index 65:	53		14
+>> index 66:	60		50
+>> index 67:	64		24
+>> index 68:	81		26
+>> index 69:	52		45
+>> index 70:	56		47
+>> index 71:	75		33
+>> index 72:	84		18
+>> index 73:	78		25
+>> index 74:	86		27
+>> index 75:	77		8
+>> index 76:	80		37
+>> index 77:	82		23
+>> index 78:	85		49
+>> index 79:	76		15
+>> index 80:	87		12
+>> index 81:	83		22
+>> index 82:	92		2
+>> index 83:	79		35
+>> index 84:	88		44
+>> index 85:	90		16
+>> index 86:	96		34
+>> index 87:	89		11
+>> index 88:	91		13
+>> index 89:	93		41
+>> index 90:	95		39
+>> index 91:	98		43
+>> index 92:	94		17
+>> index 93:	97		31
+>> index 94:	99		20
+>> index 95:	100		46
+>> index 96:	59		62
+>> index 97:	68		36
+>> index 98:	55		38
+>> index 99:	6		48
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 3 stackb: 40
+rb
+[after] stacka: 3 stackb: 42
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	0		0
+>> index 40:	0		0
+>> index 41:	3		0
+>> index 42:	5		0
+>> index 43:	4		0
+>> index 44:	9		0
+>> index 45:	30		0
+>> index 46:	10		0
+>> index 47:	21		0
+>> index 48:	28		0
+>> index 49:	32		0
+>> index 50:	61		0
+>> index 51:	51		0
+>> index 52:	69		0
+>> index 53:	73		0
+>> index 54:	57		0
+>> index 55:	71		0
+>> index 56:	70		0
+>> index 57:	63		0
+>> index 58:	54		0
+>> index 59:	67		42
+>> index 60:	74		19
+>> index 61:	58		29
+>> index 62:	65		1
+>> index 63:	66		7
+>> index 64:	72		14
+>> index 65:	53		50
+>> index 66:	60		24
+>> index 67:	64		26
+>> index 68:	81		45
+>> index 69:	52		47
+>> index 70:	56		33
+>> index 71:	75		18
+>> index 72:	84		25
+>> index 73:	78		27
+>> index 74:	86		8
+>> index 75:	77		37
+>> index 76:	80		23
+>> index 77:	82		49
+>> index 78:	85		15
+>> index 79:	76		12
+>> index 80:	87		22
+>> index 81:	83		2
+>> index 82:	92		35
+>> index 83:	79		44
+>> index 84:	88		16
+>> index 85:	90		34
+>> index 86:	96		11
+>> index 87:	89		13
+>> index 88:	91		41
+>> index 89:	93		39
+>> index 90:	95		43
+>> index 91:	98		17
+>> index 92:	94		31
+>> index 93:	97		20
+>> index 94:	99		46
+>> index 95:	100		62
+>> index 96:	59		36
+>> index 97:	68		38
+>> index 98:	55		48
+>> index 99:	6		40
+pa
+pa
+rotation starts here
+ra: 1 rb: 0	rotate a
+ra
+ra
+ra
+ra
+ra
+ra
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	0		0
+>> index 39:	30		0
+>> index 40:	10		0
+>> index 41:	21		0
+>> index 42:	28		0
+>> index 43:	32		0
+>> index 44:	61		0
+>> index 45:	51		0
+>> index 46:	69		0
+>> index 47:	73		0
+>> index 48:	57		0
+>> index 49:	71		0
+>> index 50:	70		0
+>> index 51:	63		0
+>> index 52:	54		0
+>> index 53:	67		0
+>> index 54:	74		0
+>> index 55:	58		0
+>> index 56:	65		0
+>> index 57:	66		0
+>> index 58:	72		0
+>> index 59:	53		0
+>> index 60:	60		0
+>> index 61:	64		29
+>> index 62:	81		1
+>> index 63:	52		7
+>> index 64:	56		14
+>> index 65:	75		50
+>> index 66:	84		24
+>> index 67:	78		26
+>> index 68:	86		45
+>> index 69:	77		47
+>> index 70:	80		33
+>> index 71:	82		18
+>> index 72:	85		25
+>> index 73:	76		27
+>> index 74:	87		8
+>> index 75:	83		37
+>> index 76:	92		23
+>> index 77:	79		49
+>> index 78:	88		15
+>> index 79:	90		12
+>> index 80:	96		22
+>> index 81:	89		2
+>> index 82:	91		35
+>> index 83:	93		44
+>> index 84:	95		16
+>> index 85:	98		34
+>> index 86:	94		11
+>> index 87:	97		13
+>> index 88:	99		41
+>> index 89:	100		39
+>> index 90:	59		43
+>> index 91:	68		17
+>> index 92:	55		31
+>> index 93:	6		20
+>> index 94:	19		46
+>> index 95:	42		62
+>> index 96:	3		36
+>> index 97:	5		38
+>> index 98:	4		48
+>> index 99:	9		40
+pa
+rotation starts here
+ra: 1 rb: 1	rotate b
+stacka: 29 stackb: 1
+[after] stacka: 29 stackb: 1
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	0		0
+>> index 38:	29		0
+>> index 39:	30		0
+>> index 40:	10		0
+>> index 41:	21		0
+>> index 42:	28		0
+>> index 43:	32		0
+>> index 44:	61		0
+>> index 45:	51		0
+>> index 46:	69		0
+>> index 47:	73		0
+>> index 48:	57		0
+>> index 49:	71		0
+>> index 50:	70		0
+>> index 51:	63		0
+>> index 52:	54		0
+>> index 53:	67		0
+>> index 54:	74		0
+>> index 55:	58		0
+>> index 56:	65		0
+>> index 57:	66		0
+>> index 58:	72		0
+>> index 59:	53		0
+>> index 60:	60		0
+>> index 61:	64		0
+>> index 62:	81		1
+>> index 63:	52		7
+>> index 64:	56		14
+>> index 65:	75		50
+>> index 66:	84		24
+>> index 67:	78		26
+>> index 68:	86		45
+>> index 69:	77		47
+>> index 70:	80		33
+>> index 71:	82		18
+>> index 72:	85		25
+>> index 73:	76		27
+>> index 74:	87		8
+>> index 75:	83		37
+>> index 76:	92		23
+>> index 77:	79		49
+>> index 78:	88		15
+>> index 79:	90		12
+>> index 80:	96		22
+>> index 81:	89		2
+>> index 82:	91		35
+>> index 83:	93		44
+>> index 84:	95		16
+>> index 85:	98		34
+>> index 86:	94		11
+>> index 87:	97		13
+>> index 88:	99		41
+>> index 89:	100		39
+>> index 90:	59		43
+>> index 91:	68		17
+>> index 92:	55		31
+>> index 93:	6		20
+>> index 94:	19		46
+>> index 95:	42		62
+>> index 96:	3		36
+>> index 97:	5		38
+>> index 98:	4		48
+>> index 99:	9		40
+pa
+rotation starts here
+ra: 1 rb: 0	rotate a
+rra
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	0		0
+>> index 37:	9		0
+>> index 38:	1		0
+>> index 39:	29		0
+>> index 40:	30		0
+>> index 41:	10		0
+>> index 42:	21		0
+>> index 43:	28		0
+>> index 44:	32		0
+>> index 45:	61		0
+>> index 46:	51		0
+>> index 47:	69		0
+>> index 48:	73		0
+>> index 49:	57		0
+>> index 50:	71		0
+>> index 51:	70		0
+>> index 52:	63		0
+>> index 53:	54		0
+>> index 54:	67		0
+>> index 55:	74		0
+>> index 56:	58		0
+>> index 57:	65		0
+>> index 58:	66		0
+>> index 59:	72		0
+>> index 60:	53		0
+>> index 61:	60		0
+>> index 62:	64		0
+>> index 63:	81		7
+>> index 64:	52		14
+>> index 65:	56		50
+>> index 66:	75		24
+>> index 67:	84		26
+>> index 68:	78		45
+>> index 69:	86		47
+>> index 70:	77		33
+>> index 71:	80		18
+>> index 72:	82		25
+>> index 73:	85		27
+>> index 74:	76		8
+>> index 75:	87		37
+>> index 76:	83		23
+>> index 77:	92		49
+>> index 78:	79		15
+>> index 79:	88		12
+>> index 80:	90		22
+>> index 81:	96		2
+>> index 82:	89		35
+>> index 83:	91		44
+>> index 84:	93		16
+>> index 85:	95		34
+>> index 86:	98		11
+>> index 87:	94		13
+>> index 88:	97		41
+>> index 89:	99		39
+>> index 90:	100		43
+>> index 91:	59		17
+>> index 92:	68		31
+>> index 93:	55		20
+>> index 94:	6		46
+>> index 95:	19		62
+>> index 96:	42		36
+>> index 97:	3		38
+>> index 98:	5		48
+>> index 99:	4		40
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 7 stackb: 14
+rb
+[after] stacka: 7 stackb: 50
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	0		0
+>> index 35:	0		0
+>> index 36:	7		0
+>> index 37:	9		0
+>> index 38:	1		0
+>> index 39:	29		0
+>> index 40:	30		0
+>> index 41:	10		0
+>> index 42:	21		0
+>> index 43:	28		0
+>> index 44:	32		0
+>> index 45:	61		0
+>> index 46:	51		0
+>> index 47:	69		0
+>> index 48:	73		0
+>> index 49:	57		0
+>> index 50:	71		0
+>> index 51:	70		0
+>> index 52:	63		0
+>> index 53:	54		0
+>> index 54:	67		0
+>> index 55:	74		0
+>> index 56:	58		0
+>> index 57:	65		0
+>> index 58:	66		0
+>> index 59:	72		0
+>> index 60:	53		0
+>> index 61:	60		0
+>> index 62:	64		0
+>> index 63:	81		0
+>> index 64:	52		50
+>> index 65:	56		24
+>> index 66:	75		26
+>> index 67:	84		45
+>> index 68:	78		47
+>> index 69:	86		33
+>> index 70:	77		18
+>> index 71:	80		25
+>> index 72:	82		27
+>> index 73:	85		8
+>> index 74:	76		37
+>> index 75:	87		23
+>> index 76:	83		49
+>> index 77:	92		15
+>> index 78:	79		12
+>> index 79:	88		22
+>> index 80:	90		2
+>> index 81:	96		35
+>> index 82:	89		44
+>> index 83:	91		16
+>> index 84:	93		34
+>> index 85:	95		11
+>> index 86:	98		13
+>> index 87:	94		41
+>> index 88:	97		39
+>> index 89:	99		43
+>> index 90:	100		17
+>> index 91:	59		31
+>> index 92:	68		20
+>> index 93:	55		46
+>> index 94:	6		62
+>> index 95:	19		36
+>> index 96:	42		38
+>> index 97:	3		48
+>> index 98:	5		40
+>> index 99:	4		14
+pa
+pa
+rotation starts here
+ra: 1 rb: 1	rotate b
+stacka: 24 stackb: 26
+rb
+[after] stacka: 24 stackb: 45
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	0		0
+>> index 34:	24		0
+>> index 35:	50		0
+>> index 36:	7		0
+>> index 37:	9		0
+>> index 38:	1		0
+>> index 39:	29		0
+>> index 40:	30		0
+>> index 41:	10		0
+>> index 42:	21		0
+>> index 43:	28		0
+>> index 44:	32		0
+>> index 45:	61		0
+>> index 46:	51		0
+>> index 47:	69		0
+>> index 48:	73		0
+>> index 49:	57		0
+>> index 50:	71		0
+>> index 51:	70		0
+>> index 52:	63		0
+>> index 53:	54		0
+>> index 54:	67		0
+>> index 55:	74		0
+>> index 56:	58		0
+>> index 57:	65		0
+>> index 58:	66		0
+>> index 59:	72		0
+>> index 60:	53		0
+>> index 61:	60		0
+>> index 62:	64		0
+>> index 63:	81		0
+>> index 64:	52		0
+>> index 65:	56		0
+>> index 66:	75		45
+>> index 67:	84		47
+>> index 68:	78		33
+>> index 69:	86		18
+>> index 70:	77		25
+>> index 71:	80		27
+>> index 72:	82		8
+>> index 73:	85		37
+>> index 74:	76		23
+>> index 75:	87		49
+>> index 76:	83		15
+>> index 77:	92		12
+>> index 78:	79		22
+>> index 79:	88		2
+>> index 80:	90		35
+>> index 81:	96		44
+>> index 82:	89		16
+>> index 83:	91		34
+>> index 84:	93		11
+>> index 85:	95		13
+>> index 86:	98		41
+>> index 87:	94		39
+>> index 88:	97		43
+>> index 89:	99		17
+>> index 90:	100		31
+>> index 91:	59		20
+>> index 92:	68		46
+>> index 93:	55		62
+>> index 94:	6		36
+>> index 95:	19		38
+>> index 96:	42		48
+>> index 97:	3		40
+>> index 98:	5		14
+>> index 99:	4		26
+pa
+rotation starts here
+ra: 0 rb: 2	rotate b
+stacka: 45 stackb: 47
+rb
+[after] stacka: 45 stackb: 33
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	0		0
+>> index 32:	0		0
+>> index 33:	45		0
+>> index 34:	24		0
+>> index 35:	50		0
+>> index 36:	7		0
+>> index 37:	9		0
+>> index 38:	1		0
+>> index 39:	29		0
+>> index 40:	30		0
+>> index 41:	10		0
+>> index 42:	21		0
+>> index 43:	28		0
+>> index 44:	32		0
+>> index 45:	61		0
+>> index 46:	51		0
+>> index 47:	69		0
+>> index 48:	73		0
+>> index 49:	57		0
+>> index 50:	71		0
+>> index 51:	70		0
+>> index 52:	63		0
+>> index 53:	54		0
+>> index 54:	67		0
+>> index 55:	74		0
+>> index 56:	58		0
+>> index 57:	65		0
+>> index 58:	66		0
+>> index 59:	72		0
+>> index 60:	53		0
+>> index 61:	60		0
+>> index 62:	64		0
+>> index 63:	81		0
+>> index 64:	52		0
+>> index 65:	56		0
+>> index 66:	75		0
+>> index 67:	84		33
+>> index 68:	78		18
+>> index 69:	86		25
+>> index 70:	77		27
+>> index 71:	80		8
+>> index 72:	82		37
+>> index 73:	85		23
+>> index 74:	76		49
+>> index 75:	87		15
+>> index 76:	83		12
+>> index 77:	92		22
+>> index 78:	79		2
+>> index 79:	88		35
+>> index 80:	90		44
+>> index 81:	96		16
+>> index 82:	89		34
+>> index 83:	91		11
+>> index 84:	93		13
+>> index 85:	95		41
+>> index 86:	98		39
+>> index 87:	94		43
+>> index 88:	97		17
+>> index 89:	99		31
+>> index 90:	100		20
+>> index 91:	59		46
+>> index 92:	68		62
+>> index 93:	55		36
+>> index 94:	6		38
+>> index 95:	19		48
+>> index 96:	42		40
+>> index 97:	3		14
+>> index 98:	5		26
+>> index 99:	4		47
+pa
+pa
+rotation starts here
+ra: 1 rb: 0	rotate a
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	0		0
+>> index 31:	28		0
+>> index 32:	32		0
+>> index 33:	61		0
+>> index 34:	51		0
+>> index 35:	69		0
+>> index 36:	73		0
+>> index 37:	57		0
+>> index 38:	71		0
+>> index 39:	70		0
+>> index 40:	63		0
+>> index 41:	54		0
+>> index 42:	67		0
+>> index 43:	74		0
+>> index 44:	58		0
+>> index 45:	65		0
+>> index 46:	66		0
+>> index 47:	72		0
+>> index 48:	53		0
+>> index 49:	60		0
+>> index 50:	64		0
+>> index 51:	81		0
+>> index 52:	52		0
+>> index 53:	56		0
+>> index 54:	75		0
+>> index 55:	84		0
+>> index 56:	78		0
+>> index 57:	86		0
+>> index 58:	77		0
+>> index 59:	80		0
+>> index 60:	82		0
+>> index 61:	85		0
+>> index 62:	76		0
+>> index 63:	87		0
+>> index 64:	83		0
+>> index 65:	92		0
+>> index 66:	79		0
+>> index 67:	88		0
+>> index 68:	90		0
+>> index 69:	96		25
+>> index 70:	89		27
+>> index 71:	91		8
+>> index 72:	93		37
+>> index 73:	95		23
+>> index 74:	98		49
+>> index 75:	94		15
+>> index 76:	97		12
+>> index 77:	99		22
+>> index 78:	100		2
+>> index 79:	59		35
+>> index 80:	68		44
+>> index 81:	55		16
+>> index 82:	6		34
+>> index 83:	19		11
+>> index 84:	42		13
+>> index 85:	3		41
+>> index 86:	5		39
+>> index 87:	4		43
+>> index 88:	18		17
+>> index 89:	33		31
+>> index 90:	45		20
+>> index 91:	24		46
+>> index 92:	50		62
+>> index 93:	7		36
+>> index 94:	9		38
+>> index 95:	1		48
+>> index 96:	29		40
+>> index 97:	30		14
+>> index 98:	10		26
+>> index 99:	21		47
+pa
+rotation starts here
+ra: 1 rb: 0	rotate a
+ra
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	0		0
+>> index 30:	28		0
+>> index 31:	32		0
+>> index 32:	61		0
+>> index 33:	51		0
+>> index 34:	69		0
+>> index 35:	73		0
+>> index 36:	57		0
+>> index 37:	71		0
+>> index 38:	70		0
+>> index 39:	63		0
+>> index 40:	54		0
+>> index 41:	67		0
+>> index 42:	74		0
+>> index 43:	58		0
+>> index 44:	65		0
+>> index 45:	66		0
+>> index 46:	72		0
+>> index 47:	53		0
+>> index 48:	60		0
+>> index 49:	64		0
+>> index 50:	81		0
+>> index 51:	52		0
+>> index 52:	56		0
+>> index 53:	75		0
+>> index 54:	84		0
+>> index 55:	78		0
+>> index 56:	86		0
+>> index 57:	77		0
+>> index 58:	80		0
+>> index 59:	82		0
+>> index 60:	85		0
+>> index 61:	76		0
+>> index 62:	87		0
+>> index 63:	83		0
+>> index 64:	92		0
+>> index 65:	79		0
+>> index 66:	88		0
+>> index 67:	90		0
+>> index 68:	96		0
+>> index 69:	89		0
+>> index 70:	91		27
+>> index 71:	93		8
+>> index 72:	95		37
+>> index 73:	98		23
+>> index 74:	94		49
+>> index 75:	97		15
+>> index 76:	99		12
+>> index 77:	100		22
+>> index 78:	59		2
+>> index 79:	68		35
+>> index 80:	55		44
+>> index 81:	6		16
+>> index 82:	19		34
+>> index 83:	42		11
+>> index 84:	3		13
+>> index 85:	5		41
+>> index 86:	4		39
+>> index 87:	18		43
+>> index 88:	33		17
+>> index 89:	45		31
+>> index 90:	24		20
+>> index 91:	50		46
+>> index 92:	7		62
+>> index 93:	9		36
+>> index 94:	1		38
+>> index 95:	29		48
+>> index 96:	30		40
+>> index 97:	10		14
+>> index 98:	21		26
+>> index 99:	25		47
+pa
+rotation starts here
+ra: 1 rb: 3	rotate b
+stacka: 27 stackb: 8
+[after] stacka: 27 stackb: 8
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	0		0
+>> index 29:	27		0
+>> index 30:	28		0
+>> index 31:	32		0
+>> index 32:	61		0
+>> index 33:	51		0
+>> index 34:	69		0
+>> index 35:	73		0
+>> index 36:	57		0
+>> index 37:	71		0
+>> index 38:	70		0
+>> index 39:	63		0
+>> index 40:	54		0
+>> index 41:	67		0
+>> index 42:	74		0
+>> index 43:	58		0
+>> index 44:	65		0
+>> index 45:	66		0
+>> index 46:	72		0
+>> index 47:	53		0
+>> index 48:	60		0
+>> index 49:	64		0
+>> index 50:	81		0
+>> index 51:	52		0
+>> index 52:	56		0
+>> index 53:	75		0
+>> index 54:	84		0
+>> index 55:	78		0
+>> index 56:	86		0
+>> index 57:	77		0
+>> index 58:	80		0
+>> index 59:	82		0
+>> index 60:	85		0
+>> index 61:	76		0
+>> index 62:	87		0
+>> index 63:	83		0
+>> index 64:	92		0
+>> index 65:	79		0
+>> index 66:	88		0
+>> index 67:	90		0
+>> index 68:	96		0
+>> index 69:	89		0
+>> index 70:	91		0
+>> index 71:	93		8
+>> index 72:	95		37
+>> index 73:	98		23
+>> index 74:	94		49
+>> index 75:	97		15
+>> index 76:	99		12
+>> index 77:	100		22
+>> index 78:	59		2
+>> index 79:	68		35
+>> index 80:	55		44
+>> index 81:	6		16
+>> index 82:	19		34
+>> index 83:	42		11
+>> index 84:	3		13
+>> index 85:	5		41
+>> index 86:	4		39
+>> index 87:	18		43
+>> index 88:	33		17
+>> index 89:	45		31
+>> index 90:	24		20
+>> index 91:	50		46
+>> index 92:	7		62
+>> index 93:	9		36
+>> index 94:	1		38
+>> index 95:	29		48
+>> index 96:	30		40
+>> index 97:	10		14
+>> index 98:	21		26
+>> index 99:	25		47
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 8 stackb: 37
+rb
+[after] stacka: 8 stackb: 23
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	0		0
+>> index 28:	8		0
+>> index 29:	27		0
+>> index 30:	28		0
+>> index 31:	32		0
+>> index 32:	61		0
+>> index 33:	51		0
+>> index 34:	69		0
+>> index 35:	73		0
+>> index 36:	57		0
+>> index 37:	71		0
+>> index 38:	70		0
+>> index 39:	63		0
+>> index 40:	54		0
+>> index 41:	67		0
+>> index 42:	74		0
+>> index 43:	58		0
+>> index 44:	65		0
+>> index 45:	66		0
+>> index 46:	72		0
+>> index 47:	53		0
+>> index 48:	60		0
+>> index 49:	64		0
+>> index 50:	81		0
+>> index 51:	52		0
+>> index 52:	56		0
+>> index 53:	75		0
+>> index 54:	84		0
+>> index 55:	78		0
+>> index 56:	86		0
+>> index 57:	77		0
+>> index 58:	80		0
+>> index 59:	82		0
+>> index 60:	85		0
+>> index 61:	76		0
+>> index 62:	87		0
+>> index 63:	83		0
+>> index 64:	92		0
+>> index 65:	79		0
+>> index 66:	88		0
+>> index 67:	90		0
+>> index 68:	96		0
+>> index 69:	89		0
+>> index 70:	91		0
+>> index 71:	93		0
+>> index 72:	95		23
+>> index 73:	98		49
+>> index 74:	94		15
+>> index 75:	97		12
+>> index 76:	99		22
+>> index 77:	100		2
+>> index 78:	59		35
+>> index 79:	68		44
+>> index 80:	55		16
+>> index 81:	6		34
+>> index 82:	19		11
+>> index 83:	42		13
+>> index 84:	3		41
+>> index 85:	5		39
+>> index 86:	4		43
+>> index 87:	18		17
+>> index 88:	33		31
+>> index 89:	45		20
+>> index 90:	24		46
+>> index 91:	50		62
+>> index 92:	7		36
+>> index 93:	9		38
+>> index 94:	1		48
+>> index 95:	29		40
+>> index 96:	30		14
+>> index 97:	10		26
+>> index 98:	21		47
+>> index 99:	25		37
+pa
+rotation starts here
+ra: 0 rb: 1	rotate b
+stacka: 23 stackb: 49
+rb
+[after] stacka: 23 stackb: 15
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	0		0
+>> index 27:	23		0
+>> index 28:	8		0
+>> index 29:	27		0
+>> index 30:	28		0
+>> index 31:	32		0
+>> index 32:	61		0
+>> index 33:	51		0
+>> index 34:	69		0
+>> index 35:	73		0
+>> index 36:	57		0
+>> index 37:	71		0
+>> index 38:	70		0
+>> index 39:	63		0
+>> index 40:	54		0
+>> index 41:	67		0
+>> index 42:	74		0
+>> index 43:	58		0
+>> index 44:	65		0
+>> index 45:	66		0
+>> index 46:	72		0
+>> index 47:	53		0
+>> index 48:	60		0
+>> index 49:	64		0
+>> index 50:	81		0
+>> index 51:	52		0
+>> index 52:	56		0
+>> index 53:	75		0
+>> index 54:	84		0
+>> index 55:	78		0
+>> index 56:	86		0
+>> index 57:	77		0
+>> index 58:	80		0
+>> index 59:	82		0
+>> index 60:	85		0
+>> index 61:	76		0
+>> index 62:	87		0
+>> index 63:	83		0
+>> index 64:	92		0
+>> index 65:	79		0
+>> index 66:	88		0
+>> index 67:	90		0
+>> index 68:	96		0
+>> index 69:	89		0
+>> index 70:	91		0
+>> index 71:	93		0
+>> index 72:	95		0
+>> index 73:	98		15
+>> index 74:	94		12
+>> index 75:	97		22
+>> index 76:	99		2
+>> index 77:	100		35
+>> index 78:	59		44
+>> index 79:	68		16
+>> index 80:	55		34
+>> index 81:	6		11
+>> index 82:	19		13
+>> index 83:	42		41
+>> index 84:	3		39
+>> index 85:	5		43
+>> index 86:	4		17
+>> index 87:	18		31
+>> index 88:	33		20
+>> index 89:	45		46
+>> index 90:	24		62
+>> index 91:	50		36
+>> index 92:	7		38
+>> index 93:	9		48
+>> index 94:	1		40
+>> index 95:	29		14
+>> index 96:	30		26
+>> index 97:	10		47
+>> index 98:	21		37
+>> index 99:	25		49
+pa
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 15 stackb: 12
+[after] stacka: 15 stackb: 12
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	0		0
+>> index 26:	15		0
+>> index 27:	23		0
+>> index 28:	8		0
+>> index 29:	27		0
+>> index 30:	28		0
+>> index 31:	32		0
+>> index 32:	61		0
+>> index 33:	51		0
+>> index 34:	69		0
+>> index 35:	73		0
+>> index 36:	57		0
+>> index 37:	71		0
+>> index 38:	70		0
+>> index 39:	63		0
+>> index 40:	54		0
+>> index 41:	67		0
+>> index 42:	74		0
+>> index 43:	58		0
+>> index 44:	65		0
+>> index 45:	66		0
+>> index 46:	72		0
+>> index 47:	53		0
+>> index 48:	60		0
+>> index 49:	64		0
+>> index 50:	81		0
+>> index 51:	52		0
+>> index 52:	56		0
+>> index 53:	75		0
+>> index 54:	84		0
+>> index 55:	78		0
+>> index 56:	86		0
+>> index 57:	77		0
+>> index 58:	80		0
+>> index 59:	82		0
+>> index 60:	85		0
+>> index 61:	76		0
+>> index 62:	87		0
+>> index 63:	83		0
+>> index 64:	92		0
+>> index 65:	79		0
+>> index 66:	88		0
+>> index 67:	90		0
+>> index 68:	96		0
+>> index 69:	89		0
+>> index 70:	91		0
+>> index 71:	93		0
+>> index 72:	95		0
+>> index 73:	98		0
+>> index 74:	94		12
+>> index 75:	97		22
+>> index 76:	99		2
+>> index 77:	100		35
+>> index 78:	59		44
+>> index 79:	68		16
+>> index 80:	55		34
+>> index 81:	6		11
+>> index 82:	19		13
+>> index 83:	42		41
+>> index 84:	3		39
+>> index 85:	5		43
+>> index 86:	4		17
+>> index 87:	18		31
+>> index 88:	33		20
+>> index 89:	45		46
+>> index 90:	24		62
+>> index 91:	50		36
+>> index 92:	7		38
+>> index 93:	9		48
+>> index 94:	1		40
+>> index 95:	29		14
+>> index 96:	30		26
+>> index 97:	10		47
+>> index 98:	21		37
+>> index 99:	25		49
+pa
+rotation starts here
+ra: 1 rb: 0	rotate a
+ra
+ra
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	0		0
+>> index 25:	23		0
+>> index 26:	8		0
+>> index 27:	27		0
+>> index 28:	28		0
+>> index 29:	32		0
+>> index 30:	61		0
+>> index 31:	51		0
+>> index 32:	69		0
+>> index 33:	73		0
+>> index 34:	57		0
+>> index 35:	71		0
+>> index 36:	70		0
+>> index 37:	63		0
+>> index 38:	54		0
+>> index 39:	67		0
+>> index 40:	74		0
+>> index 41:	58		0
+>> index 42:	65		0
+>> index 43:	66		0
+>> index 44:	72		0
+>> index 45:	53		0
+>> index 46:	60		0
+>> index 47:	64		0
+>> index 48:	81		0
+>> index 49:	52		0
+>> index 50:	56		0
+>> index 51:	75		0
+>> index 52:	84		0
+>> index 53:	78		0
+>> index 54:	86		0
+>> index 55:	77		0
+>> index 56:	80		0
+>> index 57:	82		0
+>> index 58:	85		0
+>> index 59:	76		0
+>> index 60:	87		0
+>> index 61:	83		0
+>> index 62:	92		0
+>> index 63:	79		0
+>> index 64:	88		0
+>> index 65:	90		0
+>> index 66:	96		0
+>> index 67:	89		0
+>> index 68:	91		0
+>> index 69:	93		0
+>> index 70:	95		0
+>> index 71:	98		0
+>> index 72:	94		0
+>> index 73:	97		0
+>> index 74:	99		0
+>> index 75:	100		22
+>> index 76:	59		2
+>> index 77:	68		35
+>> index 78:	55		44
+>> index 79:	6		16
+>> index 80:	19		34
+>> index 81:	42		11
+>> index 82:	3		13
+>> index 83:	5		41
+>> index 84:	4		39
+>> index 85:	18		43
+>> index 86:	33		17
+>> index 87:	45		31
+>> index 88:	24		20
+>> index 89:	50		46
+>> index 90:	7		62
+>> index 91:	9		36
+>> index 92:	1		38
+>> index 93:	29		48
+>> index 94:	30		40
+>> index 95:	10		14
+>> index 96:	21		26
+>> index 97:	25		47
+>> index 98:	12		37
+>> index 99:	15		49
+pa
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 22 stackb: 2
+[after] stacka: 22 stackb: 2
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	0		0
+>> index 24:	22		0
+>> index 25:	23		0
+>> index 26:	8		0
+>> index 27:	27		0
+>> index 28:	28		0
+>> index 29:	32		0
+>> index 30:	61		0
+>> index 31:	51		0
+>> index 32:	69		0
+>> index 33:	73		0
+>> index 34:	57		0
+>> index 35:	71		0
+>> index 36:	70		0
+>> index 37:	63		0
+>> index 38:	54		0
+>> index 39:	67		0
+>> index 40:	74		0
+>> index 41:	58		0
+>> index 42:	65		0
+>> index 43:	66		0
+>> index 44:	72		0
+>> index 45:	53		0
+>> index 46:	60		0
+>> index 47:	64		0
+>> index 48:	81		0
+>> index 49:	52		0
+>> index 50:	56		0
+>> index 51:	75		0
+>> index 52:	84		0
+>> index 53:	78		0
+>> index 54:	86		0
+>> index 55:	77		0
+>> index 56:	80		0
+>> index 57:	82		0
+>> index 58:	85		0
+>> index 59:	76		0
+>> index 60:	87		0
+>> index 61:	83		0
+>> index 62:	92		0
+>> index 63:	79		0
+>> index 64:	88		0
+>> index 65:	90		0
+>> index 66:	96		0
+>> index 67:	89		0
+>> index 68:	91		0
+>> index 69:	93		0
+>> index 70:	95		0
+>> index 71:	98		0
+>> index 72:	94		0
+>> index 73:	97		0
+>> index 74:	99		0
+>> index 75:	100		0
+>> index 76:	59		2
+>> index 77:	68		35
+>> index 78:	55		44
+>> index 79:	6		16
+>> index 80:	19		34
+>> index 81:	42		11
+>> index 82:	3		13
+>> index 83:	5		41
+>> index 84:	4		39
+>> index 85:	18		43
+>> index 86:	33		17
+>> index 87:	45		31
+>> index 88:	24		20
+>> index 89:	50		46
+>> index 90:	7		62
+>> index 91:	9		36
+>> index 92:	1		38
+>> index 93:	29		48
+>> index 94:	30		40
+>> index 95:	10		14
+>> index 96:	21		26
+>> index 97:	25		47
+>> index 98:	12		37
+>> index 99:	15		49
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 2 stackb: 35
+rb
+[after] stacka: 2 stackb: 44
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	0		0
+>> index 22:	0		0
+>> index 23:	2		0
+>> index 24:	22		0
+>> index 25:	23		0
+>> index 26:	8		0
+>> index 27:	27		0
+>> index 28:	28		0
+>> index 29:	32		0
+>> index 30:	61		0
+>> index 31:	51		0
+>> index 32:	69		0
+>> index 33:	73		0
+>> index 34:	57		0
+>> index 35:	71		0
+>> index 36:	70		0
+>> index 37:	63		0
+>> index 38:	54		0
+>> index 39:	67		0
+>> index 40:	74		0
+>> index 41:	58		0
+>> index 42:	65		0
+>> index 43:	66		0
+>> index 44:	72		0
+>> index 45:	53		0
+>> index 46:	60		0
+>> index 47:	64		0
+>> index 48:	81		0
+>> index 49:	52		0
+>> index 50:	56		0
+>> index 51:	75		0
+>> index 52:	84		0
+>> index 53:	78		0
+>> index 54:	86		0
+>> index 55:	77		0
+>> index 56:	80		0
+>> index 57:	82		0
+>> index 58:	85		0
+>> index 59:	76		0
+>> index 60:	87		0
+>> index 61:	83		0
+>> index 62:	92		0
+>> index 63:	79		0
+>> index 64:	88		0
+>> index 65:	90		0
+>> index 66:	96		0
+>> index 67:	89		0
+>> index 68:	91		0
+>> index 69:	93		0
+>> index 70:	95		0
+>> index 71:	98		0
+>> index 72:	94		0
+>> index 73:	97		0
+>> index 74:	99		0
+>> index 75:	100		0
+>> index 76:	59		0
+>> index 77:	68		44
+>> index 78:	55		16
+>> index 79:	6		34
+>> index 80:	19		11
+>> index 81:	42		13
+>> index 82:	3		41
+>> index 83:	5		39
+>> index 84:	4		43
+>> index 85:	18		17
+>> index 86:	33		31
+>> index 87:	45		20
+>> index 88:	24		46
+>> index 89:	50		62
+>> index 90:	7		36
+>> index 91:	9		38
+>> index 92:	1		48
+>> index 93:	29		40
+>> index 94:	30		14
+>> index 95:	10		26
+>> index 96:	21		47
+>> index 97:	25		37
+>> index 98:	12		49
+>> index 99:	15		35
+pa
+pa
+rotation starts here
+ra: 1 rb: 0	rotate a
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	0		0
+>> index 21:	42		0
+>> index 22:	3		0
+>> index 23:	5		0
+>> index 24:	4		0
+>> index 25:	18		0
+>> index 26:	33		0
+>> index 27:	45		0
+>> index 28:	24		0
+>> index 29:	50		0
+>> index 30:	7		0
+>> index 31:	9		0
+>> index 32:	1		0
+>> index 33:	29		0
+>> index 34:	30		0
+>> index 35:	10		0
+>> index 36:	21		0
+>> index 37:	25		0
+>> index 38:	12		0
+>> index 39:	15		0
+>> index 40:	16		0
+>> index 41:	44		0
+>> index 42:	2		0
+>> index 43:	22		0
+>> index 44:	23		0
+>> index 45:	8		0
+>> index 46:	27		0
+>> index 47:	28		0
+>> index 48:	32		0
+>> index 49:	61		0
+>> index 50:	51		0
+>> index 51:	69		0
+>> index 52:	73		0
+>> index 53:	57		0
+>> index 54:	71		0
+>> index 55:	70		0
+>> index 56:	63		0
+>> index 57:	54		0
+>> index 58:	67		0
+>> index 59:	74		0
+>> index 60:	58		0
+>> index 61:	65		0
+>> index 62:	66		0
+>> index 63:	72		0
+>> index 64:	53		0
+>> index 65:	60		0
+>> index 66:	64		0
+>> index 67:	81		0
+>> index 68:	52		0
+>> index 69:	56		0
+>> index 70:	75		0
+>> index 71:	84		0
+>> index 72:	78		0
+>> index 73:	86		0
+>> index 74:	77		0
+>> index 75:	80		0
+>> index 76:	82		0
+>> index 77:	85		0
+>> index 78:	76		0
+>> index 79:	87		34
+>> index 80:	83		11
+>> index 81:	92		13
+>> index 82:	79		41
+>> index 83:	88		39
+>> index 84:	90		43
+>> index 85:	96		17
+>> index 86:	89		31
+>> index 87:	91		20
+>> index 88:	93		46
+>> index 89:	95		62
+>> index 90:	98		36
+>> index 91:	94		38
+>> index 92:	97		48
+>> index 93:	99		40
+>> index 94:	100		14
+>> index 95:	59		26
+>> index 96:	68		47
+>> index 97:	55		37
+>> index 98:	6		49
+>> index 99:	19		35
+pa
+rotation starts here
+ra: 1 rb: 1	rotate b
+stacka: 34 stackb: 11
+[after] stacka: 34 stackb: 11
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	0		0
+>> index 20:	34		0
+>> index 21:	42		0
+>> index 22:	3		0
+>> index 23:	5		0
+>> index 24:	4		0
+>> index 25:	18		0
+>> index 26:	33		0
+>> index 27:	45		0
+>> index 28:	24		0
+>> index 29:	50		0
+>> index 30:	7		0
+>> index 31:	9		0
+>> index 32:	1		0
+>> index 33:	29		0
+>> index 34:	30		0
+>> index 35:	10		0
+>> index 36:	21		0
+>> index 37:	25		0
+>> index 38:	12		0
+>> index 39:	15		0
+>> index 40:	16		0
+>> index 41:	44		0
+>> index 42:	2		0
+>> index 43:	22		0
+>> index 44:	23		0
+>> index 45:	8		0
+>> index 46:	27		0
+>> index 47:	28		0
+>> index 48:	32		0
+>> index 49:	61		0
+>> index 50:	51		0
+>> index 51:	69		0
+>> index 52:	73		0
+>> index 53:	57		0
+>> index 54:	71		0
+>> index 55:	70		0
+>> index 56:	63		0
+>> index 57:	54		0
+>> index 58:	67		0
+>> index 59:	74		0
+>> index 60:	58		0
+>> index 61:	65		0
+>> index 62:	66		0
+>> index 63:	72		0
+>> index 64:	53		0
+>> index 65:	60		0
+>> index 66:	64		0
+>> index 67:	81		0
+>> index 68:	52		0
+>> index 69:	56		0
+>> index 70:	75		0
+>> index 71:	84		0
+>> index 72:	78		0
+>> index 73:	86		0
+>> index 74:	77		0
+>> index 75:	80		0
+>> index 76:	82		0
+>> index 77:	85		0
+>> index 78:	76		0
+>> index 79:	87		0
+>> index 80:	83		11
+>> index 81:	92		13
+>> index 82:	79		41
+>> index 83:	88		39
+>> index 84:	90		43
+>> index 85:	96		17
+>> index 86:	89		31
+>> index 87:	91		20
+>> index 88:	93		46
+>> index 89:	95		62
+>> index 90:	98		36
+>> index 91:	94		38
+>> index 92:	97		48
+>> index 93:	99		40
+>> index 94:	100		14
+>> index 95:	59		26
+>> index 96:	68		47
+>> index 97:	55		37
+>> index 98:	6		49
+>> index 99:	19		35
+pa
+rotation starts here
+ra: 1 rb: 0	rotate a
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	0		0
+>> index 19:	15		0
+>> index 20:	16		0
+>> index 21:	44		0
+>> index 22:	2		0
+>> index 23:	22		0
+>> index 24:	23		0
+>> index 25:	8		0
+>> index 26:	27		0
+>> index 27:	28		0
+>> index 28:	32		0
+>> index 29:	61		0
+>> index 30:	51		0
+>> index 31:	69		0
+>> index 32:	73		0
+>> index 33:	57		0
+>> index 34:	71		0
+>> index 35:	70		0
+>> index 36:	63		0
+>> index 37:	54		0
+>> index 38:	67		0
+>> index 39:	74		0
+>> index 40:	58		0
+>> index 41:	65		0
+>> index 42:	66		0
+>> index 43:	72		0
+>> index 44:	53		0
+>> index 45:	60		0
+>> index 46:	64		0
+>> index 47:	81		0
+>> index 48:	52		0
+>> index 49:	56		0
+>> index 50:	75		0
+>> index 51:	84		0
+>> index 52:	78		0
+>> index 53:	86		0
+>> index 54:	77		0
+>> index 55:	80		0
+>> index 56:	82		0
+>> index 57:	85		0
+>> index 58:	76		0
+>> index 59:	87		0
+>> index 60:	83		0
+>> index 61:	92		0
+>> index 62:	79		0
+>> index 63:	88		0
+>> index 64:	90		0
+>> index 65:	96		0
+>> index 66:	89		0
+>> index 67:	91		0
+>> index 68:	93		0
+>> index 69:	95		0
+>> index 70:	98		0
+>> index 71:	94		0
+>> index 72:	97		0
+>> index 73:	99		0
+>> index 74:	100		0
+>> index 75:	59		0
+>> index 76:	68		0
+>> index 77:	55		0
+>> index 78:	6		0
+>> index 79:	19		0
+>> index 80:	11		0
+>> index 81:	34		13
+>> index 82:	42		41
+>> index 83:	3		39
+>> index 84:	5		43
+>> index 85:	4		17
+>> index 86:	18		31
+>> index 87:	33		20
+>> index 88:	45		46
+>> index 89:	24		62
+>> index 90:	50		36
+>> index 91:	7		38
+>> index 92:	9		48
+>> index 93:	1		40
+>> index 94:	29		14
+>> index 95:	30		26
+>> index 96:	10		47
+>> index 97:	21		37
+>> index 98:	25		49
+>> index 99:	12		35
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 13 stackb: 41
+rb
+[after] stacka: 13 stackb: 39
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	0		0
+>> index 18:	13		0
+>> index 19:	15		0
+>> index 20:	16		0
+>> index 21:	44		0
+>> index 22:	2		0
+>> index 23:	22		0
+>> index 24:	23		0
+>> index 25:	8		0
+>> index 26:	27		0
+>> index 27:	28		0
+>> index 28:	32		0
+>> index 29:	61		0
+>> index 30:	51		0
+>> index 31:	69		0
+>> index 32:	73		0
+>> index 33:	57		0
+>> index 34:	71		0
+>> index 35:	70		0
+>> index 36:	63		0
+>> index 37:	54		0
+>> index 38:	67		0
+>> index 39:	74		0
+>> index 40:	58		0
+>> index 41:	65		0
+>> index 42:	66		0
+>> index 43:	72		0
+>> index 44:	53		0
+>> index 45:	60		0
+>> index 46:	64		0
+>> index 47:	81		0
+>> index 48:	52		0
+>> index 49:	56		0
+>> index 50:	75		0
+>> index 51:	84		0
+>> index 52:	78		0
+>> index 53:	86		0
+>> index 54:	77		0
+>> index 55:	80		0
+>> index 56:	82		0
+>> index 57:	85		0
+>> index 58:	76		0
+>> index 59:	87		0
+>> index 60:	83		0
+>> index 61:	92		0
+>> index 62:	79		0
+>> index 63:	88		0
+>> index 64:	90		0
+>> index 65:	96		0
+>> index 66:	89		0
+>> index 67:	91		0
+>> index 68:	93		0
+>> index 69:	95		0
+>> index 70:	98		0
+>> index 71:	94		0
+>> index 72:	97		0
+>> index 73:	99		0
+>> index 74:	100		0
+>> index 75:	59		0
+>> index 76:	68		0
+>> index 77:	55		0
+>> index 78:	6		0
+>> index 79:	19		0
+>> index 80:	11		0
+>> index 81:	34		0
+>> index 82:	42		39
+>> index 83:	3		43
+>> index 84:	5		17
+>> index 85:	4		31
+>> index 86:	18		20
+>> index 87:	33		46
+>> index 88:	45		62
+>> index 89:	24		36
+>> index 90:	50		38
+>> index 91:	7		48
+>> index 92:	9		40
+>> index 93:	1		14
+>> index 94:	29		26
+>> index 95:	30		47
+>> index 96:	10		37
+>> index 97:	21		49
+>> index 98:	25		35
+>> index 99:	12		41
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 39 stackb: 43
+rrb
+[after] stacka: 39 stackb: 41
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	0		0
+>> index 17:	39		0
+>> index 18:	13		0
+>> index 19:	15		0
+>> index 20:	16		0
+>> index 21:	44		0
+>> index 22:	2		0
+>> index 23:	22		0
+>> index 24:	23		0
+>> index 25:	8		0
+>> index 26:	27		0
+>> index 27:	28		0
+>> index 28:	32		0
+>> index 29:	61		0
+>> index 30:	51		0
+>> index 31:	69		0
+>> index 32:	73		0
+>> index 33:	57		0
+>> index 34:	71		0
+>> index 35:	70		0
+>> index 36:	63		0
+>> index 37:	54		0
+>> index 38:	67		0
+>> index 39:	74		0
+>> index 40:	58		0
+>> index 41:	65		0
+>> index 42:	66		0
+>> index 43:	72		0
+>> index 44:	53		0
+>> index 45:	60		0
+>> index 46:	64		0
+>> index 47:	81		0
+>> index 48:	52		0
+>> index 49:	56		0
+>> index 50:	75		0
+>> index 51:	84		0
+>> index 52:	78		0
+>> index 53:	86		0
+>> index 54:	77		0
+>> index 55:	80		0
+>> index 56:	82		0
+>> index 57:	85		0
+>> index 58:	76		0
+>> index 59:	87		0
+>> index 60:	83		0
+>> index 61:	92		0
+>> index 62:	79		0
+>> index 63:	88		0
+>> index 64:	90		0
+>> index 65:	96		0
+>> index 66:	89		0
+>> index 67:	91		0
+>> index 68:	93		0
+>> index 69:	95		0
+>> index 70:	98		0
+>> index 71:	94		0
+>> index 72:	97		0
+>> index 73:	99		0
+>> index 74:	100		0
+>> index 75:	59		0
+>> index 76:	68		0
+>> index 77:	55		0
+>> index 78:	6		0
+>> index 79:	19		0
+>> index 80:	11		0
+>> index 81:	34		0
+>> index 82:	42		0
+>> index 83:	3		41
+>> index 84:	5		43
+>> index 85:	4		17
+>> index 86:	18		31
+>> index 87:	33		20
+>> index 88:	45		46
+>> index 89:	24		62
+>> index 90:	50		36
+>> index 91:	7		38
+>> index 92:	9		48
+>> index 93:	1		40
+>> index 94:	29		14
+>> index 95:	30		26
+>> index 96:	10		47
+>> index 97:	21		37
+>> index 98:	25		49
+>> index 99:	12		35
+pa
+rotation starts here
+ra: 0 rb: 1	rotate b
+stacka: 41 stackb: 43
+rb
+[after] stacka: 41 stackb: 17
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	0		0
+>> index 16:	41		0
+>> index 17:	39		0
+>> index 18:	13		0
+>> index 19:	15		0
+>> index 20:	16		0
+>> index 21:	44		0
+>> index 22:	2		0
+>> index 23:	22		0
+>> index 24:	23		0
+>> index 25:	8		0
+>> index 26:	27		0
+>> index 27:	28		0
+>> index 28:	32		0
+>> index 29:	61		0
+>> index 30:	51		0
+>> index 31:	69		0
+>> index 32:	73		0
+>> index 33:	57		0
+>> index 34:	71		0
+>> index 35:	70		0
+>> index 36:	63		0
+>> index 37:	54		0
+>> index 38:	67		0
+>> index 39:	74		0
+>> index 40:	58		0
+>> index 41:	65		0
+>> index 42:	66		0
+>> index 43:	72		0
+>> index 44:	53		0
+>> index 45:	60		0
+>> index 46:	64		0
+>> index 47:	81		0
+>> index 48:	52		0
+>> index 49:	56		0
+>> index 50:	75		0
+>> index 51:	84		0
+>> index 52:	78		0
+>> index 53:	86		0
+>> index 54:	77		0
+>> index 55:	80		0
+>> index 56:	82		0
+>> index 57:	85		0
+>> index 58:	76		0
+>> index 59:	87		0
+>> index 60:	83		0
+>> index 61:	92		0
+>> index 62:	79		0
+>> index 63:	88		0
+>> index 64:	90		0
+>> index 65:	96		0
+>> index 66:	89		0
+>> index 67:	91		0
+>> index 68:	93		0
+>> index 69:	95		0
+>> index 70:	98		0
+>> index 71:	94		0
+>> index 72:	97		0
+>> index 73:	99		0
+>> index 74:	100		0
+>> index 75:	59		0
+>> index 76:	68		0
+>> index 77:	55		0
+>> index 78:	6		0
+>> index 79:	19		0
+>> index 80:	11		0
+>> index 81:	34		0
+>> index 82:	42		0
+>> index 83:	3		0
+>> index 84:	5		17
+>> index 85:	4		31
+>> index 86:	18		20
+>> index 87:	33		46
+>> index 88:	45		62
+>> index 89:	24		36
+>> index 90:	50		38
+>> index 91:	7		48
+>> index 92:	9		40
+>> index 93:	1		14
+>> index 94:	29		26
+>> index 95:	30		47
+>> index 96:	10		37
+>> index 97:	21		49
+>> index 98:	25		35
+>> index 99:	12		43
+pa
+rotation starts here
+ra: 1 rb: 0	rotate a
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	0		0
+>> index 15:	32		0
+>> index 16:	61		0
+>> index 17:	51		0
+>> index 18:	69		0
+>> index 19:	73		0
+>> index 20:	57		0
+>> index 21:	71		0
+>> index 22:	70		0
+>> index 23:	63		0
+>> index 24:	54		0
+>> index 25:	67		0
+>> index 26:	74		0
+>> index 27:	58		0
+>> index 28:	65		0
+>> index 29:	66		0
+>> index 30:	72		0
+>> index 31:	53		0
+>> index 32:	60		0
+>> index 33:	64		0
+>> index 34:	81		0
+>> index 35:	52		0
+>> index 36:	56		0
+>> index 37:	75		0
+>> index 38:	84		0
+>> index 39:	78		0
+>> index 40:	86		0
+>> index 41:	77		0
+>> index 42:	80		0
+>> index 43:	82		0
+>> index 44:	85		0
+>> index 45:	76		0
+>> index 46:	87		0
+>> index 47:	83		0
+>> index 48:	92		0
+>> index 49:	79		0
+>> index 50:	88		0
+>> index 51:	90		0
+>> index 52:	96		0
+>> index 53:	89		0
+>> index 54:	91		0
+>> index 55:	93		0
+>> index 56:	95		0
+>> index 57:	98		0
+>> index 58:	94		0
+>> index 59:	97		0
+>> index 60:	99		0
+>> index 61:	100		0
+>> index 62:	59		0
+>> index 63:	68		0
+>> index 64:	55		0
+>> index 65:	6		0
+>> index 66:	19		0
+>> index 67:	11		0
+>> index 68:	34		0
+>> index 69:	42		0
+>> index 70:	3		0
+>> index 71:	5		0
+>> index 72:	4		0
+>> index 73:	18		0
+>> index 74:	33		0
+>> index 75:	45		0
+>> index 76:	24		0
+>> index 77:	50		0
+>> index 78:	7		0
+>> index 79:	9		0
+>> index 80:	1		0
+>> index 81:	29		0
+>> index 82:	30		0
+>> index 83:	10		0
+>> index 84:	21		0
+>> index 85:	25		31
+>> index 86:	12		20
+>> index 87:	17		46
+>> index 88:	41		62
+>> index 89:	39		36
+>> index 90:	13		38
+>> index 91:	15		48
+>> index 92:	16		40
+>> index 93:	44		14
+>> index 94:	2		26
+>> index 95:	22		47
+>> index 96:	23		37
+>> index 97:	8		49
+>> index 98:	27		35
+>> index 99:	28		43
+pa
+rotation starts here
+ra: 1 rb: 2	rotate b
+stacka: 31 stackb: 20
+[after] stacka: 31 stackb: 20
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	0		0
+>> index 14:	31		0
+>> index 15:	32		0
+>> index 16:	61		0
+>> index 17:	51		0
+>> index 18:	69		0
+>> index 19:	73		0
+>> index 20:	57		0
+>> index 21:	71		0
+>> index 22:	70		0
+>> index 23:	63		0
+>> index 24:	54		0
+>> index 25:	67		0
+>> index 26:	74		0
+>> index 27:	58		0
+>> index 28:	65		0
+>> index 29:	66		0
+>> index 30:	72		0
+>> index 31:	53		0
+>> index 32:	60		0
+>> index 33:	64		0
+>> index 34:	81		0
+>> index 35:	52		0
+>> index 36:	56		0
+>> index 37:	75		0
+>> index 38:	84		0
+>> index 39:	78		0
+>> index 40:	86		0
+>> index 41:	77		0
+>> index 42:	80		0
+>> index 43:	82		0
+>> index 44:	85		0
+>> index 45:	76		0
+>> index 46:	87		0
+>> index 47:	83		0
+>> index 48:	92		0
+>> index 49:	79		0
+>> index 50:	88		0
+>> index 51:	90		0
+>> index 52:	96		0
+>> index 53:	89		0
+>> index 54:	91		0
+>> index 55:	93		0
+>> index 56:	95		0
+>> index 57:	98		0
+>> index 58:	94		0
+>> index 59:	97		0
+>> index 60:	99		0
+>> index 61:	100		0
+>> index 62:	59		0
+>> index 63:	68		0
+>> index 64:	55		0
+>> index 65:	6		0
+>> index 66:	19		0
+>> index 67:	11		0
+>> index 68:	34		0
+>> index 69:	42		0
+>> index 70:	3		0
+>> index 71:	5		0
+>> index 72:	4		0
+>> index 73:	18		0
+>> index 74:	33		0
+>> index 75:	45		0
+>> index 76:	24		0
+>> index 77:	50		0
+>> index 78:	7		0
+>> index 79:	9		0
+>> index 80:	1		0
+>> index 81:	29		0
+>> index 82:	30		0
+>> index 83:	10		0
+>> index 84:	21		0
+>> index 85:	25		0
+>> index 86:	12		20
+>> index 87:	17		46
+>> index 88:	41		62
+>> index 89:	39		36
+>> index 90:	13		38
+>> index 91:	15		48
+>> index 92:	16		40
+>> index 93:	44		14
+>> index 94:	2		26
+>> index 95:	22		47
+>> index 96:	23		37
+>> index 97:	8		49
+>> index 98:	27		35
+>> index 99:	28		43
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 20 stackb: 46
+rb
+[after] stacka: 20 stackb: 62
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	0		0
+>> index 12:	0		0
+>> index 13:	20		0
+>> index 14:	31		0
+>> index 15:	32		0
+>> index 16:	61		0
+>> index 17:	51		0
+>> index 18:	69		0
+>> index 19:	73		0
+>> index 20:	57		0
+>> index 21:	71		0
+>> index 22:	70		0
+>> index 23:	63		0
+>> index 24:	54		0
+>> index 25:	67		0
+>> index 26:	74		0
+>> index 27:	58		0
+>> index 28:	65		0
+>> index 29:	66		0
+>> index 30:	72		0
+>> index 31:	53		0
+>> index 32:	60		0
+>> index 33:	64		0
+>> index 34:	81		0
+>> index 35:	52		0
+>> index 36:	56		0
+>> index 37:	75		0
+>> index 38:	84		0
+>> index 39:	78		0
+>> index 40:	86		0
+>> index 41:	77		0
+>> index 42:	80		0
+>> index 43:	82		0
+>> index 44:	85		0
+>> index 45:	76		0
+>> index 46:	87		0
+>> index 47:	83		0
+>> index 48:	92		0
+>> index 49:	79		0
+>> index 50:	88		0
+>> index 51:	90		0
+>> index 52:	96		0
+>> index 53:	89		0
+>> index 54:	91		0
+>> index 55:	93		0
+>> index 56:	95		0
+>> index 57:	98		0
+>> index 58:	94		0
+>> index 59:	97		0
+>> index 60:	99		0
+>> index 61:	100		0
+>> index 62:	59		0
+>> index 63:	68		0
+>> index 64:	55		0
+>> index 65:	6		0
+>> index 66:	19		0
+>> index 67:	11		0
+>> index 68:	34		0
+>> index 69:	42		0
+>> index 70:	3		0
+>> index 71:	5		0
+>> index 72:	4		0
+>> index 73:	18		0
+>> index 74:	33		0
+>> index 75:	45		0
+>> index 76:	24		0
+>> index 77:	50		0
+>> index 78:	7		0
+>> index 79:	9		0
+>> index 80:	1		0
+>> index 81:	29		0
+>> index 82:	30		0
+>> index 83:	10		0
+>> index 84:	21		0
+>> index 85:	25		0
+>> index 86:	12		0
+>> index 87:	17		62
+>> index 88:	41		36
+>> index 89:	39		38
+>> index 90:	13		48
+>> index 91:	15		40
+>> index 92:	16		14
+>> index 93:	44		26
+>> index 94:	2		47
+>> index 95:	22		37
+>> index 96:	23		49
+>> index 97:	8		35
+>> index 98:	27		43
+>> index 99:	28		46
+pa
+pa
+rotation starts here
+ra: 1 rb: 0	rotate a
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	0		0
+>> index 11:	39		0
+>> index 12:	13		0
+>> index 13:	15		0
+>> index 14:	16		0
+>> index 15:	44		0
+>> index 16:	2		0
+>> index 17:	22		0
+>> index 18:	23		0
+>> index 19:	8		0
+>> index 20:	27		0
+>> index 21:	28		0
+>> index 22:	36		0
+>> index 23:	62		0
+>> index 24:	20		0
+>> index 25:	31		0
+>> index 26:	32		0
+>> index 27:	61		0
+>> index 28:	51		0
+>> index 29:	69		0
+>> index 30:	73		0
+>> index 31:	57		0
+>> index 32:	71		0
+>> index 33:	70		0
+>> index 34:	63		0
+>> index 35:	54		0
+>> index 36:	67		0
+>> index 37:	74		0
+>> index 38:	58		0
+>> index 39:	65		0
+>> index 40:	66		0
+>> index 41:	72		0
+>> index 42:	53		0
+>> index 43:	60		0
+>> index 44:	64		0
+>> index 45:	81		0
+>> index 46:	52		0
+>> index 47:	56		0
+>> index 48:	75		0
+>> index 49:	84		0
+>> index 50:	78		0
+>> index 51:	86		0
+>> index 52:	77		0
+>> index 53:	80		0
+>> index 54:	82		0
+>> index 55:	85		0
+>> index 56:	76		0
+>> index 57:	87		0
+>> index 58:	83		0
+>> index 59:	92		0
+>> index 60:	79		0
+>> index 61:	88		0
+>> index 62:	90		0
+>> index 63:	96		0
+>> index 64:	89		0
+>> index 65:	91		0
+>> index 66:	93		0
+>> index 67:	95		0
+>> index 68:	98		0
+>> index 69:	94		0
+>> index 70:	97		0
+>> index 71:	99		0
+>> index 72:	100		0
+>> index 73:	59		0
+>> index 74:	68		0
+>> index 75:	55		0
+>> index 76:	6		0
+>> index 77:	19		0
+>> index 78:	11		0
+>> index 79:	34		0
+>> index 80:	42		0
+>> index 81:	3		0
+>> index 82:	5		0
+>> index 83:	4		0
+>> index 84:	18		0
+>> index 85:	33		0
+>> index 86:	45		0
+>> index 87:	24		0
+>> index 88:	50		0
+>> index 89:	7		38
+>> index 90:	9		48
+>> index 91:	1		40
+>> index 92:	29		14
+>> index 93:	30		26
+>> index 94:	10		47
+>> index 95:	21		37
+>> index 96:	25		49
+>> index 97:	12		35
+>> index 98:	17		43
+>> index 99:	41		46
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 38 stackb: 48
+rrb
+[after] stacka: 38 stackb: 46
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	0		0
+>> index 10:	38		0
+>> index 11:	39		0
+>> index 12:	13		0
+>> index 13:	15		0
+>> index 14:	16		0
+>> index 15:	44		0
+>> index 16:	2		0
+>> index 17:	22		0
+>> index 18:	23		0
+>> index 19:	8		0
+>> index 20:	27		0
+>> index 21:	28		0
+>> index 22:	36		0
+>> index 23:	62		0
+>> index 24:	20		0
+>> index 25:	31		0
+>> index 26:	32		0
+>> index 27:	61		0
+>> index 28:	51		0
+>> index 29:	69		0
+>> index 30:	73		0
+>> index 31:	57		0
+>> index 32:	71		0
+>> index 33:	70		0
+>> index 34:	63		0
+>> index 35:	54		0
+>> index 36:	67		0
+>> index 37:	74		0
+>> index 38:	58		0
+>> index 39:	65		0
+>> index 40:	66		0
+>> index 41:	72		0
+>> index 42:	53		0
+>> index 43:	60		0
+>> index 44:	64		0
+>> index 45:	81		0
+>> index 46:	52		0
+>> index 47:	56		0
+>> index 48:	75		0
+>> index 49:	84		0
+>> index 50:	78		0
+>> index 51:	86		0
+>> index 52:	77		0
+>> index 53:	80		0
+>> index 54:	82		0
+>> index 55:	85		0
+>> index 56:	76		0
+>> index 57:	87		0
+>> index 58:	83		0
+>> index 59:	92		0
+>> index 60:	79		0
+>> index 61:	88		0
+>> index 62:	90		0
+>> index 63:	96		0
+>> index 64:	89		0
+>> index 65:	91		0
+>> index 66:	93		0
+>> index 67:	95		0
+>> index 68:	98		0
+>> index 69:	94		0
+>> index 70:	97		0
+>> index 71:	99		0
+>> index 72:	100		0
+>> index 73:	59		0
+>> index 74:	68		0
+>> index 75:	55		0
+>> index 76:	6		0
+>> index 77:	19		0
+>> index 78:	11		0
+>> index 79:	34		0
+>> index 80:	42		0
+>> index 81:	3		0
+>> index 82:	5		0
+>> index 83:	4		0
+>> index 84:	18		0
+>> index 85:	33		0
+>> index 86:	45		0
+>> index 87:	24		0
+>> index 88:	50		0
+>> index 89:	7		0
+>> index 90:	9		46
+>> index 91:	1		48
+>> index 92:	29		40
+>> index 93:	30		14
+>> index 94:	10		26
+>> index 95:	21		47
+>> index 96:	25		37
+>> index 97:	12		49
+>> index 98:	17		35
+>> index 99:	41		43
+pa
+rotation starts here
+ra: 0 rb: 2	rotate b
+stacka: 46 stackb: 48
+rb
+[after] stacka: 46 stackb: 40
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	0		0
+>> index 9:	46		0
+>> index 10:	38		0
+>> index 11:	39		0
+>> index 12:	13		0
+>> index 13:	15		0
+>> index 14:	16		0
+>> index 15:	44		0
+>> index 16:	2		0
+>> index 17:	22		0
+>> index 18:	23		0
+>> index 19:	8		0
+>> index 20:	27		0
+>> index 21:	28		0
+>> index 22:	36		0
+>> index 23:	62		0
+>> index 24:	20		0
+>> index 25:	31		0
+>> index 26:	32		0
+>> index 27:	61		0
+>> index 28:	51		0
+>> index 29:	69		0
+>> index 30:	73		0
+>> index 31:	57		0
+>> index 32:	71		0
+>> index 33:	70		0
+>> index 34:	63		0
+>> index 35:	54		0
+>> index 36:	67		0
+>> index 37:	74		0
+>> index 38:	58		0
+>> index 39:	65		0
+>> index 40:	66		0
+>> index 41:	72		0
+>> index 42:	53		0
+>> index 43:	60		0
+>> index 44:	64		0
+>> index 45:	81		0
+>> index 46:	52		0
+>> index 47:	56		0
+>> index 48:	75		0
+>> index 49:	84		0
+>> index 50:	78		0
+>> index 51:	86		0
+>> index 52:	77		0
+>> index 53:	80		0
+>> index 54:	82		0
+>> index 55:	85		0
+>> index 56:	76		0
+>> index 57:	87		0
+>> index 58:	83		0
+>> index 59:	92		0
+>> index 60:	79		0
+>> index 61:	88		0
+>> index 62:	90		0
+>> index 63:	96		0
+>> index 64:	89		0
+>> index 65:	91		0
+>> index 66:	93		0
+>> index 67:	95		0
+>> index 68:	98		0
+>> index 69:	94		0
+>> index 70:	97		0
+>> index 71:	99		0
+>> index 72:	100		0
+>> index 73:	59		0
+>> index 74:	68		0
+>> index 75:	55		0
+>> index 76:	6		0
+>> index 77:	19		0
+>> index 78:	11		0
+>> index 79:	34		0
+>> index 80:	42		0
+>> index 81:	3		0
+>> index 82:	5		0
+>> index 83:	4		0
+>> index 84:	18		0
+>> index 85:	33		0
+>> index 86:	45		0
+>> index 87:	24		0
+>> index 88:	50		0
+>> index 89:	7		0
+>> index 90:	9		0
+>> index 91:	1		40
+>> index 92:	29		14
+>> index 93:	30		26
+>> index 94:	10		47
+>> index 95:	21		37
+>> index 96:	25		49
+>> index 97:	12		35
+>> index 98:	17		43
+>> index 99:	41		48
+pa
+rotation starts here
+ra: 1 rb: 3	rotate b
+stacka: 40 stackb: 14
+[after] stacka: 40 stackb: 14
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	0		0
+>> index 8:	40		0
+>> index 9:	46		0
+>> index 10:	38		0
+>> index 11:	39		0
+>> index 12:	13		0
+>> index 13:	15		0
+>> index 14:	16		0
+>> index 15:	44		0
+>> index 16:	2		0
+>> index 17:	22		0
+>> index 18:	23		0
+>> index 19:	8		0
+>> index 20:	27		0
+>> index 21:	28		0
+>> index 22:	36		0
+>> index 23:	62		0
+>> index 24:	20		0
+>> index 25:	31		0
+>> index 26:	32		0
+>> index 27:	61		0
+>> index 28:	51		0
+>> index 29:	69		0
+>> index 30:	73		0
+>> index 31:	57		0
+>> index 32:	71		0
+>> index 33:	70		0
+>> index 34:	63		0
+>> index 35:	54		0
+>> index 36:	67		0
+>> index 37:	74		0
+>> index 38:	58		0
+>> index 39:	65		0
+>> index 40:	66		0
+>> index 41:	72		0
+>> index 42:	53		0
+>> index 43:	60		0
+>> index 44:	64		0
+>> index 45:	81		0
+>> index 46:	52		0
+>> index 47:	56		0
+>> index 48:	75		0
+>> index 49:	84		0
+>> index 50:	78		0
+>> index 51:	86		0
+>> index 52:	77		0
+>> index 53:	80		0
+>> index 54:	82		0
+>> index 55:	85		0
+>> index 56:	76		0
+>> index 57:	87		0
+>> index 58:	83		0
+>> index 59:	92		0
+>> index 60:	79		0
+>> index 61:	88		0
+>> index 62:	90		0
+>> index 63:	96		0
+>> index 64:	89		0
+>> index 65:	91		0
+>> index 66:	93		0
+>> index 67:	95		0
+>> index 68:	98		0
+>> index 69:	94		0
+>> index 70:	97		0
+>> index 71:	99		0
+>> index 72:	100		0
+>> index 73:	59		0
+>> index 74:	68		0
+>> index 75:	55		0
+>> index 76:	6		0
+>> index 77:	19		0
+>> index 78:	11		0
+>> index 79:	34		0
+>> index 80:	42		0
+>> index 81:	3		0
+>> index 82:	5		0
+>> index 83:	4		0
+>> index 84:	18		0
+>> index 85:	33		0
+>> index 86:	45		0
+>> index 87:	24		0
+>> index 88:	50		0
+>> index 89:	7		0
+>> index 90:	9		0
+>> index 91:	1		0
+>> index 92:	29		14
+>> index 93:	30		26
+>> index 94:	10		47
+>> index 95:	21		37
+>> index 96:	25		49
+>> index 97:	12		35
+>> index 98:	17		43
+>> index 99:	41		48
+pa
+rotation starts here
+ra: 1 rb: 0	rotate a
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	0		0
+>> index 7:	27		0
+>> index 8:	28		0
+>> index 9:	36		0
+>> index 10:	62		0
+>> index 11:	20		0
+>> index 12:	31		0
+>> index 13:	32		0
+>> index 14:	61		0
+>> index 15:	51		0
+>> index 16:	69		0
+>> index 17:	73		0
+>> index 18:	57		0
+>> index 19:	71		0
+>> index 20:	70		0
+>> index 21:	63		0
+>> index 22:	54		0
+>> index 23:	67		0
+>> index 24:	74		0
+>> index 25:	58		0
+>> index 26:	65		0
+>> index 27:	66		0
+>> index 28:	72		0
+>> index 29:	53		0
+>> index 30:	60		0
+>> index 31:	64		0
+>> index 32:	81		0
+>> index 33:	52		0
+>> index 34:	56		0
+>> index 35:	75		0
+>> index 36:	84		0
+>> index 37:	78		0
+>> index 38:	86		0
+>> index 39:	77		0
+>> index 40:	80		0
+>> index 41:	82		0
+>> index 42:	85		0
+>> index 43:	76		0
+>> index 44:	87		0
+>> index 45:	83		0
+>> index 46:	92		0
+>> index 47:	79		0
+>> index 48:	88		0
+>> index 49:	90		0
+>> index 50:	96		0
+>> index 51:	89		0
+>> index 52:	91		0
+>> index 53:	93		0
+>> index 54:	95		0
+>> index 55:	98		0
+>> index 56:	94		0
+>> index 57:	97		0
+>> index 58:	99		0
+>> index 59:	100		0
+>> index 60:	59		0
+>> index 61:	68		0
+>> index 62:	55		0
+>> index 63:	6		0
+>> index 64:	19		0
+>> index 65:	11		0
+>> index 66:	34		0
+>> index 67:	42		0
+>> index 68:	3		0
+>> index 69:	5		0
+>> index 70:	4		0
+>> index 71:	18		0
+>> index 72:	33		0
+>> index 73:	45		0
+>> index 74:	24		0
+>> index 75:	50		0
+>> index 76:	7		0
+>> index 77:	9		0
+>> index 78:	1		0
+>> index 79:	29		0
+>> index 80:	30		0
+>> index 81:	10		0
+>> index 82:	21		0
+>> index 83:	25		0
+>> index 84:	12		0
+>> index 85:	17		0
+>> index 86:	41		0
+>> index 87:	14		0
+>> index 88:	40		0
+>> index 89:	46		0
+>> index 90:	38		0
+>> index 91:	39		0
+>> index 92:	13		0
+>> index 93:	15		26
+>> index 94:	16		47
+>> index 95:	44		37
+>> index 96:	2		49
+>> index 97:	22		35
+>> index 98:	23		43
+>> index 99:	8		48
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 26 stackb: 47
+rb
+[after] stacka: 26 stackb: 37
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	0		0
+>> index 6:	26		0
+>> index 7:	27		0
+>> index 8:	28		0
+>> index 9:	36		0
+>> index 10:	62		0
+>> index 11:	20		0
+>> index 12:	31		0
+>> index 13:	32		0
+>> index 14:	61		0
+>> index 15:	51		0
+>> index 16:	69		0
+>> index 17:	73		0
+>> index 18:	57		0
+>> index 19:	71		0
+>> index 20:	70		0
+>> index 21:	63		0
+>> index 22:	54		0
+>> index 23:	67		0
+>> index 24:	74		0
+>> index 25:	58		0
+>> index 26:	65		0
+>> index 27:	66		0
+>> index 28:	72		0
+>> index 29:	53		0
+>> index 30:	60		0
+>> index 31:	64		0
+>> index 32:	81		0
+>> index 33:	52		0
+>> index 34:	56		0
+>> index 35:	75		0
+>> index 36:	84		0
+>> index 37:	78		0
+>> index 38:	86		0
+>> index 39:	77		0
+>> index 40:	80		0
+>> index 41:	82		0
+>> index 42:	85		0
+>> index 43:	76		0
+>> index 44:	87		0
+>> index 45:	83		0
+>> index 46:	92		0
+>> index 47:	79		0
+>> index 48:	88		0
+>> index 49:	90		0
+>> index 50:	96		0
+>> index 51:	89		0
+>> index 52:	91		0
+>> index 53:	93		0
+>> index 54:	95		0
+>> index 55:	98		0
+>> index 56:	94		0
+>> index 57:	97		0
+>> index 58:	99		0
+>> index 59:	100		0
+>> index 60:	59		0
+>> index 61:	68		0
+>> index 62:	55		0
+>> index 63:	6		0
+>> index 64:	19		0
+>> index 65:	11		0
+>> index 66:	34		0
+>> index 67:	42		0
+>> index 68:	3		0
+>> index 69:	5		0
+>> index 70:	4		0
+>> index 71:	18		0
+>> index 72:	33		0
+>> index 73:	45		0
+>> index 74:	24		0
+>> index 75:	50		0
+>> index 76:	7		0
+>> index 77:	9		0
+>> index 78:	1		0
+>> index 79:	29		0
+>> index 80:	30		0
+>> index 81:	10		0
+>> index 82:	21		0
+>> index 83:	25		0
+>> index 84:	12		0
+>> index 85:	17		0
+>> index 86:	41		0
+>> index 87:	14		0
+>> index 88:	40		0
+>> index 89:	46		0
+>> index 90:	38		0
+>> index 91:	39		0
+>> index 92:	13		0
+>> index 93:	15		0
+>> index 94:	16		37
+>> index 95:	44		49
+>> index 96:	2		35
+>> index 97:	22		43
+>> index 98:	23		48
+>> index 99:	8		47
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 37 stackb: 49
+rb
+[after] stacka: 37 stackb: 35
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	0		0
+>> index 5:	37		0
+>> index 6:	26		0
+>> index 7:	27		0
+>> index 8:	28		0
+>> index 9:	36		0
+>> index 10:	62		0
+>> index 11:	20		0
+>> index 12:	31		0
+>> index 13:	32		0
+>> index 14:	61		0
+>> index 15:	51		0
+>> index 16:	69		0
+>> index 17:	73		0
+>> index 18:	57		0
+>> index 19:	71		0
+>> index 20:	70		0
+>> index 21:	63		0
+>> index 22:	54		0
+>> index 23:	67		0
+>> index 24:	74		0
+>> index 25:	58		0
+>> index 26:	65		0
+>> index 27:	66		0
+>> index 28:	72		0
+>> index 29:	53		0
+>> index 30:	60		0
+>> index 31:	64		0
+>> index 32:	81		0
+>> index 33:	52		0
+>> index 34:	56		0
+>> index 35:	75		0
+>> index 36:	84		0
+>> index 37:	78		0
+>> index 38:	86		0
+>> index 39:	77		0
+>> index 40:	80		0
+>> index 41:	82		0
+>> index 42:	85		0
+>> index 43:	76		0
+>> index 44:	87		0
+>> index 45:	83		0
+>> index 46:	92		0
+>> index 47:	79		0
+>> index 48:	88		0
+>> index 49:	90		0
+>> index 50:	96		0
+>> index 51:	89		0
+>> index 52:	91		0
+>> index 53:	93		0
+>> index 54:	95		0
+>> index 55:	98		0
+>> index 56:	94		0
+>> index 57:	97		0
+>> index 58:	99		0
+>> index 59:	100		0
+>> index 60:	59		0
+>> index 61:	68		0
+>> index 62:	55		0
+>> index 63:	6		0
+>> index 64:	19		0
+>> index 65:	11		0
+>> index 66:	34		0
+>> index 67:	42		0
+>> index 68:	3		0
+>> index 69:	5		0
+>> index 70:	4		0
+>> index 71:	18		0
+>> index 72:	33		0
+>> index 73:	45		0
+>> index 74:	24		0
+>> index 75:	50		0
+>> index 76:	7		0
+>> index 77:	9		0
+>> index 78:	1		0
+>> index 79:	29		0
+>> index 80:	30		0
+>> index 81:	10		0
+>> index 82:	21		0
+>> index 83:	25		0
+>> index 84:	12		0
+>> index 85:	17		0
+>> index 86:	41		0
+>> index 87:	14		0
+>> index 88:	40		0
+>> index 89:	46		0
+>> index 90:	38		0
+>> index 91:	39		0
+>> index 92:	13		0
+>> index 93:	15		0
+>> index 94:	16		0
+>> index 95:	44		35
+>> index 96:	2		43
+>> index 97:	22		48
+>> index 98:	23		47
+>> index 99:	8		49
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 35 stackb: 43
+rb
+[after] stacka: 35 stackb: 48
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	0		0
+>> index 3:	0		0
+>> index 4:	35		0
+>> index 5:	37		0
+>> index 6:	26		0
+>> index 7:	27		0
+>> index 8:	28		0
+>> index 9:	36		0
+>> index 10:	62		0
+>> index 11:	20		0
+>> index 12:	31		0
+>> index 13:	32		0
+>> index 14:	61		0
+>> index 15:	51		0
+>> index 16:	69		0
+>> index 17:	73		0
+>> index 18:	57		0
+>> index 19:	71		0
+>> index 20:	70		0
+>> index 21:	63		0
+>> index 22:	54		0
+>> index 23:	67		0
+>> index 24:	74		0
+>> index 25:	58		0
+>> index 26:	65		0
+>> index 27:	66		0
+>> index 28:	72		0
+>> index 29:	53		0
+>> index 30:	60		0
+>> index 31:	64		0
+>> index 32:	81		0
+>> index 33:	52		0
+>> index 34:	56		0
+>> index 35:	75		0
+>> index 36:	84		0
+>> index 37:	78		0
+>> index 38:	86		0
+>> index 39:	77		0
+>> index 40:	80		0
+>> index 41:	82		0
+>> index 42:	85		0
+>> index 43:	76		0
+>> index 44:	87		0
+>> index 45:	83		0
+>> index 46:	92		0
+>> index 47:	79		0
+>> index 48:	88		0
+>> index 49:	90		0
+>> index 50:	96		0
+>> index 51:	89		0
+>> index 52:	91		0
+>> index 53:	93		0
+>> index 54:	95		0
+>> index 55:	98		0
+>> index 56:	94		0
+>> index 57:	97		0
+>> index 58:	99		0
+>> index 59:	100		0
+>> index 60:	59		0
+>> index 61:	68		0
+>> index 62:	55		0
+>> index 63:	6		0
+>> index 64:	19		0
+>> index 65:	11		0
+>> index 66:	34		0
+>> index 67:	42		0
+>> index 68:	3		0
+>> index 69:	5		0
+>> index 70:	4		0
+>> index 71:	18		0
+>> index 72:	33		0
+>> index 73:	45		0
+>> index 74:	24		0
+>> index 75:	50		0
+>> index 76:	7		0
+>> index 77:	9		0
+>> index 78:	1		0
+>> index 79:	29		0
+>> index 80:	30		0
+>> index 81:	10		0
+>> index 82:	21		0
+>> index 83:	25		0
+>> index 84:	12		0
+>> index 85:	17		0
+>> index 86:	41		0
+>> index 87:	14		0
+>> index 88:	40		0
+>> index 89:	46		0
+>> index 90:	38		0
+>> index 91:	39		0
+>> index 92:	13		0
+>> index 93:	15		0
+>> index 94:	16		0
+>> index 95:	44		0
+>> index 96:	2		48
+>> index 97:	22		47
+>> index 98:	23		49
+>> index 99:	8		43
+pa
+pa
+rotation starts here
+ra: 0 rb: 1	rotate b
+stacka: 47 stackb: 49
+rb
+[after] stacka: 47 stackb: 43
+>> index 0:	0		0
+>> index 1:	0		0
+>> index 2:	47		0
+>> index 3:	48		0
+>> index 4:	35		0
+>> index 5:	37		0
+>> index 6:	26		0
+>> index 7:	27		0
+>> index 8:	28		0
+>> index 9:	36		0
+>> index 10:	62		0
+>> index 11:	20		0
+>> index 12:	31		0
+>> index 13:	32		0
+>> index 14:	61		0
+>> index 15:	51		0
+>> index 16:	69		0
+>> index 17:	73		0
+>> index 18:	57		0
+>> index 19:	71		0
+>> index 20:	70		0
+>> index 21:	63		0
+>> index 22:	54		0
+>> index 23:	67		0
+>> index 24:	74		0
+>> index 25:	58		0
+>> index 26:	65		0
+>> index 27:	66		0
+>> index 28:	72		0
+>> index 29:	53		0
+>> index 30:	60		0
+>> index 31:	64		0
+>> index 32:	81		0
+>> index 33:	52		0
+>> index 34:	56		0
+>> index 35:	75		0
+>> index 36:	84		0
+>> index 37:	78		0
+>> index 38:	86		0
+>> index 39:	77		0
+>> index 40:	80		0
+>> index 41:	82		0
+>> index 42:	85		0
+>> index 43:	76		0
+>> index 44:	87		0
+>> index 45:	83		0
+>> index 46:	92		0
+>> index 47:	79		0
+>> index 48:	88		0
+>> index 49:	90		0
+>> index 50:	96		0
+>> index 51:	89		0
+>> index 52:	91		0
+>> index 53:	93		0
+>> index 54:	95		0
+>> index 55:	98		0
+>> index 56:	94		0
+>> index 57:	97		0
+>> index 58:	99		0
+>> index 59:	100		0
+>> index 60:	59		0
+>> index 61:	68		0
+>> index 62:	55		0
+>> index 63:	6		0
+>> index 64:	19		0
+>> index 65:	11		0
+>> index 66:	34		0
+>> index 67:	42		0
+>> index 68:	3		0
+>> index 69:	5		0
+>> index 70:	4		0
+>> index 71:	18		0
+>> index 72:	33		0
+>> index 73:	45		0
+>> index 74:	24		0
+>> index 75:	50		0
+>> index 76:	7		0
+>> index 77:	9		0
+>> index 78:	1		0
+>> index 79:	29		0
+>> index 80:	30		0
+>> index 81:	10		0
+>> index 82:	21		0
+>> index 83:	25		0
+>> index 84:	12		0
+>> index 85:	17		0
+>> index 86:	41		0
+>> index 87:	14		0
+>> index 88:	40		0
+>> index 89:	46		0
+>> index 90:	38		0
+>> index 91:	39		0
+>> index 92:	13		0
+>> index 93:	15		0
+>> index 94:	16		0
+>> index 95:	44		0
+>> index 96:	2		0
+>> index 97:	22		0
+>> index 98:	23		43
+>> index 99:	8		49
+pa
+rotation starts here
+ra: 0 rb: 0	rotate b
+stacka: 43 stackb: 49
+rrb
+[after] stacka: 43 stackb: 49
+>> index 0:	0		0
+>> index 1:	43		0
+>> index 2:	47		0
+>> index 3:	48		0
+>> index 4:	35		0
+>> index 5:	37		0
+>> index 6:	26		0
+>> index 7:	27		0
+>> index 8:	28		0
+>> index 9:	36		0
+>> index 10:	62		0
+>> index 11:	20		0
+>> index 12:	31		0
+>> index 13:	32		0
+>> index 14:	61		0
+>> index 15:	51		0
+>> index 16:	69		0
+>> index 17:	73		0
+>> index 18:	57		0
+>> index 19:	71		0
+>> index 20:	70		0
+>> index 21:	63		0
+>> index 22:	54		0
+>> index 23:	67		0
+>> index 24:	74		0
+>> index 25:	58		0
+>> index 26:	65		0
+>> index 27:	66		0
+>> index 28:	72		0
+>> index 29:	53		0
+>> index 30:	60		0
+>> index 31:	64		0
+>> index 32:	81		0
+>> index 33:	52		0
+>> index 34:	56		0
+>> index 35:	75		0
+>> index 36:	84		0
+>> index 37:	78		0
+>> index 38:	86		0
+>> index 39:	77		0
+>> index 40:	80		0
+>> index 41:	82		0
+>> index 42:	85		0
+>> index 43:	76		0
+>> index 44:	87		0
+>> index 45:	83		0
+>> index 46:	92		0
+>> index 47:	79		0
+>> index 48:	88		0
+>> index 49:	90		0
+>> index 50:	96		0
+>> index 51:	89		0
+>> index 52:	91		0
+>> index 53:	93		0
+>> index 54:	95		0
+>> index 55:	98		0
+>> index 56:	94		0
+>> index 57:	97		0
+>> index 58:	99		0
+>> index 59:	100		0
+>> index 60:	59		0
+>> index 61:	68		0
+>> index 62:	55		0
+>> index 63:	6		0
+>> index 64:	19		0
+>> index 65:	11		0
+>> index 66:	34		0
+>> index 67:	42		0
+>> index 68:	3		0
+>> index 69:	5		0
+>> index 70:	4		0
+>> index 71:	18		0
+>> index 72:	33		0
+>> index 73:	45		0
+>> index 74:	24		0
+>> index 75:	50		0
+>> index 76:	7		0
+>> index 77:	9		0
+>> index 78:	1		0
+>> index 79:	29		0
+>> index 80:	30		0
+>> index 81:	10		0
+>> index 82:	21		0
+>> index 83:	25		0
+>> index 84:	12		0
+>> index 85:	17		0
+>> index 86:	41		0
+>> index 87:	14		0
+>> index 88:	40		0
+>> index 89:	46		0
+>> index 90:	38		0
+>> index 91:	39		0
+>> index 92:	13		0
+>> index 93:	15		0
+>> index 94:	16		0
+>> index 95:	44		0
+>> index 96:	2		0
+>> index 97:	22		0
+>> index 98:	23		0
+>> index 99:	8		49
+pa
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+index 0:	59		0
+index 1:	68		0
+index 2:	55		0
+index 3:	6		0
+index 4:	19		0
+index 5:	11		0
+index 6:	34		0
+index 7:	42		0
+index 8:	3		0
+index 9:	5		0
+index 10:	4		0
+index 11:	18		0
+index 12:	33		0
+index 13:	45		0
+index 14:	24		0
+index 15:	50		0
+index 16:	7		0
+index 17:	9		0
+index 18:	1		0
+index 19:	29		0
+index 20:	30		0
+index 21:	10		0
+index 22:	21		0
+index 23:	25		0
+index 24:	12		0
+index 25:	17		0
+index 26:	41		0
+index 27:	14		0
+index 28:	40		0
+index 29:	46		0
+index 30:	38		0
+index 31:	39		0
+index 32:	13		0
+index 33:	15		0
+index 34:	16		0
+index 35:	44		0
+index 36:	2		0
+index 37:	22		0
+index 38:	23		0
+index 39:	8		0
+index 40:	49		0
+index 41:	43		0
+index 42:	47		0
+index 43:	48		0
+index 44:	35		0
+index 45:	37		0
+index 46:	26		0
+index 47:	27		0
+index 48:	28		0
+index 49:	36		0
+index 50:	62		0
+index 51:	20		0
+index 52:	31		0
+index 53:	32		0
+index 54:	61		0
+index 55:	51		0
+index 56:	69		0
+index 57:	73		0
+index 58:	57		0
+index 59:	71		0
+index 60:	70		0
+index 61:	63		0
+index 62:	54		0
+index 63:	67		0
+index 64:	74		0
+index 65:	58		0
+index 66:	65		0
+index 67:	66		0
+index 68:	72		0
+index 69:	53		0
+index 70:	60		0
+index 71:	64		0
+index 72:	81		0
+index 73:	52		0
+index 74:	56		0
+index 75:	75		0
+index 76:	84		0
+index 77:	78		0
+index 78:	86		0
+index 79:	77		0
+index 80:	80		0
+index 81:	82		0
+index 82:	85		0
+index 83:	76		0
+index 84:	87		0
+index 85:	83		0
+index 86:	92		0
+index 87:	79		0
+index 88:	88		0
+index 89:	90		0
+index 90:	96		0
+index 91:	89		0
+index 92:	91		0
+index 93:	93		0
+index 94:	95		0
+index 95:	98		0
+index 96:	94		0
+index 97:	97		0
+index 98:	99		0
+index 99:	100		0
