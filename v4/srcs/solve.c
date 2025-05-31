@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 15:39:39 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/31 02:31:58 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/31 03:04:07 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,24 +15,12 @@
 void	split_stack(int *stack_a, int *stack_b, int count, int top_index)
 {
 	int	i;
-	int	median_index;
-	int	push_count;
+	int	median;
 
-	push_count = 0;
-	median_index = find_median(stack_a, count);
 	if (count - top_index < 3)
 		return ;
-	while (push_count < median_index - top_index)
-	{
-		i = top_of_stack(stack_a, count);
-		while (stack_a[i] <= median_index)
-		{
-			i = push_a_to_b(stack_a, stack_b, count);
-			push_count++;
-		}
-		if (push_count != median_index - top_index)
-			rotate_stack(stack_a, NULL, count);
-	}
+	median = find_median(stack_a, count);
+	recursive_populate_b(stack_a, stack_b, count, median);
 	i = top_of_stack(stack_a, count);
 	if (count - i > 3)
 		return (split_stack (stack_a, stack_b, count, i));

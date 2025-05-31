@@ -6,7 +6,7 @@
 #    By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/05/31 02:24:22 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/05/31 03:30:39 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ HDRS = includes
 
 SRCS_PATH = ./srcs
 SRCS = main.c solve.c validate_argument.c find_solution.c sort_stack.c sort_stack_utils.c \
-		utils.c stack_dump.c rotate_to_pos.c rotate_option.c rotation_count.c
+		utils.c stack_dump.c rotate_to_pos.c rotate_option.c rotation_count.c rotate_to_median.c
 SRCS := $(addprefix $(SRCS_PATH)/, $(SRCS))
 
 LIBFT_PATH = ./libft
@@ -82,6 +82,14 @@ test: 101
 		clear
 		xargs ./${NAME} < ${ARGS100} | wc -l
 
+100l2: ${NAME}
+		clear
+		xargs ./${NAME} < 100-1.txt | wc -l
+
+500l: ${NAME}
+		clear
+		xargs ./${NAME} < 500.txt | wc -l
+		
 re: fclean all
 
 .PHONY: all clean fclean re bonus 5 6 100 101

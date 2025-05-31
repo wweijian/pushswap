@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 17:19:16 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/31 02:31:27 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/31 02:41:12 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,8 +64,6 @@ void	rotate_a_to_position(int *stack_a, int *stack_b, int count)
 	}
 }
 
-// FIXME: IF BASE_NUM == COUNT, IT'LL KKEEP ROTATING IF I PUT ||
-
 void	rotate_b_to_position(int *stack_a, int *stack_b, int count)
 {
 	int	i;
@@ -96,12 +94,6 @@ void	rev_rotate_b_to_position(int *stack_a, int *stack_b, int count)
 		reverse_rotate_stack(NULL, stack_b, count);
 }
 
-/* 
-	FIXME:	main operation is here 
-	
-	TODO:TODO:TODO:	fixed the stack dump count, so i need to fix the rotation counter
-*/
-
 void	rotate_to_next_op(int *stack_a, int *stack_b, int count)
 {
 	int	ra_rotation;
@@ -119,10 +111,6 @@ void	rotate_to_next_op(int *stack_a, int *stack_b, int count)
 	rb_dump = count_rb_stack_dump(stack_a, stack_b, count);
 	rrb_dump = count_rrb_stack_dump(stack_a, stack_b, count);
 	option = choose_option(ra_dump / ra_rotation, rb_dump / rb_rotation, rrb_dump / rrb_rotation);
-	// printf("top index of a %d\n", top_of_stack(stack_a, count));
-	// printf("ra_dump %d ra_rotation %d rb_dump %d rb_rotation %d\n", ra_dump, ra_rotation, rb_dump, rb_rotation);
-	// printf("ra_dump / ra_rotation %d, rb_dump / rb_rotation %d, rrb_dump / rrb_rotation %d\n", ra_dump / ra_rotation, rb_dump / rb_rotation, rrb_dump / rrb_rotation);
-	// printf("option: %d rb_dump / rb_rotation %d / %d, rrb_dump / rrb_rotation %d / %d\n",option, rb_dump , rb_rotation, rrb_dump , rrb_rotation);
 	option = rev_option(ra_rotation / ra_dump, rb_rotation / rb_dump, rrb_rotation / rrb_dump, option);
 	if (option == 1)
 		rotate_a_to_position(stack_a, stack_b, count);

@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/30 23:55:50 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/05/31 03:04:29 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,9 +44,7 @@ int		count_rb_stack_dump(int *stack_a, int *stack_b, int count);
 int		count_rrb_stack_dump(int *stack_a, int *stack_b, int count);
 int		choose_option(int ra_score, int rb_score, int rrb_score);
 int		rev_option(int ra_score, int rb_score, int rrb_score, int option);
-
-
-
+void	recursive_populate_b(int *stack_a, int *stack_b, int count, int median);
 
 /* STACK SORTING FUNCTIONS */
 void	swap_top(int *stack_a, int *stack_b, int count);
