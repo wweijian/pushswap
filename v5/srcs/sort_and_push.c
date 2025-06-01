@@ -1,0 +1,57 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   sort_and_push.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/06/01 23:19:24 by wjhoe             #+#    #+#             */
+/*   Updated: 2025/06/01 23:32:34 by wjhoe            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "push_swap.h"
+
+void	sort_and_push_two(int *stack_a, int *stack_b, int count, int count_top)
+{
+	int	j;
+	
+	j = top_of_stack(stack_b, count);
+	if (count_top == 2)
+	{
+		if (stack_b[j] < stack_b[j + 1])
+			swap_top(NULL, stack_b, count);
+	}
+	rotate_a_to_position(stack_a, stack_b, count);
+	if (count_top == 2)
+	{
+		push_b_to_a(stack_a, stack_b, count);
+		push_b_to_a(stack_a, stack_b, count);
+	}
+	else if (count_top == 1)
+		push_b_to_a(stack_a, stack_b, count);
+	else
+		return ;
+}
+
+/* 
+void	sort_and_push_five(int *stack_a, int *stack_b, int count, int count_top)
+{
+	
+}
+
+void	sort_and_push_four(int *stack_a, int *stack_b, int count, int count_top)
+{
+	
+}
+
+void	sort_and_push_three(int *stack_a, int *stack_b, int count, int count_top)
+{
+	
+}
+
+void	sort_and_push(int *stack_a, int *stack_b, int count, int count_top)
+{
+	if
+}
+ */
