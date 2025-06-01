@@ -6,7 +6,7 @@
 #    By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/06/02 00:44:05 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/06/02 01:35:23 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,9 +15,10 @@ NAME = push_swap
 HDRS = includes
 
 SRCS_PATH = ./srcs
-SRCS = main.c solve.c validate_argument.c find_solution.c sort_stack.c sort_stack_utils.c \
-		utils.c rotate_to_pos.c populate_stack_b.c \
-		populate_stack_b_utils.c swap_utils.c make_base.c return_thirds.c sort_and_push.c
+SRCS = main.c \
+		validate_argument.c find_solution.c solve_stack.c write_solution.c\
+		presort_stack.c presort_stack_utils.c make_base.c sort_and_push.c sort_to_a.c\
+		push_swap_ops.c push_swap_utils.c swap_utils.c utils.c
 SRCS := $(addprefix $(SRCS_PATH)/, $(SRCS))
 
 LIBFT_PATH = ./libft

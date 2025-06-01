@@ -6,11 +6,24 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 08:43:43 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/01 13:04:45 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 01:00:42 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+
+void	make_base(int *stack_a, int *stack_b, int count)
+{
+	int	i;
+
+	i = top_of_stack(stack_a, count);
+	if (count - i <= 3)
+		make_base_3(stack_a, count);
+	else
+		make_base_5(stack_a, stack_b, count);
+	if (stack_a[i] > stack_a [i + 1])
+		swap_a(stack_a, stack_b, count);
+}
 
 void	make_base_3(int *stack_a, int count)
 {
@@ -45,17 +58,4 @@ void	make_base_5(int *stack_a, int *stack_b, int count)
 	make_base_3(stack_a, count);
 	while (push_count-- > 0)
 		push_b_to_a(stack_a, stack_b, count);
-}
-
-void	make_base(int *stack_a, int *stack_b, int count)
-{
-	int	i;
-
-	i = top_of_stack(stack_a, count);
-	if (count - i <= 3)
-		make_base_3(stack_a, count);
-	else
-		make_base_5(stack_a, stack_b, count);
-	if (stack_a[i] > stack_a [i + 1])
-		swap_a(stack_a, stack_b, count);
 }

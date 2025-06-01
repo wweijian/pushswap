@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 10:14:32 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/01 09:05:22 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 01:36:22 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,22 +46,4 @@ void	swap_b(int *stack_a, int *stack_b, int count)
 	}
 	else
 		swap_top(NULL, stack_b, count);
-}
-
-void	check_swap_a(int *stack_a, int *stack_b, int count)
-{
-	int	i;
-
-	i = top_of_stack(stack_a, count);
-	if (stack_a[i] > stack_a[i + 1])
-		swap_a(stack_a, stack_b, count);
-}
-
-void	check_swap_b(int *stack_a, int *stack_b, int count)
-{
-	int	i;
-
-	i = top_of_stack(stack_b, count);
-	if (stack_b[i] < stack_b[i + 1])
-		swap_b(stack_a, stack_b, count);
 }
