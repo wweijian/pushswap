@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 15:39:39 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/01 23:12:18 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 00:37:59 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,27 +34,3 @@ void	write_solution(int *stack_a, int *stack_b, int count)
 	for (int i = 0; i < count; i++)
 		printf("index %d:\t%d\t\t%d\n", i, stack_a[i], stack_b[i]);
 */
-
-/* 
- printf("hi %d  %d  %d  %d\n", j, stack_b[j], i, stack_a[i]);
- */
-
-/* static void	split_stack(int *stack_a, int *stack_b, int count, int index)
-{
-	int	i;
-
-	i = 0;
-	while (count - i > 3)
-	{
-		if (stack_a[i] < count - 2)
-		{
-			push_a_to_b(stack_a, stack_a, count);
-			i++;
-		}
-		else
-			rotate_stack(stack_a, NULL, count);
-	}
-	(void) index;
-} */
-
-	// rotate_to_destination(stack_a, count);

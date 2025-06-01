@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 11:17:54 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/01 23:23:20 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 00:16:20 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,8 +52,8 @@ void	return_top_partition(int *stack_a, int *stack_b,
 	int	j;
 
 	j = top_of_stack(stack_b, count);
-	if (push_data.count_top <= 2)
-		return (sort_and_push_two(stack_a, stack_b, count, push_data.count_top));
+	if (push_data.count_top <= 5)
+		return (sort_and_push(stack_a, stack_b, count, push_data.count_top));
 	push_data.count_btm = 0;
 	push_data.median = ((push_data.max - push_data.count_top + 1) + (push_data.max)) / 2;
 	while (push_data.count_top > 0)

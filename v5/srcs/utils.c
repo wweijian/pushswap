@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 08:46:30 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/29 20:55:34 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 00:38:22 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,5 +42,5 @@ int	find_median(int *stack_a, int count)
 void	rotate_to_destination(int *stack_a, int count)
 {
 	while (stack_a[count - 1] != count)
-		rotate_stack(stack_a, NULL, count);
+		reverse_rotate_stack(stack_a, NULL, count);
 }

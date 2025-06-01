@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 13:28:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/01 23:25:11 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 00:37:38 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,8 +53,7 @@ static void	solve_stack(int *stack_a, int count)
 	}
 	translate_stack(&stack_a, stack_sorted, count);
 	write_solution(stack_a, stack_b, count);
-	for (int i = 0; i < count; i++)
-		printf("index %d:\t%d\n", i, stack_a[i]);
+	rotate_to_destination(stack_a, count);
 	free(stack_sorted);
 	free(stack_b);
 }

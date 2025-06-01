@@ -6,7 +6,7 @@
 #    By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/06/01 23:24:20 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/06/02 00:44:05 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ HDRS = includes
 
 SRCS_PATH = ./srcs
 SRCS = main.c solve.c validate_argument.c find_solution.c sort_stack.c sort_stack_utils.c \
-		utils.c rotate_to_pos.c rotation_count.c populate_stack_b.c \
+		utils.c rotate_to_pos.c populate_stack_b.c \
 		populate_stack_b_utils.c swap_utils.c make_base.c return_thirds.c sort_and_push.c
 SRCS := $(addprefix $(SRCS_PATH)/, $(SRCS))
 
@@ -93,6 +93,10 @@ fclean: clean
 500l: ${NAME}
 		clear
 		xargs ./${NAME} < 500.txt | wc -l
+
+500a: ${NAME}
+		clear
+		xargs ./${NAME} < 500.txt > output.txt
 		
 re: fclean all
 

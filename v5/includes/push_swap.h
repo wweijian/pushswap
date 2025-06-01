@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/01 23:24:01 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 00:36:35 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,17 +67,6 @@ void		rotate_a_to_position(int *stack_a, int *stack_b, int count);
 void		stack_dump(int *stack_a, int *stack_b, int count);
 int			find_stack_a_min(int *stack_a, int *stack_b, int count);
 void		rotate_to_next_op(int *stack_a, int *stack_b, int count);
-int			stack_dump_count(int *stack_a, int i, int *stack_b, int j);
-int			count_rrb_dump(int *stack_b, int count, int rrb);
-int			count_rb(int *stack_a, int *stack_b, int count);
-int			count_ra_rotation(int *stack_a, int *stack_b, int count);
-int			count_rb_rotation(int *stack_a, int *stack_b, int count);
-int			count_rrb_rotation(int *stack_a, int *stack_b, int count);
-int			count_ra_stack_dump(int *stack_a, int *stack_b, int count);
-int			count_rb_stack_dump(int *stack_a, int *stack_b, int count);
-int			count_rrb_stack_dump(int *stack_a, int *stack_b, int count);
-int			choose_option(int ra_score, int rb_score, int rrb_score);
-int			rev_option(int ra_score, int rb_score, int rrb_score, int option);
 t_push_data	split_thirds(int *stack_a, int *stack_b, int count);
 int			presort_push_btm(int *stack_a, int *stack_b, int count);
 int			presort_push_top(int *stack_a, int *stack_b, int count);
@@ -90,6 +79,7 @@ int			find_top_partition(int *stack_a, int count);
 int			find_btm_partition(int *stack_a, int count);
 void		sort_to_a(int *stack_a, int *stack_b, int count);
 void		sort_and_push_two(int *stack_a, int *stack_b, int count, int count_top);
+void		sort_and_push(int *stack_a, int *stack_b, int count, int count_top);
 
 
 /* STACK SORTING FUNCTIONS */
@@ -103,12 +93,6 @@ void		reverse_rotate_stack(int *stack_a, int *stack_b, int count);
 void		write_rotate(int *stack_a, int *stack_b, int direction);
 void		reverse_move_stack(int *stack, int count);
 void		move_stack(int *stack, int count);
-
-// /* SWAP UTILITIES*/
-// void	swap_a(int *stack_a, int *stack_b, int count);
-// void	swap_b(int *stack_a, int *stack_b, int count);
-// void	check_swap_a(int *stack_a, int *stack_b, int count);
-// void	check_swap_b(int *stack_a, int *stack_b, int count);
 
 /* FINALIZING UTILITIES*/
 int			verify_stack_a(int *stack_a, int count);
