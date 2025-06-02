@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init_stack.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 00:48:33 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 12:58:16 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 18:46:28 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,16 +21,27 @@ t_stack	init_prog(int ac, char **av)
 	if (!validate_argument(av))
 		return (empty_stack());
 	stack = init_stack(ac, av);
+	if (stack.a == NULL || stack.b == NULL || stack.solution == NULL)
+	{
+		if (stack.a != NULL)
+			free(stack.a);
+		if (stack.b != NULL)
+			free(stack.b);
+		if (stack.solution != NULL)
+			free(stack.solution);
+		return (empty_stack());
+	}
 	if (!check_duplicates(stack.a, i - 1))
 	{
 		free(stack.a);
 		free(stack.b);
+		free(stack.solution);
 		return (empty_stack());
 	}
 	return (stack);
 }
 
-t_stack init_stack(int ac, char **av)
+t_stack	init_stack(int ac, char **av)
 {
 	t_stack	stack;
 	int		i;
@@ -71,10 +82,10 @@ void	translate_stack(int **stack, int *stack_sorted, int count)
 	}
 }
 
-t_stack empty_stack(void)
+t_stack	empty_stack(void)
 {
-	t_stack stack;
-	
+	t_stack	stack;
+
 	stack.count = 0;
 	stack.solution = NULL;
 	stack.a = NULL;

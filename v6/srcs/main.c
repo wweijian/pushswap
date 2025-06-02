@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 13:28:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 15:02:22 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 21:46:05 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,14 @@ int	main(int ac, char **av)
 	}
 	solve_stack(stack);
 	print_solution(stack);
-	for (int i = 0; i < stack.count; i++)
-		printf("index %d:\t%d\n", i, stack.a[i]);
+	// for (int i = 0; i < stack.count; i++)
+	// 	printf("index %d:\t%d\t%d\n", i, stack.a[i], stack.b[i]);
 	free(stack.a);
 	free(stack.b);
 	free(stack.solution);
 }
 
 // setvbuf(stdout, NULL, _IONBF, 0);
+
+
+// xargs ./push_swap < 5.txt | ./checker_linux $(cat 5.txt)

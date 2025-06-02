@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   main_bonus.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 13:25:59 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 16:21:19 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 20:18:57 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int main (int ac, char **av)
 
 void	input_operations(t_stack stack, t_list **ops_list)
 {
-	read_operations(stack, ops_list);
+	read_operations(ops_list);
 	while(*ops_list)
 	{
 		if (!ft_strncmp((*ops_list)->content, "ra\n", 3)
@@ -51,14 +51,16 @@ void	input_operations(t_stack stack, t_list **ops_list)
 	}
 }
 
-void	read_operations(t_stack stack, t_list **ops_list)
+void	read_operations(t_list **ops_list)
 {
 	char	*operation;
 	
-	while (operation = get_next_line(0))
+	operation = get_next_line(0);
+	while (operation)
 	{
 		ft_lstadd_back(ops_list, ft_lstnew(ft_strdup(operation)));
 		free(operation);
+		operation = get_next_line(0);
 	}
 }
 

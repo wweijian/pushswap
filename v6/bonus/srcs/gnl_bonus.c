@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   gnl_bonus.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 17:23:57 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 15:43:55 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 20:13:08 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static char	*find_line(int fd, char *str)
 	if (!buf)
 		return (NULL);
 	bytes_read = 1;
-	while (!ft_strchr(str, '\n') && bytes_read > 0)
+	while (!gnl_strchr(str, '\n') && bytes_read > 0)
 	{
 		bytes_read = read(fd, buf, BUFFER_SIZE);
 		if (bytes_read == -1)
@@ -30,7 +30,7 @@ static char	*find_line(int fd, char *str)
 			return (NULL);
 		}
 		buf[bytes_read] = '\0';
-		str = ft_strjoin(str, buf);
+		str = gnl_strjoin(str, buf);
 	}
 	free(buf);
 	return (str);
@@ -71,7 +71,7 @@ static char	*remaining_line(char *str)
 		free(str);
 		return (NULL);
 	}
-	res = gnl_strdup(ft_strchr(str, '\n'));
+	res = gnl_strdup(gnl_strchr(str, '\n'));
 	free(str);
 	return (res);
 }

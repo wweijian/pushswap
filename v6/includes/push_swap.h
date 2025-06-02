@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 15:00:33 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 23:12:55 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define PUSH_SWAP_H
 
 # include "libft.h"
+# include "ft_printf.h"
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdio.h> // remove before submission
@@ -140,10 +141,16 @@ void	swap_top_both(t_stack stack);
 
 /* POST_PRO.C */
 void		remove_counter_spin(t_list **solution);
-int			check_ra(t_list **solution);
-int			check_rra(t_list **solution);
-int			check_rb(t_list **solution);
-int			check_rrb(t_list **solution);
+int			check_ra_for_rra(t_list **solution);
+int			check_rra_for_ra(t_list **solution);
+int			check_rb_for_rrb(t_list **solution);
+int			check_rrb_for_rb(t_list **solution);
+void		remove_double_spin(t_list **solution);
+int			check_ra_for_rb(t_list **solution);
+int			check_rb_for_ra(t_list **solution);
+int			check_rra_for_rrb(t_list **solution);
+int			check_rrb_for_rra(t_list **solution);
+
 
 /* PRINT_LIST.C */
 void 		put_operation(t_stack stack, char *operation);
