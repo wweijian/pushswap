@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 21:28:22 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 01:36:29 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 10:57:15 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,21 +28,21 @@ int	find_top_partition(int *stack_a, int count)
 	return (count - ((count - i + 1) / 3) + 1);
 }
 
-int	presort_push_btm(int *stack_a, int *stack_b, int count)
+int	presort_push_btm(t_stack stack)
 {
 	int	i;
 
-	push_a_to_b(stack_a, stack_b, count);
-	i = top_of_stack(stack_a, count);
-	if (stack_a[i] > find_top_partition(stack_a, count))
-		rotate_stack(stack_a, stack_b, count);
+	push_a_to_b(stack.a, stack.b, stack.count);
+	i = top_of_stack(stack.a, stack.count);
+	if (stack.a[i] > find_top_partition(stack.a, stack.count))
+		rotate_stack(stack.a, stack.b, stack.count);
 	else
-		rotate_stack(NULL, stack_b, count);
+		rotate_stack(NULL, stack.b, stack.count);
 	return (1);
 }
 
-int	presort_push_top(int *stack_a, int *stack_b, int count)
+int	presort_push_top(t_stack stack)
 {
-	push_a_to_b(stack_a, stack_b, count);
+	push_a_to_b(stack.a, stack.b, stack.count);
 	return (1);
 }

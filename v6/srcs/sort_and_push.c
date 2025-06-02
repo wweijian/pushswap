@@ -6,114 +6,114 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 23:19:24 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 01:17:34 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 11:13:38 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	sort_and_push(int *stack_a, int *stack_b, int count, int count_top)
+void	sort_and_push(t_stack stack, int count_top)
 {
 	if (count_top == 5)
-		return (sort_and_push_five(stack_a, stack_b, count, count_top));
+		return (sort_and_push_five(stack, count_top));
 	if (count_top == 4)
-		return (sort_and_push_four(stack_a, stack_b, count, count_top));
+		return (sort_and_push_four(stack, count_top));
 	if (count_top == 3)
-		return (sort_and_push_three(stack_a, stack_b, count, count_top));
+		return (sort_and_push_three(stack, count_top));
 	if (count_top == 2 || count_top == 1)
-		return (sort_and_push_two(stack_a, stack_b, count, count_top));
+		return (sort_and_push_two(stack, count_top));
 }
 
-void	sort_and_push_two(int *stack_a, int *stack_b, int count, int count_top)
+void	sort_and_push_two(t_stack stack, int count_top)
 {
 	int	j;
 
-	j = top_of_stack(stack_b, count);
+	j = top_of_stack(stack.b, stack.count);
 	if (count_top == 2)
 	{
-		if (stack_b[j] < stack_b[j + 1])
-			swap_top(NULL, stack_b, count);
+		if (stack.b[j] < stack.b[j + 1])
+			swap_top(NULL, stack.b, stack.count);
 	}
-	rotate_a_to_position(stack_a, stack_b, count);
+	rotate_a_to_position(stack);
 	if (count_top == 2)
 	{
-		push_b_to_a(stack_a, stack_b, count);
-		push_b_to_a(stack_a, stack_b, count);
+		push_b_to_a(stack.a, stack.b, stack.count);
+		push_b_to_a(stack.a, stack.b, stack.count);
 	}
 	else if (count_top == 1)
-		push_b_to_a(stack_a, stack_b, count);
+		push_b_to_a(stack.a, stack.b, stack.count);
 	else
 		return ;
 }
 
-void	sort_and_push_three(int *stack_a, int *stack_b, int count, int count_top)
+void	sort_and_push_three(t_stack stack, int count_top)
 {
 	int	max_index;
 	int	j;
 
-	max_index = find_max(stack_b, count, count_top);
-	j = top_of_stack(stack_b, count);
+	max_index = find_max(stack.b, stack.count, count_top);
+	j = top_of_stack(stack.b, stack.count);
 	if (j == max_index)
 	{
-		sort_to_a(stack_a, stack_b, count);
-		return (sort_and_push_two(stack_a, stack_b, count, count_top - 1));
+		sort_to_a(stack);
+		return (sort_and_push_two(stack, count_top - 1));
 	}
 	if (j + 1 == max_index)
 	{
-		swap_top(NULL, stack_b, count);
-		return (sort_and_push_three(stack_a, stack_b, count, count_top));
+		swap_top(NULL, stack.b, stack.count);
+		return (sort_and_push_three(stack, count_top));
 	}
 	while (count_top)
 	{
-		sort_to_a(stack_a, stack_b, count);
+		sort_to_a(stack);
 		count_top--;
 	}
 }
 
-void	sort_and_push_four(int *stack_a, int *stack_b, int count, int count_top)
+void	sort_and_push_four(t_stack stack, int count_top)
 {
 	int	max_index;
 	int	j;
 
-	max_index = find_max(stack_b, count, count_top);
-	j = top_of_stack(stack_b, count);
+	max_index = find_max(stack.b, stack.count, count_top);
+	j = top_of_stack(stack.b, stack.count);
 	if (j == max_index)
 	{
-		sort_to_a(stack_a, stack_b, count);
-		return (sort_and_push_three(stack_a, stack_b, count, count_top - 1));
+		sort_to_a(stack);
+		return (sort_and_push_three(stack, count_top - 1));
 	}
 	if (j + 1 == max_index)
 	{
-		swap_top(NULL, stack_b, count);
-		return (sort_and_push_four(stack_a, stack_b, count, count_top));
+		swap_top(NULL, stack.b, stack.count);
+		return (sort_and_push_four(stack, count_top));
 	}
 	while (count_top)
 	{
-		sort_to_a(stack_a, stack_b, count);
+		sort_to_a(stack);
 		count_top--;
 	}
 }
 
-void	sort_and_push_five(int *stack_a, int *stack_b, int count, int count_top)
+void	sort_and_push_five(t_stack stack, int count_top)
 {
 	int	max_index;
 	int	j;
 
-	max_index = find_max(stack_b, count, count_top);
-	j = top_of_stack(stack_b, count);
+	max_index = find_max(stack.b, stack.count, count_top);
+	j = top_of_stack(stack.b, stack.count);
 	if (j == max_index)
 	{
-		sort_to_a(stack_a, stack_b, count);
-		return (sort_and_push_four(stack_a, stack_b, count, count_top - 1));
+		sort_to_a(stack);
+		return (sort_and_push_four(stack, count_top - 1));
 	}
 	if (j + 1 == max_index)
 	{
-		swap_top(NULL, stack_b, count);
-		return (sort_and_push_five(stack_a, stack_b, count, count_top));
+		swap_top(NULL, stack.b, stack.count);
+		return (sort_and_push_five(stack, count_top));
 	}
 	while (count_top)
 	{
-		sort_to_a(stack_a, stack_b, count);
+		sort_to_a(stack);
 		count_top--;
 	}
 }
