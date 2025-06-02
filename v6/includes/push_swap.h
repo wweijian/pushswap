@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 09:43:05 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 10:23:54 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,9 @@
 
 typedef struct s_stack
 {
-	int		count;
 	int		*a;
 	int		*b;
+	int		count;
 	t_list	*solution;
 }			t_stack;
 
@@ -52,19 +52,19 @@ typedef struct s_partition
 }			t_partition;
 
 /* ARGUMENT VALIDATION FUNCTIONS */
-int			validate_argument(char *arg);
+int			validate_argument(char **av);
 int			check_duplicates(int *stack, int count);
 int			check_limits(char *arg);
 int			check_digits(char *arg);
 int			ft_atol(const char *nptr);
 
 /* SOLVE_STACK.C */
-void		solve_stack(int *stack_a, int count);
+void		solve_stack(t_stack stack);
 void		translate_stack(int **stack, int *stack_sorted, int count);
-int			*init_stacks(int ac, char **av);
+t_stack		init_prog(int ac, char **av);
 
 /* FIND_SOLUTION.C */
-int			*find_solution(int *stack, int count);
+int			*find_solution(t_stack stack);
 void		ft_quicksort(int *stack, int start_index, int end_index);
 int			ft_partition(int *stack, int start_index, int end_index);
 

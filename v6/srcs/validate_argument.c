@@ -6,18 +6,25 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 16:08:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 00:57:27 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 09:52:35 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	validate_argument(char *arg)
+int	validate_argument(char **av)
 {
-	if (!check_digits(arg))
-		return (0);
-	if (!check_limits(arg))
-		return (0);
+	int	i;
+
+	i = 1;
+	while (av[i])
+	{
+		if(!check_digits(av[i]))
+			return (0);
+		if(!check_digits(av[i]))
+			return (0);
+		i++;
+	}
 	return (1);
 }
 

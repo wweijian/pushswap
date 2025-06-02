@@ -6,24 +6,24 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 19:17:52 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 00:55:15 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 10:27:41 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	*find_solution(int *stack, int count)
+int	*find_solution(t_stack stack)
 {
 	int	*stack_sorted;
 	int	i;
 
 	i = 0;
-	stack_sorted = malloc(sizeof(*stack_sorted) * count);
+	stack_sorted = malloc(sizeof(*stack_sorted) * stack.count);
 	if (!stack_sorted)
 		return (NULL);
-	while (i++ < count)
-		stack_sorted[i - 1] = stack[i - 1];
-	ft_quicksort(stack_sorted, 0, count - 1);
+	while (i++ < stack.count)
+		stack_sorted[i - 1] = stack.a[i - 1];
+	ft_quicksort(stack_sorted, 0, stack.count - 1);
 	return (stack_sorted);
 }
 
