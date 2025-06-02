@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 09:31:05 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 09:43:05 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,15 +28,13 @@
 	min			stores the lowst VALUE (not index) inclusive in the sort
 */
 
-/* 
 typedef struct s_stack
 {
 	int		count;
 	int		*a;
-	int 	*b;
-	t_list *solution
-} 				t_stack;
-*/
+	int		*b;
+	t_list	*solution;
+}			t_stack;
 
 typedef struct s_push_data
 {
@@ -45,13 +43,13 @@ typedef struct s_push_data
 	int	max;
 	int	min;
 	int	median;
-}				t_push_data;
+}			t_push_data;
 
 typedef struct s_partition
 {
-	int			top;
-	int			btm;
-}				t_partition;
+	int	top;
+	int	btm;
+}			t_partition;
 
 /* ARGUMENT VALIDATION FUNCTIONS */
 int			validate_argument(char *arg);
@@ -82,7 +80,6 @@ void		start_stack_b(int *stack_a, int *stack_b, int count, t_partition partition
 t_push_data	push_data_init(int count_btm, int count_top, int max, int min);
 t_push_data	update_push(int *stack_b, int count, t_partition partition, t_push_data push_data);
 t_push_data	presort_stack(int *stack_a, int *stack_b, int count);
-
 
 /* PRESORT_STACK_UTILS.C */
 int			find_btm_partition(int *stack_a, int count);
