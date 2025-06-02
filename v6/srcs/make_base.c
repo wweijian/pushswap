@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 08:43:43 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 11:16:55 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 12:47:22 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,19 +18,19 @@ void	make_base(t_stack stack)
 
 	i = top_of_stack(stack.a, stack.count);
 	if (stack.count - i <= 3)
-		make_base_3(stack.a, stack.count);
+		make_base_3(stack);
 	else
 		make_base_5(stack);
 	if (stack.a[i] > stack.a [i + 1])
 		swap_a(stack);
 }
 
-void	make_base_3(int *stack_a, int count)
+void	make_base_3(t_stack stack)
 {
-	while (stack_a[count - 1] != count)
-		rotate_stack(stack_a, NULL, count);
-	if (stack_a[count - 2] < stack_a[count - 3])
-		swap_top(stack_a, NULL, count);
+	while (stack.a[stack.count - 1] != stack.count)
+		rotate_stack(stack.a, NULL, stack.count, stack);
+	if (stack.a[stack.count - 2] < stack.a[stack.count - 3])
+		swap_top(stack.a, NULL, stack.count, stack);
 }
 
 void	make_base_5(t_stack stack)
@@ -48,14 +48,14 @@ void	make_base_5(t_stack stack)
 	{
 		if (stack.a[i] <= min)
 		{
-			push_a_to_b(stack.a, stack.b, stack.count);
+			push_a_to_b(stack.a, stack.b, stack.count, stack);
 			push_count++;
 		}
 		else
-			rotate_stack(stack.a, NULL, stack.count);
+			rotate_stack(stack.a, NULL, stack.count, stack);
 		i = top_of_stack(stack.a, stack.count);
 	}
-	make_base_3(stack.a, stack.count);
+	make_base_3(stack);
 	while (push_count-- > 0)
-		push_b_to_a(stack.a, stack.b, stack.count);
+		push_b_to_a(stack.a, stack.b, stack.count, stack);
 }

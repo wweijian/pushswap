@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 23:19:24 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 11:13:38 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 12:45:18 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,16 +32,16 @@ void	sort_and_push_two(t_stack stack, int count_top)
 	if (count_top == 2)
 	{
 		if (stack.b[j] < stack.b[j + 1])
-			swap_top(NULL, stack.b, stack.count);
+			swap_top(NULL, stack.b, stack.count, stack);
 	}
 	rotate_a_to_position(stack);
 	if (count_top == 2)
 	{
-		push_b_to_a(stack.a, stack.b, stack.count);
-		push_b_to_a(stack.a, stack.b, stack.count);
+		push_b_to_a(stack.a, stack.b, stack.count, stack);
+		push_b_to_a(stack.a, stack.b, stack.count, stack);
 	}
 	else if (count_top == 1)
-		push_b_to_a(stack.a, stack.b, stack.count);
+		push_b_to_a(stack.a, stack.b, stack.count, stack);
 	else
 		return ;
 }
@@ -60,7 +60,7 @@ void	sort_and_push_three(t_stack stack, int count_top)
 	}
 	if (j + 1 == max_index)
 	{
-		swap_top(NULL, stack.b, stack.count);
+		swap_top(NULL, stack.b, stack.count, stack);
 		return (sort_and_push_three(stack, count_top));
 	}
 	while (count_top)
@@ -84,7 +84,7 @@ void	sort_and_push_four(t_stack stack, int count_top)
 	}
 	if (j + 1 == max_index)
 	{
-		swap_top(NULL, stack.b, stack.count);
+		swap_top(NULL, stack.b, stack.count, stack);
 		return (sort_and_push_four(stack, count_top));
 	}
 	while (count_top)
@@ -108,7 +108,7 @@ void	sort_and_push_five(t_stack stack, int count_top)
 	}
 	if (j + 1 == max_index)
 	{
-		swap_top(NULL, stack.b, stack.count);
+		swap_top(NULL, stack.b, stack.count, stack);
 		return (sort_and_push_five(stack, count_top));
 	}
 	while (count_top)

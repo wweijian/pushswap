@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 17:19:16 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 11:07:44 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 12:45:37 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	sort_to_a(t_stack stack)
 {
 	rotate_a_to_position(stack);
-	push_b_to_a(stack.a, stack.b, stack.count);
+	push_b_to_a(stack.a, stack.b, stack.count, stack);
 }
 
 int	find_stack_a_min(t_stack stack)
@@ -55,7 +55,7 @@ void	rotate_a_to_position(t_stack stack)
 		rotate_counter = stack.count - min_index;
 		while (rotate_counter > 0)
 		{
-			reverse_rotate_stack(stack.a, NULL, stack.count);
+			reverse_rotate_stack(stack.a, NULL, stack.count, stack);
 			rotate_counter--;
 		}
 	}
@@ -64,7 +64,7 @@ void	rotate_a_to_position(t_stack stack)
 		rotate_counter = min_index - i;
 		while (rotate_counter > 0)
 		{
-			rotate_stack(stack.a, NULL, stack.count);
+			rotate_stack(stack.a, NULL, stack.count, stack);
 			rotate_counter--;
 		}
 	}

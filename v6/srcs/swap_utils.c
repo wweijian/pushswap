@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 10:14:32 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 11:16:15 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 12:45:59 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,13 +21,13 @@ void	swap_a(t_stack stack)
 	{
 		if (stack.b[j] < stack.b[j + 1])
 		{
-			swap_top(stack.a, stack.b, stack.count);
+			swap_top(stack.a, stack.b, stack.count, stack);
 		}
 		else
-			swap_top(stack.a, NULL, stack.count);
+			swap_top(stack.a, NULL, stack.count, stack);
 	}
 	else
-		swap_top(stack.a, NULL, stack.count);
+		swap_top(stack.a, NULL, stack.count, stack);
 }
 
 void	swap_b(t_stack stack)
@@ -39,11 +39,11 @@ void	swap_b(t_stack stack)
 	{
 		if (stack.a[i] > stack.a[i + 1])
 		{
-			swap_top(stack.a, stack.b, stack.count);
+			swap_top(stack.a, stack.b, stack.count, stack);
 		}
 		else
-			swap_top(NULL, stack.b, stack.count);
+			swap_top(NULL, stack.b, stack.count, stack);
 	}
 	else
-		swap_top(NULL, stack.b, stack.count);
+		swap_top(NULL, stack.b, stack.count, stack);
 }

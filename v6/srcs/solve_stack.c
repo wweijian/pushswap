@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 09:25:38 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 10:58:55 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 12:48:49 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,11 @@ void	solve_stack(t_stack stack)
 	translate_stack(&stack.a, stack_sorted, stack.count);
 	if (stack_sorted)
 		free (stack_sorted);
-	write_solution(stack);
-	rotate_to_destination(stack.a, stack.count);
+	recursive_solve(stack);
+	rotate_to_destination(stack);
 }
 
-void	write_solution(t_stack stack)
+void	recursive_solve(t_stack stack)
 {
 	int			i;
 	t_push_data	push_data;
@@ -37,7 +37,7 @@ void	write_solution(t_stack stack)
 	}
 	push_data = presort_stack(stack);
 	i = top_of_stack(stack.a, stack.count);
-	write_solution(stack);
+	recursive_solve(stack);
 	return_top_partition(stack, push_data);
 	return_btm_partition(stack, push_data);
 }

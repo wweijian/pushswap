@@ -6,7 +6,7 @@
 #    By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/06/02 09:30:20 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/06/02 12:40:05 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,9 +17,16 @@ HDRS = includes
 SRCS_PATH = ./srcs
 SRCS = main.c \
 		validate_argument.c find_solution.c solve_stack.c init_stack.c\
-		presort_stack.c make_base.c sort_and_push.c sort_back.c push_swap_ops.c\
-		presort_stack_utils.c sort_back_utils.c  push_swap_utils.c swap_utils.c utils.c
+		presort_stack.c make_base.c sort_and_push.c sort_back.c \
+		presort_stack_utils.c sort_back_utils.c swap_utils.c utils.c
 SRCS := $(addprefix $(SRCS_PATH)/, $(SRCS))
+
+OPS_PATH = ./operations
+OPS	= post_pro.c push_swap_utils.c put_operation.c rotate.c \
+		push_swap_ops.c push.c rev_rotate.c swap.c
+OPS := $(addprefix $(OPS_PATH)/, $(OPS))
+
+SRCS += $(OPS)
 
 LIBFT_PATH = ./libft
 LIBFT = ${LIBFT_PATH}/libft.a
@@ -41,7 +48,7 @@ ${NAME}: ${LIBFT} ${SRCS} ${OBJS} ${HDRS}
 bonus: 
 
 ${LIBFT}:
-		make -C ${LIBFT_PATH} all
+		make -C ${LIBFT_PATH} bonus
 
 clean:
 		${RM} ${OBJS}

@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 11:20:26 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 13:12:03 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ typedef struct s_stack
 	int		*a;
 	int		*b;
 	int		count;
-	t_list	*solution;
+	t_list	**solution;
 }			t_stack;
 
 typedef struct s_push_data
@@ -62,6 +62,8 @@ int			ft_atol(const char *nptr);
 void		solve_stack(t_stack stack);
 void		translate_stack(int **stack, int *stack_sorted, int count);
 t_stack		init_prog(int ac, char **av);
+t_stack 	empty_stack(void);
+t_stack 	init_stack(int ac, char **av);
 
 /* FIND_SOLUTION.C */
 int			*find_solution(t_stack stack);
@@ -69,7 +71,7 @@ void		ft_quicksort(int *stack, int start_index, int end_index);
 int			ft_partition(int *stack, int start_index, int end_index);
 
 /* WRITE_SOLUTION.C */
-void		write_solution(t_stack stack);
+void		recursive_solve(t_stack stack);
 void		return_top_partition(t_stack stack, t_push_data push_data);
 void		return_btm_partition(t_stack stack, t_push_data push_data);
 int			count_top_stack(int *stack_b, int count, t_push_data push_data);
@@ -89,7 +91,7 @@ int			presort_push_top(t_stack stack);
 
 /* MAKE_BASE.C */
 void		make_base(t_stack stack);
-void		make_base_3(int *stack_a, int count);
+void		make_base_3(t_stack stack);
 void		make_base_5(t_stack stack);
 
 /* SORT_BACK_UTILS.C */
@@ -108,12 +110,23 @@ void		sort_and_push_five(t_stack stack, int count_top);
 void		swap_a(t_stack stack);
 void		swap_b(t_stack stack);
 
-/* PUSH_SWAP_OPS.C */ // FIXME:
-void		swap_top(int *stack_a, int *stack_b, int count);
-int			push_a_to_b(int *stack_a, int *stack_b, int count);
-int			push_b_to_a(int *stack_a, int *stack_b, int count);
-void		rotate_stack(int *stack_a, int *stack_b, int count);
-void		reverse_rotate_stack(int *stack_a, int *stack_b, int count);
+/* PUSH_SWAP_OPS.C */
+void		swap_top(int *stack_a, int *stack_b, int count, t_stack stack);
+int			push_a_to_b(int *stack_a, int *stack_b, int count, t_stack stack);
+int			push_b_to_a(int *stack_a, int *stack_b, int count, t_stack stack);
+void		rotate_stack(int *stack_a, int *stack_b, int count, t_stack stack);
+void		reverse_rotate_stack(int *stack_a, int *stack_b, int count, t_stack stack);
+
+/* POST_PRO.C */
+void		remove_counter_spin(t_list **solution);
+int			check_ra(t_list **solution);
+int			check_rra(t_list **solution);
+int			check_rb(t_list **solution);
+int			check_rrb(t_list **solution);
+
+/* PRINT_LIST.C */
+void 		put_operation(t_stack stack, char *operation);
+void		print_solution(t_stack stack);
 
 /* PUSH_SWAP_UTILS.C */
 void		reverse_move_stack(int *stack, int count);
@@ -123,7 +136,7 @@ void		move_stack(int *stack, int count);
 int			top_of_stack(int *stack, int count);
 void		ft_swap(int *a, int *b);
 int			find_median(int *stack_a, int count);
-void		rotate_to_destination(int *stack_a, int count);
+void		rotate_to_destination(t_stack stack);
 int			find_max(int *stack_b, int count, int count_top);
 
 #endif
