@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 15:39:39 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 12:45:45 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 14:52:37 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ void	return_top_partition(t_stack stack, t_push_data push_data)
 		}
 		else
 		{
-			rotate_stack(NULL, stack.b, stack.count, stack);
+			rotate_stack_b(stack);
 			push_data.count_btm++;
 		}
 		push_data.count_top--;
@@ -43,7 +43,7 @@ void	return_btm_partition(t_stack stack, t_push_data push_data)
 	push_data.count_top = 0;
 	while (push_data.count_btm > 0)
 	{
-		reverse_rotate_stack(NULL, stack.b, stack.count, stack);
+		reverse_rotate_stack_b(stack);
 		push_data.count_btm--;
 		push_data.count_top++;
 	}

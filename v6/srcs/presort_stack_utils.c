@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 21:28:22 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 12:44:13 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 14:49:41 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,17 +32,17 @@ int	presort_push_btm(t_stack stack)
 {
 	int	i;
 
-	push_a_to_b(stack.a, stack.b, stack.count, stack);
+	push_a_to_b(stack);
 	i = top_of_stack(stack.a, stack.count);
 	if (stack.a[i] > find_top_partition(stack.a, stack.count))
-		rotate_stack(stack.a, stack.b, stack.count, stack);
+		rotate_stack_both(stack);
 	else
-		rotate_stack(NULL, stack.b, stack.count, stack);
+		rotate_stack_b(stack);
 	return (1);
 }
 
 int	presort_push_top(t_stack stack)
 {
-	push_a_to_b(stack.a, stack.b, stack.count, stack);
+	push_a_to_b(stack);
 	return (1);
 }

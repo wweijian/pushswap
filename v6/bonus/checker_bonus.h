@@ -1,36 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   checker_bonus.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/26 13:28:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 15:02:22 by wjhoe            ###   ########.fr       */
+/*   Created: 2025/06/02 14:54:58 by wjhoe             #+#    #+#             */
+/*   Updated: 2025/06/02 16:16:27 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#ifndef CHECKER_BONUS_H
+# define CHECKER_BONUS_H
 
-int	main(int ac, char **av)
-{
-	t_stack	stack;
+# include "push_swap.h"
+# include "gnl_bonus.h"
 
-	if (ac < 2)
-		return (0);
-	stack = init_prog(ac, av);
-	if (!stack.a)
-	{
-		write(1, "error\n", 6);
-		return (0);
-	}
-	solve_stack(stack);
-	print_solution(stack);
-	for (int i = 0; i < stack.count; i++)
-		printf("index %d:\t%d\n", i, stack.a[i]);
-	free(stack.a);
-	free(stack.b);
-	free(stack.solution);
-}
+/* SORT.C */
+void	sort_rotate(t_stack stack, char* operation);
+void	sort_reverse_rotate(t_stack stack, char* operation);
+void	sort_swap(t_stack stack, char* operation);
+void	sort_rotate(t_stack stack, char* operation);
 
-// setvbuf(stdout, NULL, _IONBF, 0);
+
+#endif

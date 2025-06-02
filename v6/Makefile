@@ -6,7 +6,7 @@
 #    By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/06/02 12:40:05 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/06/02 14:40:07 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,8 +22,7 @@ SRCS = main.c \
 SRCS := $(addprefix $(SRCS_PATH)/, $(SRCS))
 
 OPS_PATH = ./operations
-OPS	= post_pro.c push_swap_utils.c put_operation.c rotate.c \
-		push_swap_ops.c push.c rev_rotate.c swap.c
+OPS	= rotate.c push.c rev_rotate.c swap.c post_pro.c put_operation.c
 OPS := $(addprefix $(OPS_PATH)/, $(OPS))
 
 SRCS += $(OPS)

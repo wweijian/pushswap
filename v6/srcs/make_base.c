@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 08:43:43 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 12:47:22 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 14:46:18 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,9 +28,9 @@ void	make_base(t_stack stack)
 void	make_base_3(t_stack stack)
 {
 	while (stack.a[stack.count - 1] != stack.count)
-		rotate_stack(stack.a, NULL, stack.count, stack);
+		rotate_stack_a(stack);
 	if (stack.a[stack.count - 2] < stack.a[stack.count - 3])
-		swap_top(stack.a, NULL, stack.count, stack);
+		swap_top_a(stack);
 }
 
 void	make_base_5(t_stack stack)
@@ -48,14 +48,14 @@ void	make_base_5(t_stack stack)
 	{
 		if (stack.a[i] <= min)
 		{
-			push_a_to_b(stack.a, stack.b, stack.count, stack);
+			push_a_to_b(stack);
 			push_count++;
 		}
 		else
-			rotate_stack(stack.a, NULL, stack.count, stack);
+			rotate_stack_a(stack);
 		i = top_of_stack(stack.a, stack.count);
 	}
 	make_base_3(stack);
 	while (push_count-- > 0)
-		push_b_to_a(stack.a, stack.b, stack.count, stack);
+		push_b_to_a(stack);
 }

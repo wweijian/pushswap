@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 13:12:03 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/02 15:00:33 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,12 +110,33 @@ void		sort_and_push_five(t_stack stack, int count_top);
 void		swap_a(t_stack stack);
 void		swap_b(t_stack stack);
 
-/* PUSH_SWAP_OPS.C */
-void		swap_top(int *stack_a, int *stack_b, int count, t_stack stack);
-int			push_a_to_b(int *stack_a, int *stack_b, int count, t_stack stack);
-int			push_b_to_a(int *stack_a, int *stack_b, int count, t_stack stack);
-void		rotate_stack(int *stack_a, int *stack_b, int count, t_stack stack);
-void		reverse_rotate_stack(int *stack_a, int *stack_b, int count, t_stack stack);
+/* PUSH_SWAP_UTILS.C */
+void		reverse_move_stack(int *stack, int count);
+void		move_stack(int *stack, int count);
+
+/* UTILS.C */
+int			top_of_stack(int *stack, int count);
+void		ft_swap(int *a, int *b);
+int			find_median(int *stack_a, int count);
+void		rotate_to_destination(t_stack stack);
+int			find_max(int *stack_b, int count, int count_top);
+
+/* OPERATIONS*/
+
+/* PUSH_SWAP_ALGO */
+int		push_a_to_b(t_stack stack);
+int		push_b_to_a(t_stack stack);
+void	reverse_rotate_stack_a(t_stack stack);
+void	reverse_rotate_stack_b(t_stack stack);
+void	reverse_rotate_stack_both(t_stack stack);
+void	reverse_rotate_stack(int *stack, int count);
+void	rotate_stack_a(t_stack stack);
+void	rotate_stack_b(t_stack stack);
+void	rotate_stack_both(t_stack stack);
+void	rotate_stack(int *stack, int count);
+void	swap_top_a(t_stack stack);
+void	swap_top_b(t_stack stack);
+void	swap_top_both(t_stack stack);
 
 /* POST_PRO.C */
 void		remove_counter_spin(t_list **solution);
@@ -128,15 +149,5 @@ int			check_rrb(t_list **solution);
 void 		put_operation(t_stack stack, char *operation);
 void		print_solution(t_stack stack);
 
-/* PUSH_SWAP_UTILS.C */
-void		reverse_move_stack(int *stack, int count);
-void		move_stack(int *stack, int count);
-
-/* UTILS.C */
-int			top_of_stack(int *stack, int count);
-void		ft_swap(int *a, int *b);
-int			find_median(int *stack_a, int count);
-void		rotate_to_destination(t_stack stack);
-int			find_max(int *stack_b, int count, int count_top);
 
 #endif
