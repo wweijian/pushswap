@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 13:28:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 21:46:05 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/03 08:36:12 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,5 +35,4 @@ int	main(int ac, char **av)
 
 // setvbuf(stdout, NULL, _IONBF, 0);
 
-
-// xargs ./push_swap < 5.txt | ./checker_linux $(cat 5.txt)
+// xargs ./push_swap < 100.txt | ./checker_linux $(cat 100.txt)
