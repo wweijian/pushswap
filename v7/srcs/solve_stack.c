@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 09:25:38 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/04 13:11:13 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/04 23:27:23 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,10 +20,7 @@ void	solve_stack(t_stack stack)
 	translate_stack(&stack.a, stack_sorted, stack.count);
 	if (stack_sorted)
 		free (stack_sorted);
-	// for (int i = 0; i < stack.count; i++)
-	// 	printf("index %d:\t%d\t%d\n", i, stack.a[i], stack.b[i]);
 	recursive_solve(stack);
-	rotate_to_destination(stack);
 }
 
 void	recursive_solve(t_stack stack)
@@ -35,17 +32,15 @@ void	recursive_solve(t_stack stack)
 	if (stack.count - i < 6)
 	{
 		make_base(stack);
-		// for (int i = 0; i < stack.count; i++)
-		// 	printf("index %d:\t%d\t%d\n", i, stack.a[i], stack.b[i]);
 		return ;
 	}
-	printf("\nSOLVE STACK: RECURSIVE SOLVE\n");
-	// for (int i = 0; i < stack.count; i++)
-	// 	printf("index %d:\t%d\t%d\n", i, stack.a[i], stack.b[i]);
 	push_data = presort_stack(stack);
 	recursive_solve(stack);
-	sort_b_top(stack, push_data);
-	sort_b_btm(stack, push_data);
+	sort_b_top(stack, push_data, push_data.mid_third, push_data.top_third - 1);
+	if (push_data.mid_third == find_btm_partition(1, stack.count))
+		sort_b_top(stack, push_data, i + 1, push_data.mid_third - 1);
+	else
+		sort_b_btm(stack, push_data, i + 1, push_data.mid_third - 1);
 }
 
 /* 

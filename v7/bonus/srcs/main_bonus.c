@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main_bonus.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 13:25:59 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 20:18:57 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/04 23:57:11 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,7 @@ void	input_operations(t_stack stack, t_list **ops_list)
 		else if (!ft_strncmp((*ops_list)->content, "pa\n", 3)
 				|| !ft_strncmp((*ops_list)->content, "pb\n", 3)) 
 			sort_push(stack, (*ops_list)->content);
+			
 		*ops_list = (*ops_list)->next;
 	}
 }

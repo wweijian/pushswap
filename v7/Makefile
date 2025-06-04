@@ -6,7 +6,7 @@
 #    By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/06/03 21:31:58 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/06/04 23:59:52 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,15 +18,15 @@ HDRS = includes/
 
 OPS_PATH = ./operations
 OPS	= rotate.c push.c rev_rotate.c swap.c check_counter_spin.c put_operation.c \
-		check_double_spin.c
+		check_double_spin.c check_double_counter_spin.c check_double_swap.c
 OPS := ${addprefix ${OPS_PATH}/, ${OPS}}
 
 SRCS_PATH = ./srcs
 SRCS = main.c \
 		validate_argument.c find_solution.c solve_stack.c init_stack.c\
-		presort_stack.c make_base.c sort_and_push.c sort_back.c \
-		presort_stack_utils.c sort_back_utils.c swap_utils.c utils.c \
-		sort_back2_utils.c finish_a_top.c	#change name later
+		presort_stack.c make_base.c finish_sort_b.c sort_back.c \
+		presort_stack_utils.c utils.c \
+		sort_back2_utils.c finish_sort_a.c
 SRCS := ${addprefix ${SRCS_PATH}/, ${SRCS}}
 SRCS += ${OPS}
 
@@ -43,8 +43,9 @@ B_MAIN = gnl_bonus.c gnl_utils_bonus.c main_bonus.c sort_bonus.c
 B_MAIN := ${addprefix ${B_MAIN_PATH}/, ${B_MAIN}}
 
 B_SRCS = validate_argument.c find_solution.c solve_stack.c init_stack.c\
-			presort_stack.c make_base.c sort_and_push.c sort_back.c \
-			presort_stack_utils.c sort_back_utils.c swap_utils.c utils.c
+			presort_stack.c make_base.c finish_sort_b.c sort_back.c \
+			presort_stack_utils.c utils.c \
+			sort_back2_utils.c finish_sort_a.c
 B_SRCS := ${addprefix ${B_SRCS_PATH}/, ${B_SRCS}}
 B_SRCS += ${OPS} ${B_MAIN}
 
@@ -92,6 +93,10 @@ re: fclean all
 # 101a: ${NAME}
 # 		clear
 # 		xargs ./${NAME} < ${ARGS101} > output.txt
+
+80a: ${NAME}
+		clear
+		xargs ./${NAME} < 80.txt > output.txt
 
 100a: ${NAME}
 		clear

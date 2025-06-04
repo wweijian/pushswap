@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 11:55:12 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/03 07:59:44 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/04 23:32:50 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,10 @@ void	remove_counter_spin(t_list **solution)
 			flag = check_rra_for_ra(&search);
 		else if (ft_strncmp(search->next->content, "rrb\n", 4) == 0)
 			flag = check_rrb_for_rb(&search);
+		else if (ft_strncmp(search->next->content, "rr\n", 3) == 0)
+			flag = check_rr_for_rrr(&search);
+		else if (ft_strncmp(search->next->content, "rrr\n", 4) == 0)
+			flag = check_rrr_for_rr(&search);
 		if (flag == 1)
 			return (remove_counter_spin(solution));
 		search = search->next;

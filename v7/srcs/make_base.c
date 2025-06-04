@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 08:43:43 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/04 09:46:45 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/04 22:58:05 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	make_base(t_stack stack)
 	else
 		make_base_5(stack);
 	if (stack.a[i] > stack.a [i + 1])
-		swap_a(stack);
+		swap_top_a(stack);
 }
 
 void	make_base_3(t_stack stack)

@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 11:43:08 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/03 08:32:51 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/04 23:49:47 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ void	print_solution(t_stack stack)
 	remove = search;
 	remove_counter_spin(stack.solution);
 	remove_double_spin(stack.solution);
+	remove_double_swap(stack.solution);
 	while (search)
 	{
 		ft_printf("%s", (char *)(search)->content);
