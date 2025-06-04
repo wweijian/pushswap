@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/03 14:41:27 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/04 10:15:52 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,13 +59,14 @@ typedef struct s_count
 	int	b_btm;
 	int	a_top;
 	int	b_top;
+	int	keep;
 }			t_count;
 
 typedef struct s_push_data
 {
 	int			max;
 	int			min;
-		int			median;
+	int			median; // FIXME: DELETE
 	t_partition	partition;
 	t_count		count;
 }			t_push_data;
@@ -175,10 +176,30 @@ void 		put_operation(t_stack stack, char *operation);
 void		print_solution(t_stack stack);
 
 /* TODO: NEW FUNCTIONS */
-/* 
 
 
-*/
+// presort_stack_utils.c
+t_partition set_partition(int min, int max);
+
+// sort_a_top
+void	finish_a_top(t_stack stack, int count);
+void 	finish_a_top_two(t_stack stack, int top);
+void 	finish_a_top_three(t_stack stack, int top);
+void 	finish_a_top_four(t_stack stack, int top);
+void 	finish_a_top_five(t_stack stack, int top);
+void	multiple_op(void (*f)(t_stack), t_stack stack, int n);
+
+void	sort_b_top(t_stack stack, t_push_data push_data);
+void	sort_a_top(t_stack stack, t_push_data push_data);
+void	sort_b_btm(t_stack stack, t_push_data push_data);
+void	sort_a_btm(t_stack stack, t_push_data push_data);
+
+int	sortback_push_b_btm(t_stack stack);
+int	sortback_push_a_btm(t_stack stack);
+int	sortback_push_a_top(t_stack stack);
+int	rotate_to_btm_a(t_stack stack);
+t_count	reset_count(int keep, t_count count);
+t_push_data reset_push_data (t_push_data push_data, int option);
 
 
 #endif

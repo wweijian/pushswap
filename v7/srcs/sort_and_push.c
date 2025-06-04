@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 23:19:24 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 14:51:45 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/04 13:08:24 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,16 @@
 void	sort_and_push(t_stack stack, int count_top)
 {
 	if (count_top == 5)
-		return (sort_and_push_five(stack, count_top));
-	if (count_top == 4)
-		return (sort_and_push_four(stack, count_top));
-	if (count_top == 3)
-		return (sort_and_push_three(stack, count_top));
-	if (count_top == 2 || count_top == 1)
-		return (sort_and_push_two(stack, count_top));
+		sort_and_push_five(stack, count_top);
+	else if (count_top == 4)
+		sort_and_push_four(stack, count_top);
+	else if (count_top == 3)
+		sort_and_push_three(stack, count_top);
+	else if (count_top == 2 || count_top == 1)
+		sort_and_push_two(stack, count_top);
+	rotate_to_destination(stack);
+	// for (int i = 0; i < stack.count; i++)
+	// 	printf("index %d:\t%d\t%d\n", i, stack.a[i], stack.b[i]);
 }
 
 void	sort_and_push_two(t_stack stack, int count_top)

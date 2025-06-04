@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 02:41:44 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/03 15:05:12 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/04 13:09:46 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ t_push_data	presort_stack(t_stack stack)
 {
 	int			i;
 	t_push_data	push_data;
-
+	// printf("PRESORT STACK\n");
 	i = top_of_stack(stack.a, stack.count);
 	push_data = push_data_init(stack);
 	start_stack_b(stack, push_data);
@@ -46,8 +46,10 @@ t_push_data	push_data_init(t_stack stack)
 	push_data.partition.btm = find_btm_partition(push_data.min, stack.count);
 	push_data.max = push_data.partition.top - 1;
 	push_data.count.a_btm = 0;
+	push_data.count.a_top = 0;
 	push_data.count.b_btm = 0;
 	push_data.count.b_top = 0;
+	push_data.count.keep = 0;
 	return (push_data);
 }
 

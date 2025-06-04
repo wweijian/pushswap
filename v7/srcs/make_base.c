@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 08:43:43 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 14:46:18 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/04 09:46:45 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	make_base(t_stack stack)
 {
 	int	i;
-
+	
 	i = top_of_stack(stack.a, stack.count);
 	if (stack.count - i <= 3)
 		make_base_3(stack);
@@ -42,7 +42,7 @@ void	make_base_5(t_stack stack)
 	i = top_of_stack(stack.a, stack.count);
 	min = i + 1;
 	push_count = 0;
-	if (stack.count - 1 == 5)
+	if (stack.count - i == 5)
 		min++;
 	while (stack.count - i > 3)
 	{

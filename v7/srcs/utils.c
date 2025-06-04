@@ -6,18 +6,18 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 08:46:30 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 14:53:55 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/04 09:35:38 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	top_of_stack(int *stack, int count)
+int	top_of_stack(int *stack, int stack_count)
 {
 	int	i;
 
 	i = 0;
-	while (i < count && !stack[i])
+	while (i < stack_count && !stack[i])
 		i++;
 	return (i);
 }
@@ -45,18 +45,18 @@ void	rotate_to_destination(t_stack stack)
 		reverse_rotate_stack_a(stack);
 }
 
-int	find_max(int *stack_b, int count, int count_top)
+int	find_max(int *stack, int stack_count, int nmemb)
 {
-	int	j;
+	int	i;
 	int	max_index;
 
-	j = top_of_stack(stack_b, count);
-	max_index = j;
-	while (count_top)
+	i = top_of_stack(stack, stack_count);
+	max_index = i;
+	while (nmemb)
 	{
-		if (stack_b[j + count_top - 1] > stack_b[max_index])
-			max_index = j - count_top - 1;
-		count_top--;
+		if (stack[i + nmemb - 1] > stack[max_index])
+			max_index = i - nmemb - 1;
+		nmemb--;
 	}
 	return (max_index);
 }
