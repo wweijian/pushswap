@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   solve_stack.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 09:25:38 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/04 23:27:23 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 18:37:51 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,11 +42,3 @@ void	recursive_solve(t_stack stack)
 	else
 		sort_b_btm(stack, push_data, i + 1, push_data.mid_third - 1);
 }
-
-/* 
-
-printf(">> hi << \n");
-
-for (int i = 0; i < count; i++)
-	printf("index %d:\t%d\t%d\n", i, stack.a[i], stack.b[i]);
-*/

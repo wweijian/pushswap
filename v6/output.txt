@@ -24,8 +24,7 @@ ra
 pb
 rb
 pb
-rb
-ra
+rr
 pb
 pb
 ra
@@ -79,29 +78,11 @@ pb
 pb
 rb
 pb
-rb
+rr
 ra
 ra
-ra
 pb
 rb
-pb
-pb
-rb
-pb
-rb
-pb
-ra
-pb
-pb
-pb
-rb
-pb
-rb
-pb
-pb
-ra
-ra
 pb
 pb
 rb
@@ -110,18 +91,33 @@ rb
 pb
 ra
 pb
-rb
 pb
 pb
 rb
 pb
 rb
+pb
+pb
+ra
+ra
+pb
+pb
+rb
+pb
+rb
+pb
 ra
 pb
 rb
 pb
+pb
 rb
-ra
+pb
+rr
+pb
+rb
+pb
+rr
 pb
 pb
 rb
@@ -133,8 +129,7 @@ pb
 pb
 rr
 pb
-rb
-ra
+rr
 pb
 rb
 pb
@@ -157,8 +152,7 @@ pb
 rb
 pb
 pb
-rb
-ra
+rr
 pb
 rb
 pb
@@ -169,14 +163,12 @@ pb
 pb
 rr
 pb
-rb
-ra
+rr
 pb
 rb
 pb
 pb
-rb
-ra
+rr
 pb
 pb
 ra
@@ -193,6 +185,11 @@ ra
 pa
 ra
 pa
+rrb
+rrb
+rrr
+rra
+rra
 pa
 sb
 pa
@@ -209,11 +206,12 @@ pa
 rb
 rb
 pa
-rb
-rb
 rrb
 rrb
 rrb
+rrr
+rra
+rra
 pa
 ra
 pa
@@ -231,6 +229,15 @@ rrb
 rrb
 rrb
 rrb
+rrb
+rrb
+rrb
+rrb
+rrr
+rra
+rra
+rra
+rra
 pa
 pa
 rb
@@ -247,16 +254,14 @@ rrb
 rrb
 rrb
 rrb
-rrb
-rrb
+rrr
 pa
 rb
 pa
 ra
 pa
-rb
 rrb
-rrb
+rrr
 pa
 ra
 pa
@@ -269,93 +274,23 @@ pa
 ra
 ra
 pa
-pa
 rb
-rb
-ra
-ra
-pa
-pa
-rb
-rb
-rb
-ra
-pa
 rra
 pa
 rb
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-pa
-pa
-rb
-ra
-ra
-ra
-ra
-ra
-ra
+rr
 ra
 pa
 pa
 rb
-ra
-ra
-ra
+rb
+rr
 pa
 rra
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-pa
-rb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pa
-ra
-pa
-ra
-pa
-pa
-ra
-pa
-ra
-ra
-pa
+rra
 rra
 pa
-ra
-pa
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-pa
+rr
 ra
 ra
 ra
@@ -364,6 +299,12 @@ ra
 ra
 pa
 pa
+rra
+rra
+rra
+rra
+pa
+rr
 ra
 ra
 ra
@@ -371,17 +312,43 @@ ra
 ra
 ra
 pa
+rb
+rb
+rb
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+pa
+rr
+ra
+ra
+pa
+rb
+rb
+rra
+rra
+rra
+rra
 rra
 pa
 ra
 ra
 ra
 ra
-pa
+ra
+ra
+ra
 ra
 ra
 ra
 pa
+pa
 rrb
 rrb
 rrb
@@ -397,29 +364,34 @@ rrb
 rrb
 rrb
 rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+rrr
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
 pa
 ra
 pa
-rb
-rb
-rb
-rb
-rb
-pa
-rb
-rb
-ra
-pa
-rb
 ra
 pa
 pa
+ra
+pa
+ra
+ra
+pa
+rra
+pa
+ra
+pa
+rra
+rra
+rra
 rra
 pa
 ra
@@ -430,26 +402,29 @@ ra
 ra
 ra
 pa
-pa
+rra
+rra
+rra
+rra
+rra
+rra
+rra
 rra
 pa
-rb
-rb
-rb
+ra
+ra
 ra
 ra
 ra
 ra
 pa
 rra
+rra
+rra
+rra
+rra
+rra
 pa
-rb
-rb
-rb
-rb
-ra
-ra
-ra
 ra
 ra
 ra
@@ -463,6 +438,129 @@ ra
 ra
 ra
 ra
+pa
+ra
+ra
+ra
+pa
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrr
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+pa
+ra
+pa
+rb
+rb
+rb
+rb
+rb
+pa
+rb
+rr
+pa
+rr
+pa
+pa
+rra
+rra
+rra
+pa
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+pa
+rra
+rra
+pa
+rra
+pa
+rb
+rb
+rr
+ra
+ra
+ra
+pa
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+pa
+rb
+rb
+rb
+rr
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+pa
+rb
+rb
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+pa
+ra
+ra
+ra
+ra
 ra
 ra
 ra
@@ -475,12 +573,41 @@ pa
 rrb
 rrb
 rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrr
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
 pa
 pa
 pa
 ra
 ra
 pa
+rb
+rra
 pa
 ra
 ra
@@ -490,27 +617,30 @@ pa
 rb
 rb
 rb
+rb
+rb
+rb
+rra
+rra
+rra
+pa
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pa
 pa
 rb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rb
-pa
-pa
 rb
 rb
-rb
-rb
+rr
 ra
-ra
 pa
+rra
+rra
 pa
 rrb
 rrb
@@ -526,103 +656,32 @@ ra
 pa
 pa
 rra
-index 0:	1
-index 1:	2
-index 2:	3
-index 3:	4
-index 4:	5
-index 5:	6
-index 6:	7
-index 7:	8
-index 8:	9
-index 9:	10
-index 10:	11
-index 11:	12
-index 12:	13
-index 13:	14
-index 14:	15
-index 15:	16
-index 16:	17
-index 17:	18
-index 18:	19
-index 19:	20
-index 20:	21
-index 21:	22
-index 22:	23
-index 23:	24
-index 24:	25
-index 25:	26
-index 26:	27
-index 27:	28
-index 28:	29
-index 29:	30
-index 30:	31
-index 31:	32
-index 32:	33
-index 33:	34
-index 34:	35
-index 35:	36
-index 36:	37
-index 37:	38
-index 38:	39
-index 39:	40
-index 40:	41
-index 41:	42
-index 42:	43
-index 43:	44
-index 44:	45
-index 45:	46
-index 46:	47
-index 47:	48
-index 48:	49
-index 49:	50
-index 50:	51
-index 51:	52
-index 52:	53
-index 53:	54
-index 54:	55
-index 55:	56
-index 56:	57
-index 57:	58
-index 58:	59
-index 59:	60
-index 60:	61
-index 61:	62
-index 62:	63
-index 63:	64
-index 64:	65
-index 65:	66
-index 66:	67
-index 67:	68
-index 68:	69
-index 69:	70
-index 70:	71
-index 71:	72
-index 72:	73
-index 73:	74
-index 74:	75
-index 75:	76
-index 76:	77
-index 77:	78
-index 78:	79
-index 79:	80
-index 80:	81
-index 81:	82
-index 82:	83
-index 83:	84
-index 84:	85
-index 85:	86
-index 86:	87
-index 87:	88
-index 88:	89
-index 89:	90
-index 90:	91
-index 91:	92
-index 92:	93
-index 93:	94
-index 94:	95
-index 95:	96
-index 96:	97
-index 97:	98
-index 98:	99
-index 99:	100
+rra
+rra
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 
+hi <<<<<<< 

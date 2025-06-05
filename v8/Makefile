@@ -6,7 +6,7 @@
 #    By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/06/05 17:00:44 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/06/05 19:00:53 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,9 +24,9 @@ OPS := ${addprefix ${OPS_PATH}/, ${OPS}}
 SRCS_PATH = ./srcs
 SRCS = main.c \
 		validate_argument.c find_solution.c solve_stack.c init_stack.c\
-		presort_stack.c make_base.c finish_sort_b.c sort_back.c \
-		presort_stack_utils.c utils.c \
-		sort_back2_utils.c finish_sort_a.c finish_sort_utils.c
+		presort_stack.c make_base.c finish_sort_b.c \
+		presort_stack_utils.c utils.c sort_stack_a.c sort_stack_b.c \
+		sort_stacks_utils.c finish_sort_a.c finish_sort_utils.c
 SRCS := ${addprefix ${SRCS_PATH}/, ${SRCS}}
 SRCS += ${OPS}
 
@@ -56,11 +56,6 @@ CC = cc
 CFLAGS = -Wall -Wextra -Werror
 RM = rm -fr
 
-ARGS100 = 100.txt
-ARGS101 = 101.txt
-ARGS6 = 6.txt
-ARGS5 = 5.txt
-
 all: ${NAME}
 
 ${NAME}: ${LIB} ${SRCS} ${HDRS}
@@ -82,54 +77,3 @@ fclean: clean
 re: fclean all
 
 .PHONY: all clean fclean re bonus
-
-# REMOVE ALL TEST BEFORE SUBMISSION
-
-
-# 101: ${NAME}
-# 		clear
-# 		xargs ./${NAME} < ${ARGS101}
-
-# 101a: ${NAME}
-# 		clear
-# 		xargs ./${NAME} < ${ARGS101} > output.txt
-
-80a: ${NAME}
-		clear
-		xargs ./${NAME} < 80.txt > output.txt
-
-100a: ${NAME}
-		clear
-		xargs ./${NAME} < ${ARGS100} > output.txt
-		
-100: ${NAME}
-		clear
-		xargs ./${NAME} < ${ARGS100}
-		
-# 5: ${NAME}
-# 		clear
-# 		xargs ./${NAME} < ${ARGS5}
-
-# 6: ${NAME}
-# 		clear
-# 		xargs ./${NAME} < ${ARGS6}
-
-
-100l: ${NAME}
-		clear
-		xargs ./${NAME} < ${ARGS100} | wc -l
-
-# 100l2: ${NAME}
-# 		clear
-# 		xargs ./${NAME} < 100-1.txt | wc -l
-
-500l: ${NAME}
-		clear
-		xargs ./${NAME} < 500.txt | wc -l
-
-500a: ${NAME}
-		clear
-		xargs ./${NAME} < 500.txt > output.txt
-		
-
-# .PHONY: all clean fclean re bonus 5 6 100 101

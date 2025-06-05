@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   validate_argument.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 16:08:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/02 09:52:35 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 19:28:38 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ int	check_digits(char *arg)
 	return (1);
 }
 
-int	ft_atol(const char *nptr)
+long	ft_atol(const char *nptr)
 {
 	int		i;
 	long	neg;
@@ -91,6 +91,8 @@ int	ft_atol(const char *nptr)
 	while (nptr[i] >= '0' && nptr[i] <= '9')
 	{
 		res = (nptr[i] - '0') + (res * 10);
+		if (res < INT_MIN || res > INT_MAX)
+			return (res);
 		i++;
 	}
 	return (res * neg);

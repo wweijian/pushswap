@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sort_and_push.c                                    :+:      :+:    :+:   */
+/*   finish_sort_b.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 23:19:24 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/04 22:45:53 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 15:53:03 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,7 +74,6 @@ void	finish_sort_b_four(t_stack stack, int elements)
 	int	j;
 	
 	max_index = find_max(stack.b, stack.count, elements);
-
 	j = top_of_stack(stack.b, stack.count);
 	if (j == max_index)
 	{

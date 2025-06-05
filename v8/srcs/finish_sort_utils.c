@@ -1,32 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   finish_sort_utils.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/26 13:28:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 18:43:55 by wjhoe            ###   ########.fr       */
+/*   Created: 2025/06/05 16:29:05 by wjhoe             #+#    #+#             */
+/*   Updated: 2025/06/05 17:01:09 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	main(int ac, char **av)
+void	sort_min_to_b(t_stack stack, int top, int min_value)
 {
-	t_stack	stack;
-
-	if (ac < 2)
-		return (0);
-	stack = init_prog(ac, av);
-	if (!stack.a)
+	int	i;
+	
+	i = top_of_stack(stack.a, stack.count);
+	while (top > 0)
 	{
-		write(1, "error\n", 6);
-		return (0);
+		if (stack.a[i] <= min_value + 1)
+		{
+			push_a_to_b(stack);
+			i = top_of_stack(stack.a, stack.count);
+		}
+		else
+			rotate_stack_a(stack);
+		top--;
 	}
-	solve_stack(stack);
-	print_solution(stack);
-	free(stack.a);
-	free(stack.b);
-	free(stack.solution);
+	while (top < 3)
+	{
+		reverse_rotate_stack_a(stack);
+		top++;
+	}
+	finish_sort_a_three(stack, top);
+	finish_sort_b_two(stack, top);
 }

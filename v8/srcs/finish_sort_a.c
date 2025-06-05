@@ -101,17 +101,15 @@ void	finish_sort_a_five(t_stack stack, int top)
 	int	i;
 	int	max_index;
 	int	min_index;
-	int	min_value;
 
 	i = top_of_stack(stack.a, stack.count);
 	max_index = find_max(stack.a, stack.count, top);
 	min_index = find_min(stack.a, stack.count, top);
-	min_value = stack.a[min_index];
 	if (max_index == i + 3)
 		return (finish_sort_a_three(stack, top - 1));
 	while (top > 0)
 	{
-		if (stack.a[i] <= min_value + 1)
+		if (stack.a[i] <= stack.a[i + 1] + 1)
 		{
 			push_a_to_b(stack);
 			i = top_of_stack(stack.a, stack.count);

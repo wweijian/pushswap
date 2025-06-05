@@ -3,52 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   sort_back2_utils.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/03 12:57:24 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/04 23:28:09 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 18:56:26 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-
-int	rotate_to_b_btm(t_stack stack)
-{
-	rotate_stack_b(stack);
-	return (1);
-}
-
-int	push_to_a_btm(t_stack stack)
-{
-	push_b_to_a(stack);
-	rotate_stack_a(stack);
-	return (1);
-}
-
-int	push_to_a_top(t_stack stack)
-{
-	push_b_to_a(stack);
-	return(1);
-}
-
-int	rotate_to_a_btm(t_stack stack)
-{
-	rotate_stack_a(stack);
-	return (1);
-}
-
-int	push_to_b_btm(t_stack stack) // i want to rename this
-{
-	push_a_to_b(stack);
-	rotate_stack_b(stack);
-	return (1);
-}
-
-int	push_to_b_top(t_stack stack)
-{
-	push_a_to_b(stack);
-	return (1);
-}
 
 t_count	reset_count(int keep, t_count count)
 {
