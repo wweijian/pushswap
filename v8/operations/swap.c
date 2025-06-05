@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 11:42:56 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 19:14:21 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:36:20 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	swap_top_a(t_stack stack)
 	if (i > stack.count - 2)
 		return ;
 	ft_swap(&stack.a[i], &stack.a[i + 1]);
-	put_operation(stack,"sa\n");
+	put_operation(stack, "sa\n");
 }
 
 void	swap_top_b(t_stack stack)
@@ -31,7 +31,7 @@ void	swap_top_b(t_stack stack)
 	if (j > stack.count - 2)
 		return ;
 	ft_swap(&stack.b[j], &stack.b[j + 1]);
-	put_operation(stack,"sb\n");
+	put_operation(stack, "sb\n");
 }
 
 void	swap_top_both(t_stack stack)
@@ -47,5 +47,5 @@ void	swap_top_both(t_stack stack)
 		return ;
 	ft_swap(&stack.a[i], &stack.a[i + 1]);
 	ft_swap(&stack.b[j], &stack.b[j + 1]);
-	put_operation(stack,"ss\n");
+	put_operation(stack, "ss\n");
 }

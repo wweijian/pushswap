@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 16:08:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 19:28:38 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:23:46 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@ int	validate_argument(char **av)
 	i = 1;
 	while (av[i])
 	{
-		if(!check_digits(av[i]))
+		if (!check_digits(av[i]))
 			return (0);
-		if(!check_digits(av[i]))
+		if (!check_digits(av[i]))
 			return (0);
 		i++;
 	}

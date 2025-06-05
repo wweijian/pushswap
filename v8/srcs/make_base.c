@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   make_base.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 08:43:43 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/04 22:58:05 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:22:57 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	make_base(t_stack stack)
 {
 	int	i;
-	
+
 	i = top_of_stack(stack.a, stack.count);
 	if (stack.count - i <= 3)
 		make_base_3(stack);

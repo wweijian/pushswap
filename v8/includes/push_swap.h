@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 19:28:55 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:35:14 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@
 					or numbers presorted to the TOP of stackb
 */
 
-// TODO: check ft_strlcpy if it needs to include the null terminal 
+// TODO: check ft_strlcpy if it needs to include the null terminal
 // TODO: for bonus, check which functions are being used
 // TODO: stress test bonus
 // TODO: rearrange files again
@@ -39,8 +39,7 @@
 // TODO: fix bonus errors
 // TODO: check error stuff for both (re read subject)
 // TODO: check memory issues again (particularly bonus and failed cases)
-// check sorted
-// fix limits thing on atol 
+// check linkedlist clearing functions
 
 
 typedef struct s_stack
@@ -75,10 +74,12 @@ int			check_digits(char *arg);
 long		ft_atol(const char *nptr);
 
 /* INIT_STACK.C */
-void		translate_stack(int **stack, int *stack_sorted, int count);
 t_stack		init_prog(int ac, char **av);
+void		translate_stack(int **stack, int *stack_sorted, int count);
 t_stack 	empty_stack(void);
 t_stack 	init_stack(int ac, char **av);
+int			check_sorted(t_stack stack);
+
 
 /* FIND_SOLUTION.C */ 
 int			*find_solution(t_stack stack);
@@ -87,7 +88,7 @@ int			ft_partition(int *stack, int start_index, int end_index);
 
 /* SOLVE_STACK.C */
 void		solve_stack(t_stack stack);
-void		recursive_solve(t_stack stack);
+
 
 /* PRESORT_STACK.C */
 t_push_data	presort_stack(t_stack stack);
@@ -169,22 +170,25 @@ void		move_stack(int *stack, int count);
 
 /* POST SORTING*/
 
-/* POST_PRO.C */ //
+/* CHECK_COUNTER_SPIN,C */
 void		remove_counter_spin(t_list **solution);
 int			check_ra_for_rra(t_list **solution);
 int			check_rra_for_ra(t_list **solution);
 int			check_rb_for_rrb(t_list **solution);
 int			check_rrb_for_rb(t_list **solution);
 
+/* CHECK_DOUBLE_SPIN.C */
 void		remove_double_spin(t_list **solution);
 int			check_ra_for_rb(t_list **solution);
 int			check_rb_for_ra(t_list **solution);
 int			check_rra_for_rrb(t_list **solution);
 int			check_rrb_for_rra(t_list **solution);
 
+/* CHECK_DOUBLE_COUNTER_SPIN.C */
 int			check_rr_for_rrr(t_list **solution);
 int			check_rrr_for_rr(t_list **solution);
 
+/* CHECK_DOUBLE_SWAP.C */
 void		remove_double_swap(t_list **solution);
 int			check_sa_for_sa(t_list **solution);
 int			check_sb_for_sb(t_list **solution);

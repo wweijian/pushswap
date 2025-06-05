@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_counter_spin.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 11:55:12 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/04 23:32:50 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:31:58 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	remove_counter_spin(t_list **solution)
 
 	search = *solution;
 	flag = 0;
-	while(search->next)
+	while (search->next)
 	{
 		if (ft_strncmp(search->next->content, "ra\n", 3) == 0)
 			flag = check_ra_for_rra(&search);
@@ -46,13 +46,14 @@ int	check_ra_for_rra(t_list **solution)
 	t_list	*after;
 	int		flag;
 
-	if (!solution || !*solution || !(*solution)->next || !(*solution)->next->next)
+	if (!solution || !*solution || !(*solution)->next
+		|| !(*solution)->next->next)
 		return (0);
 	flag = 0;
 	before = *solution;
 	target = before->next;
 	after = target->next;
-	if (ft_strncmp(after->content,"rra\n", 4) == 0)
+	if (ft_strncmp(after->content, "rra\n", 4) == 0)
 	{
 		before->next = after->next;
 		ft_lstdelone(target, free);
@@ -69,19 +70,20 @@ int	check_rra_for_ra(t_list **solution)
 	t_list	*after;
 	int		flag;
 
-	if (!solution || !*solution || !(*solution)->next || !(*solution)->next->next)
+	if (!solution || !*solution || !(*solution)->next
+		|| !(*solution)->next->next)
 		return (0);
 	flag = 0;
 	before = *solution;
 	target = before->next;
 	after = target->next;
-	if (ft_strncmp(after->content,"ra\n", 3) == 0)
+	if (ft_strncmp(after->content, "ra\n", 3) == 0)
 	{
 		before->next = after->next;
 		ft_lstdelone(target, free);
 		ft_lstdelone(after, free);
 		flag = 1;
-	}	
+	}
 	return (flag);
 }
 
@@ -92,19 +94,20 @@ int	check_rb_for_rrb(t_list **solution)
 	t_list	*after;
 	int		flag;
 
-	if (!solution || !*solution || !(*solution)->next || !(*solution)->next->next)
+	if (!solution || !*solution || !(*solution)->next
+		|| !(*solution)->next->next)
 		return (0);
 	flag = 0;
 	before = *solution;
 	target = before->next;
 	after = target->next;
-	if (ft_strncmp(after->content,"rrb\n", 4) == 0)
+	if (ft_strncmp(after->content, "rrb\n", 4) == 0)
 	{
 		before->next = after->next;
 		ft_lstdelone(target, free);
 		ft_lstdelone(after, free);
 		flag = 1;
-	}	
+	}
 	return (flag);
 }
 
@@ -115,18 +118,19 @@ int	check_rrb_for_rb(t_list **solution)
 	t_list	*after;
 	int		flag;
 
-	if (!solution || !*solution || !(*solution)->next || !(*solution)->next->next)
+	if (!solution || !*solution || !(*solution)->next
+		|| !(*solution)->next->next)
 		return (0);
 	flag = 0;
 	before = *solution;
 	target = before->next;
 	after = target->next;
-	if (ft_strncmp(after->content,"rb\n", 3) == 0)
+	if (ft_strncmp(after->content, "rb\n", 3) == 0)
 	{
 		before->next = after->next;
 		ft_lstdelone(target, free);
 		ft_lstdelone(after, free);
 		flag = 1;
-	}	
+	}
 	return (flag);
 }

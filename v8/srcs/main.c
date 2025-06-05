@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 13:28:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 18:43:55 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 20:54:02 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,14 @@ int	main(int ac, char **av)
 		write(1, "error\n", 6);
 		return (0);
 	}
-	solve_stack(stack);
-	print_solution(stack);
+	if (!check_sorted(stack))
+	{
+		solve_stack(stack);
+		print_solution(stack);
+	}
 	free(stack.a);
 	free(stack.b);
 	free(stack.solution);
 }
+
+// ./ps_gen.sh -s 500-500 -t 5500

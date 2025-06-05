@@ -6,7 +6,7 @@
 #    By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/06/05 19:00:53 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/06/05 21:46:25 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,9 +43,9 @@ B_MAIN = gnl_bonus.c gnl_utils_bonus.c main_bonus.c sort_bonus.c
 B_MAIN := ${addprefix ${B_MAIN_PATH}/, ${B_MAIN}}
 
 B_SRCS = validate_argument.c find_solution.c solve_stack.c init_stack.c\
-			presort_stack.c make_base.c finish_sort_b.c sort_back.c \
-			presort_stack_utils.c utils.c \
-			sort_back2_utils.c finish_sort_a.c
+			presort_stack.c make_base.c finish_sort_b.c \
+			presort_stack_utils.c utils.c sort_stack_a.c sort_stack_b.c \
+			sort_stacks_utils.c finish_sort_a.c finish_sort_utils.c
 B_SRCS := ${addprefix ${B_SRCS_PATH}/, ${B_SRCS}}
 B_SRCS += ${OPS} ${B_MAIN}
 
@@ -53,7 +53,7 @@ B_HDRS = ./bonus/includes
 
 # COMPILE RULES
 CC = cc 
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -g -O0
 RM = rm -fr
 
 all: ${NAME}

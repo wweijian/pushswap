@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 18:55:05 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 18:56:16 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:26:09 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,8 @@
 
 void	sort_a_top(t_stack stack, t_push_data push_data, int min, int max)
 {
-	int i;
+	int	i;
+
 	if (push_data.count.a_top <= 5)
 		return (finish_sort_a(stack, push_data.count.a_top));
 	push_data.count = reset_count(push_data.count.a_top, push_data.count);
@@ -23,7 +24,6 @@ void	sort_a_top(t_stack stack, t_push_data push_data, int min, int max)
 	while (push_data.count.keep > 0)
 	{
 		i = top_of_stack(stack.a, stack.count);
-
 		if (stack.a[i] < push_data.mid_third)
 			push_data.count.b_btm += push_to_b_btm(stack);
 		else if (stack.a[i] < push_data.top_third)

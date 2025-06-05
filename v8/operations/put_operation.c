@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 11:43:08 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 18:38:55 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:33:48 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	put_operation(t_stack stack, char *operation)
 {
 	t_list	*node;
 	char	*string;
-	
+
 	string = ft_strdup(operation);
 	node = ft_lstnew(string);
 	ft_lstadd_back(stack.solution, node);

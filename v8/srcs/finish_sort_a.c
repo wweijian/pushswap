@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   finish_sort_a.c                                     :+:      :+:    :+:   */
+/*   finish_sort_a.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/03 15:58:05 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/04 22:08:21 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:21:01 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ void	finish_sort_a_four(t_stack stack, int top)
 			push_a_to_b(stack);
 			i = top_of_stack(stack.a, stack.count);
 		}
-		else 
+		else
 			rotate_stack_a(stack);
 		top--;
 	}

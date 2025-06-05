@@ -6,7 +6,7 @@
 #    By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/11 16:16:18 by wjhoe             #+#    #+#              #
-#    Updated: 2025/05/12 19:30:58 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/06/05 21:15:54 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ OBJS = ${SRCS:.c=.o}
 BONUS_OBJS = ${BONUS:.c=.o}
 AR = ar rcs
 CC = cc 
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -g
 RM = rm -fr
 
 %.o: %.c

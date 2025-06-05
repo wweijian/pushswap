@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   sort_bonus.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 16:03:14 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 09:16:46 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:40:37 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "checker_bonus.h"
 
-void	sort_rotate(t_stack stack, char* operation)
+void	sort_rotate(t_stack stack, char *operation)
 {
 	if (!ft_strncmp(operation, "ra\n", 3))
 		rotate_stack_a(stack);
@@ -22,7 +22,7 @@ void	sort_rotate(t_stack stack, char* operation)
 		rotate_stack_both(stack);
 }
 
-void	sort_rev_rotate(t_stack stack, char* operation)
+void	sort_rev_rotate(t_stack stack, char *operation)
 {
 	if (!ft_strncmp(operation, "rra\n", 4))
 		reverse_rotate_stack_a(stack);
@@ -32,7 +32,7 @@ void	sort_rev_rotate(t_stack stack, char* operation)
 		reverse_rotate_stack_both(stack);
 }
 
-void	sort_swap(t_stack stack, char* operation)
+void	sort_swap(t_stack stack, char *operation)
 {
 	if (!ft_strncmp(operation, "sa\n", 3))
 		swap_top_a(stack);
@@ -42,7 +42,7 @@ void	sort_swap(t_stack stack, char* operation)
 		swap_top_both(stack);
 }
 
-void	sort_push(t_stack stack, char* operation)
+void	sort_push(t_stack stack, char *operation)
 {
 	if (!ft_strncmp(operation, "pa\n", 3))
 		push_b_to_a(stack);

@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 17:38:18 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 18:56:30 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:26:13 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,8 @@
 
 void	sort_b_top(t_stack stack, t_push_data push_data, int min, int max)
 {
-	int j;
+	int	j;
+
 	if (push_data.count.b_top <= 5)
 		return (finish_sort_b(stack, push_data.count.b_top));
 	push_data.count = reset_count(push_data.count.b_top, push_data.count);
@@ -36,9 +37,8 @@ void	sort_b_top(t_stack stack, t_push_data push_data, int min, int max)
 	sort_a_btm(stack, push_data, min, push_data.mid_third - 1);
 }
 
-
 void	sort_b_btm(t_stack stack, t_push_data push_data, int min, int max)
-{	
+{
 	push_data.count = reset_count(push_data.count.b_btm, push_data.count);
 	multiple_op(reverse_rotate_stack_b, stack, push_data.count.keep);
 	push_data.count.b_top = push_data.count.keep;
@@ -54,7 +54,7 @@ int	rotate_to_b_btm(t_stack stack)
 int	push_to_a_top(t_stack stack)
 {
 	push_b_to_a(stack);
-	return(1);
+	return (1);
 }
 
 int	rotate_to_a_btm(t_stack stack)

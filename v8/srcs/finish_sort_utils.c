@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/05 16:29:05 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 17:01:09 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:24:25 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	sort_min_to_b(t_stack stack, int top, int min_value)
 {
 	int	i;
-	
+
 	i = top_of_stack(stack.a, stack.count);
 	while (top > 0)
 	{

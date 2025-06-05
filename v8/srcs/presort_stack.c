@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   presort_stack.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 02:41:44 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/04 23:25:43 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:26:36 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ t_push_data	presort_stack(t_stack stack)
 {
 	int			i;
 	t_push_data	push_data;
-	
+
 	i = top_of_stack(stack.a, stack.count);
 	push_data = push_data_init(stack);
 	start_stack_b(stack, push_data);

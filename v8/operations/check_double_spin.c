@@ -3,24 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   check_double_spin.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 22:54:17 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/03 08:30:07 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:32:37 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	remove_double_spin(t_list **solution) 
+void	remove_double_spin(t_list **solution)
 {
 	t_list	*search;
 	int		flag;
 
 	search = *solution;
 	flag = 0;
-
-	while(search->next)
+	while (search->next)
 	{
 		if (ft_strncmp(search->next->content, "ra\n", 3) == 0)
 			flag = check_ra_for_rb(&search);
@@ -43,15 +42,16 @@ int	check_ra_for_rb(t_list **solution)
 	t_list	*after;
 	int		flag;
 
-	if (!solution || !*solution || !(*solution)->next || !(*solution)->next->next)
+	if (!solution || !*solution || !(*solution)->next
+		|| !(*solution)->next->next)
 		return (0);
 	flag = 0;
 	before = *solution;
 	target = before->next;
 	after = target->next;
-	while (ft_strncmp(after->content,"rr\n", 3) == 0)
+	while (ft_strncmp(after->content, "rr\n", 3) == 0)
 		after = after->next;
-	if (ft_strncmp(after->content,"rb\n", 3) == 0)
+	if (ft_strncmp(after->content, "rb\n", 3) == 0)
 	{
 		before->next = target->next;
 		ft_lstdelone(target, free);
@@ -68,15 +68,16 @@ int	check_rb_for_ra(t_list **solution)
 	t_list	*after;
 	int		flag;
 
-	if (!solution || !*solution || !(*solution)->next || !(*solution)->next->next)
+	if (!solution || !*solution || !(*solution)->next
+		|| !(*solution)->next->next)
 		return (0);
 	flag = 0;
 	before = *solution;
 	target = before->next;
 	after = target->next;
-	while (ft_strncmp(after->content,"rr\n", 3) == 0)
+	while (ft_strncmp(after->content, "rr\n", 3) == 0)
 		after = after->next;
-	if (ft_strncmp(after->content,"ra\n", 3) == 0)
+	if (ft_strncmp(after->content, "ra\n", 3) == 0)
 	{
 		before->next = target->next;
 		ft_lstdelone(target, free);
@@ -93,15 +94,16 @@ int	check_rra_for_rrb(t_list **solution)
 	t_list	*after;
 	int		flag;
 
-	if (!solution || !*solution || !(*solution)->next || !(*solution)->next->next)
+	if (!solution || !*solution || !(*solution)->next
+		|| !(*solution)->next->next)
 		return (0);
 	flag = 0;
 	before = *solution;
 	target = before->next;
 	after = target->next;
-	while (ft_strncmp(after->content,"rrr\n", 3) == 0)
+	while (ft_strncmp(after->content, "rrr\n", 3) == 0)
 		after = after->next;
-	if (ft_strncmp(after->content,"rrb\n", 3) == 0)
+	if (ft_strncmp(after->content, "rrb\n", 3) == 0)
 	{
 		before->next = target->next;
 		ft_lstdelone(target, free);
@@ -118,15 +120,16 @@ int	check_rrb_for_rra(t_list **solution)
 	t_list	*after;
 	int		flag;
 
-	if (!solution || !*solution || !(*solution)->next || !(*solution)->next->next)
+	if (!solution || !*solution || !(*solution)->next
+		|| !(*solution)->next->next)
 		return (0);
 	flag = 0;
 	before = *solution;
 	target = before->next;
 	after = target->next;
-	while (ft_strncmp(after->content,"rrr\n", 3) == 0)
+	while (ft_strncmp(after->content, "rrr\n", 3) == 0)
 		after = after->next;
-	if (ft_strncmp(after->content,"rra\n", 3) == 0)
+	if (ft_strncmp(after->content, "rra\n", 3) == 0)
 	{
 		before->next = target->next;
 		ft_lstdelone(target, free);

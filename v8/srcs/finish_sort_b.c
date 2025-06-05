@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 23:19:24 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 15:53:03 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:21:47 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,8 @@ void	finish_sort_b_two(t_stack stack, int elements)
 		push_b_to_a(stack);
 	else
 	{
-		if (max_index == j + 1)	
-			swap_top_b(stack);	
+		if (max_index == j + 1)
+			swap_top_b(stack);
 		push_b_to_a(stack);
 		push_b_to_a(stack);
 	}
@@ -64,7 +64,7 @@ void	finish_sort_b_three(t_stack stack, int elements)
 		multiple_op(rotate_stack_b, stack, 2);
 		push_b_to_a(stack);
 		multiple_op(reverse_rotate_stack_b, stack, 2);
-		return(finish_sort_b_two(stack, elements - 1));
+		return (finish_sort_b_two(stack, elements - 1));
 	}
 }
 
@@ -72,7 +72,7 @@ void	finish_sort_b_four(t_stack stack, int elements)
 {
 	int	max_index;
 	int	j;
-	
+
 	max_index = find_max(stack.b, stack.count, elements);
 	j = top_of_stack(stack.b, stack.count);
 	if (j == max_index)
@@ -86,7 +86,7 @@ void	finish_sort_b_four(t_stack stack, int elements)
 		return (finish_sort_b_four(stack, elements));
 	}
 	if (max_index - j > 1)
-	{	
+	{
 		multiple_op(rotate_stack_b, stack, max_index - j);
 		push_b_to_a(stack);
 		multiple_op(reverse_rotate_stack_b, stack, max_index - j);

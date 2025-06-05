@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
+/*   ft_lstadd_back_bonus.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/11 11:17:49 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/05/11 21:41:15 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 21:20:26 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,11 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*search;
 
-	search = *lst;
-	if (!search)
+	if (*lst == NULL)
 		*lst = new;
 	else
 	{
+		search = *lst;
 		while (search->next)
 			search = search->next;
 		search->next = new;

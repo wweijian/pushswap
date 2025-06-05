@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_double_counter_spin.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/04 23:30:39 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/04 23:34:02 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:30:59 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,14 @@ int	check_rr_for_rrr(t_list **solution)
 	t_list	*after;
 	int		flag;
 
-	if (!solution || !*solution || !(*solution)->next || !(*solution)->next->next)
+	if (!solution || !*solution || !(*solution)->next
+		|| !(*solution)->next->next)
 		return (0);
 	flag = 0;
 	before = *solution;
 	target = before->next;
 	after = target->next;
-	if (ft_strncmp(after->content,"rrr\n", 4) == 0)
+	if (ft_strncmp(after->content, "rrr\n", 4) == 0)
 	{
 		before->next = after->next;
 		ft_lstdelone(target, free);
@@ -42,13 +43,14 @@ int	check_rrr_for_rr(t_list **solution)
 	t_list	*after;
 	int		flag;
 
-	if (!solution || !*solution || !(*solution)->next || !(*solution)->next->next)
+	if (!solution || !*solution || !(*solution)->next
+		|| !(*solution)->next->next)
 		return (0);
 	flag = 0;
 	before = *solution;
 	target = before->next;
 	after = target->next;
-	if (ft_strncmp(after->content,"rr\n", 4) == 0)
+	if (ft_strncmp(after->content, "rr\n", 4) == 0)
 	{
 		before->next = after->next;
 		ft_lstdelone(target, free);
