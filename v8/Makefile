@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+         #
+#    By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/06/05 09:17:09 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/06/05 17:00:44 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ SRCS = main.c \
 		validate_argument.c find_solution.c solve_stack.c init_stack.c\
 		presort_stack.c make_base.c finish_sort_b.c sort_back.c \
 		presort_stack_utils.c utils.c \
-		sort_back2_utils.c finish_sort_a.c
+		sort_back2_utils.c finish_sort_a.c finish_sort_utils.c
 SRCS := ${addprefix ${SRCS_PATH}/, ${SRCS}}
 SRCS += ${OPS}
 

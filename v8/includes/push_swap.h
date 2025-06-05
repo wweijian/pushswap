@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 15:25:39 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 17:00:12 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -174,6 +174,9 @@ void 	finish_sort_a_two(t_stack stack, int top);
 void 	finish_sort_a_three(t_stack stack, int top);
 void 	finish_sort_a_four(t_stack stack, int top);
 void 	finish_sort_a_five(t_stack stack, int top);
+
+void	sort_min_to_b(t_stack stack, int top, int min_value);
+
 void	multiple_op(void (*f)(t_stack), t_stack stack, int n);
 
 void	sort_b_top(t_stack stack, t_push_data push_data, int min, int max);
