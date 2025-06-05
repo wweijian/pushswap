@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 23:35:14 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/05 23:44:22 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@
 // TODO: check error stuff for both (re read subject)
 // TODO: check memory issues again (particularly bonus and failed cases)
 // check linkedlist clearing functions
+// ps_gen.sh -s 500-500 -t 5500
 
 
 typedef struct s_stack
