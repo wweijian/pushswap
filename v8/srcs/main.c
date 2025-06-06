@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 13:28:50 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/06 09:27:23 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/06 09:44:25 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,3 @@ int	main(int ac, char **av)
 	free(stack.b);
 	free(stack.solution);
 }
-
-
-
-// ./ps_gen.sh -s 500-500 -t 5500

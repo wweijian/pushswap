@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/06 09:32:47 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/06 09:45:37 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,6 @@
 	count_b_top:	counts numbers in the middle third
 					or numbers presorted to the TOP of stackb
 */
-
-// TODO: for bonus, check which functions are being used
-// check linkedlist clearing functions
-// ps_gen.sh -s 500-500 -t 5500
-
 
 typedef struct s_stack
 {
@@ -73,7 +68,6 @@ t_stack		empty_stack(void);
 t_stack		init_stack(int ac, char **av);
 int			check_sorted(t_stack stack);
 
-
 /* FIND_SOLUTION.C */
 int			*find_solution(t_stack stack);
 void		ft_quicksort(int *stack, int start_index, int end_index);
@@ -81,7 +75,6 @@ int			ft_partition(int *stack, int start_index, int end_index);
 
 /* SOLVE_STACK.C */
 void		solve_stack(t_stack stack);
-
 
 /* PRESORT_STACK.C */
 t_push_data	presort_stack(t_stack stack);
@@ -123,7 +116,6 @@ void		finish_sort_a_five(t_stack stack, int top);
 t_count		reset_count(int keep, t_count count);
 t_push_data	reset_push_data(t_push_data push_data, int min, int max);
 
-
 /* FINISH_SORT_B.C */
 void		finish_sort_b(t_stack stack, int count_top);
 void		finish_sort_b_two(t_stack stack, int count_top);
@@ -131,13 +123,15 @@ void		finish_sort_b_three(t_stack stack, int count_top);
 void		finish_sort_b_four(t_stack stack, int count_top);
 void		finish_sort_b_five(t_stack stack, int count_top);
 
+/* FINISH_SORT_UTILS.C */
+int			sort_min_to_b(t_stack stack, int top, int min_value);
+
 /* UTILS.C */
 int			top_of_stack(int *stack, int count);
 void		ft_swap(int *a, int *b);
 int			find_max(int *stack_b, int count, int count_top);
 int			find_min(int *stack, int stack_count, int nmemb);
 void		multiple_op(void (*f)(t_stack), t_stack stack, int n);
-
 
 /* PUSH SWAP OPERATIONS*/
 
@@ -159,7 +153,6 @@ void		swap_top_both(t_stack stack);
 /* PUSH_SWAP_UTILS.C */
 void		reverse_move_stack(int *stack, int count);
 void		move_stack(int *stack, int count);
-
 
 /* POST SORTING*/
 
@@ -189,10 +182,7 @@ int			check_sa_for_sb(t_list **solution);
 int			check_sb_for_sa(t_list **solution);
 
 /* PRINT_LIST.C */
-void 		put_operation(t_stack stack, char *operation);
+void		put_operation(t_stack stack, char *operation);
 void		print_solution(t_stack stack);
-
-int	sort_min_to_b(t_stack stack, int top, int min_value);
-
 
 #endif

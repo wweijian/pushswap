@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+         #
+#    By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/26 14:07:38 by wjhoe             #+#    #+#              #
-#    Updated: 2025/06/05 21:46:25 by wjhoe            ###   ########.fr        #
+#    Updated: 2025/06/06 09:33:21 by wjhoe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,7 +39,7 @@ B_NAME = checker
 B_MAIN_PATH = ./bonus/srcs
 B_SRCS_PATH = ./srcs
 
-B_MAIN = gnl_bonus.c gnl_utils_bonus.c main_bonus.c sort_bonus.c
+B_MAIN = gnl_bonus.c gnl_utils_bonus.c main_bonus.c sort_bonus.c utils_bonus.c
 B_MAIN := ${addprefix ${B_MAIN_PATH}/, ${B_MAIN}}
 
 B_SRCS = validate_argument.c find_solution.c solve_stack.c init_stack.c\
@@ -53,7 +53,7 @@ B_HDRS = ./bonus/includes
 
 # COMPILE RULES
 CC = cc 
-CFLAGS = -Wall -Wextra -Werror -g -O0
+CFLAGS = -Wall -Wextra -Werror
 RM = rm -fr
 
 all: ${NAME}

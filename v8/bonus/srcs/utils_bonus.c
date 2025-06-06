@@ -6,7 +6,7 @@
 /*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/06 09:20:42 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/06 09:22:23 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/06 09:46:03 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,5 +73,5 @@ void	write_result(t_stack stack)
 	if (check_sorted(stack))
 		write(1, "OK\n", 3);
 	else
-		write(1, "KO\n", 3);	
+		write(1, "KO\n", 3);
 }

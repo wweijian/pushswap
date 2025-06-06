@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   put_operation.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 11:43:08 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 23:33:48 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/06 09:40:29 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,10 @@ void	print_solution(t_stack stack)
 	t_list	*search;
 	t_list	*remove;
 
-	search = *stack.solution;
-	remove = search;
 	remove_counter_spin(stack.solution);
 	remove_double_spin(stack.solution);
 	remove_double_swap(stack.solution);
+	search = *stack.solution;
 	while (search)
 	{
 		ft_printf("%s", (char *)(search)->content);
