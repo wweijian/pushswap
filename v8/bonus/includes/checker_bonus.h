@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   checker_bonus.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/02 14:54:58 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/06 09:24:48 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/06 15:51:14 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,9 @@
 /* UTILS.C */
 int		input_operations(t_stack stack, t_list **ops_list);
 void	read_operations(t_list **ops_list);
-void	free_all(t_stack stack, t_list **ops_list, int *stack_sorted);
-void	write_result(t_stack stack);
+void	free_all(t_stack stack, t_list **ops_list, int *stack_sorted,
+			char **av);
+void	write_result(t_stack stack, int flag);
 
 /* SORT.C */
 void	sort_operations(t_stack stack, char *operation);

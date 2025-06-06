@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils_bonus.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/06 09:20:42 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/06 09:46:03 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/06 15:59:38 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@ int	input_operations(t_stack stack, t_list **ops_list)
 {
 	t_list	*search;
 
-	search = *ops_list;
 	read_operations(ops_list);
+	search = *ops_list;
 	while (search)
 	{
 		if (!ft_strncmp(search->content, "ra\n", 3)
@@ -34,8 +34,7 @@ int	input_operations(t_stack stack, t_list **ops_list)
 			sort_operations(stack, search->content);
 		else
 			return (0);
-		if (search->next)
-			*search = *(search)->next;
+		search = search->next;
 	}
 	return (1);
 }
@@ -53,8 +52,9 @@ void	read_operations(t_list **ops_list)
 	}
 }
 
-void	free_all(t_stack stack, t_list **ops_list, int *stack_sorted)
+void	free_all(t_stack stack, t_list **ops_list, int *stack_sorted, char **av)
 {
+	free_argv(av);
 	free(stack.a);
 	free(stack.b);
 	ft_lstclear(stack.solution, free);
@@ -68,10 +68,15 @@ void	free_all(t_stack stack, t_list **ops_list, int *stack_sorted)
 		free(stack_sorted);
 }
 
-void	write_result(t_stack stack)
+void	write_result(t_stack stack, int flag)
 {
-	if (check_sorted(stack))
-		write(1, "OK\n", 3);
+	if (flag == 1)
+	{
+		if (check_sorted(stack))
+			write(1, "OK\n", 3);
+		else
+			write(1, "KO\n", 3);
+	}
 	else
-		write(1, "KO\n", 3);
+		write(2, "Error\n", 6);
 }

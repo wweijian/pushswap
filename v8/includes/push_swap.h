@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/06 09:45:37 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/06 15:31:22 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,12 @@
 	count_b_top:	counts numbers in the middle third
 					or numbers presorted to the TOP of stackb
 */
+
+typedef struct s_args
+{
+	int		count;
+	char	**vec;
+}			t_args;
 
 typedef struct s_stack
 {
@@ -53,6 +59,11 @@ typedef struct s_push_data
 	int			mid_third;
 	t_count		count;
 }			t_push_data;
+
+/* MAKE_ARG_V.C */
+t_args		make_argv(int ac, char **av);
+void		free_argv(char **av);
+char		*make_single_string(int ac, char **av, int arg_len);
 
 /* ARGUMENT VALIDATION FUNCTIONS */
 int			validate_argument(char **av);
