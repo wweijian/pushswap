@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 14:10:55 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 23:44:22 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/06 09:32:47 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,15 +30,7 @@
 					or numbers presorted to the TOP of stackb
 */
 
-// TODO: check ft_strlcpy if it needs to include the null terminal
 // TODO: for bonus, check which functions are being used
-// TODO: stress test bonus
-// TODO: rearrange files again
-// TODO: norminette
-// TODO: make sure there are no unecessary functions
-// TODO: fix bonus errors
-// TODO: check error stuff for both (re read subject)
-// TODO: check memory issues again (particularly bonus and failed cases)
 // check linkedlist clearing functions
 // ps_gen.sh -s 500-500 -t 5500
 
@@ -77,12 +69,12 @@ long		ft_atol(const char *nptr);
 /* INIT_STACK.C */
 t_stack		init_prog(int ac, char **av);
 void		translate_stack(int **stack, int *stack_sorted, int count);
-t_stack 	empty_stack(void);
-t_stack 	init_stack(int ac, char **av);
+t_stack		empty_stack(void);
+t_stack		init_stack(int ac, char **av);
 int			check_sorted(t_stack stack);
 
 
-/* FIND_SOLUTION.C */ 
+/* FIND_SOLUTION.C */
 int			*find_solution(t_stack stack);
 void		ft_quicksort(int *stack, int start_index, int end_index);
 int			ft_partition(int *stack, int start_index, int end_index);
@@ -101,7 +93,7 @@ t_push_data	update_push(int *stack_b, int count, t_push_data push_data);
 int			find_btm_partition(int min, int max);
 int			find_top_partition(int min, int max);
 
-/* MAKE_BASE.C */ 
+/* MAKE_BASE.C */
 void		make_base(t_stack stack);
 void		make_base_3(t_stack stack);
 void		make_base_5(t_stack stack);
@@ -122,14 +114,14 @@ int			push_to_a_btm(t_stack stack);
 
 /* FINISH_SORT_A.C */
 void		finish_sort_a(t_stack stack, int count);
-void 		finish_sort_a_two(t_stack stack, int top);
-void 		finish_sort_a_three(t_stack stack, int top);
-void 		finish_sort_a_four(t_stack stack, int top);
-void 		finish_sort_a_five(t_stack stack, int top);
+void		finish_sort_a_two(t_stack stack, int top);
+void		finish_sort_a_three(t_stack stack, int top);
+void		finish_sort_a_four(t_stack stack, int top);
+void		finish_sort_a_five(t_stack stack, int top);
 
 /* SORT_STACK_UTILS.C */
 t_count		reset_count(int keep, t_count count);
-t_push_data reset_push_data (t_push_data push_data, int min, int max);
+t_push_data	reset_push_data(t_push_data push_data, int min, int max);
 
 
 /* FINISH_SORT_B.C */
@@ -199,5 +191,8 @@ int			check_sb_for_sa(t_list **solution);
 /* PRINT_LIST.C */
 void 		put_operation(t_stack stack, char *operation);
 void		print_solution(t_stack stack);
+
+int	sort_min_to_b(t_stack stack, int top, int min_value);
+
 
 #endif

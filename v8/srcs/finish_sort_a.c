@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   finish_sort_a.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wjhoe <wjhoe@student.42.fr>                +#+  +:+       +#+        */
+/*   By: wjhoe <wjhoe@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/03 15:58:05 by wjhoe             #+#    #+#             */
-/*   Updated: 2025/06/05 23:21:01 by wjhoe            ###   ########.fr       */
+/*   Updated: 2025/06/06 08:52:13 by wjhoe            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,17 +76,7 @@ void	finish_sort_a_four(t_stack stack, int top)
 	min_value = stack.a[min_index];
 	if (max_index == i + 3)
 		return (finish_sort_a_three(stack, top - 1));
-	while (top > 0)
-	{
-		if (stack.a[i] <= min_value + 1)
-		{
-			push_a_to_b(stack);
-			i = top_of_stack(stack.a, stack.count);
-		}
-		else
-			rotate_stack_a(stack);
-		top--;
-	}
+	top = sort_min_to_b(stack, top, min_value);
 	while (top < 2)
 	{
 		reverse_rotate_stack_a(stack);
@@ -101,23 +91,15 @@ void	finish_sort_a_five(t_stack stack, int top)
 	int	i;
 	int	max_index;
 	int	min_index;
+	int	min_value;
 
 	i = top_of_stack(stack.a, stack.count);
 	max_index = find_max(stack.a, stack.count, top);
 	min_index = find_min(stack.a, stack.count, top);
-	if (max_index == i + 3)
-		return (finish_sort_a_three(stack, top - 1));
-	while (top > 0)
-	{
-		if (stack.a[i] <= stack.a[i + 1] + 1)
-		{
-			push_a_to_b(stack);
-			i = top_of_stack(stack.a, stack.count);
-		}
-		else
-			rotate_stack_a(stack);
-		top--;
-	}
+	min_value = stack.a[min_index];
+	if (max_index == i + 4)
+		return (finish_sort_a_four(stack, top - 1));
+	top = sort_min_to_b(stack, top, min_value);
 	while (top < 3)
 	{
 		reverse_rotate_stack_a(stack);
